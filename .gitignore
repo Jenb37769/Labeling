@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+video/
+image/
+process/
+final_unlabel/
+
+OmniParser/.conda/
+OmniParser/.omni_env/
+OmniParser/weights/
+OmniParser/.easyocr/
+OmniParser/.hf/
+OmniParser/.ultralytics/
+OmniParser_git_backup/
+OmniParser/.conda/
+
