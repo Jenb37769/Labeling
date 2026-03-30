@@ -1,0 +1,179 @@
+:root {
+  --bg: #f0ece4;
+  --panel: rgba(255, 250, 242, 0.96);
+  --line: #d0c2af;
+  --ink: #2f241c;
+  --muted: #7d6a5c;
+  --accent: #c84a2f;
+  --selected: #0f6c78;
+  --shadow: 0 12px 30px rgba(61, 44, 31, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(200, 74, 47, 0.08), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(15, 108, 120, 0.1), transparent 28%),
+    var(--bg);
+}
+
+.app-shell { min-height: 100vh; display: grid; grid-template-rows: auto 1fr; }
+
+.topbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(255, 248, 238, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.topbar-left,
+.topbar-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.topbar-left {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.topbar-center {
+  min-width: 0;
+}
+
+.status-text {
+  min-width: 0;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button, select, input { font: inherit; }
+button {
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.main-layout { display: grid; grid-template-columns: 180px 1fr 280px; min-height: 0; }
+.sidebar, .viewer-panel { min-height: 0; }
+.sidebar { padding: 12px; overflow: auto; }
+.right-sidebar { border-left: 1px solid rgba(208, 194, 175, 0.65); }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid rgba(208, 194, 175, 0.9);
+  border-radius: 18px;
+  padding: 12px;
+  box-shadow: var(--shadow);
+}
+
+.panel + .panel { margin-top: 16px; }
+.panel h2 { margin: 0 0 12px; font-size: 16px; }
+
+.viewer-panel { padding: 12px; }
+
+.canvas-scroll {
+  width: 100%;
+  height: calc(100vh - 86px);
+  overflow: auto;
+  border-radius: 20px;
+  border: 1px solid rgba(208, 194, 175, 0.9);
+  background: rgba(255, 248, 238, 0.6);
+  box-shadow: var(--shadow);
+}
+
+.canvas-stage { position: relative; transform-origin: top left; margin: 0 auto; }
+.canvas-stage img { display: block; max-width: none; }
+.box-layer { position: absolute; inset: 0; }
+
+.anno-box, .draft-box {
+  position: absolute;
+  border: 2px solid var(--accent);
+  background: rgba(200, 74, 47, 0.12);
+}
+
+.anno-box.selected {
+  border-color: var(--selected);
+  background: rgba(15, 108, 120, 0.14);
+}
+
+.resize-handle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: currentColor;
+  border: 1px solid white;
+  border-radius: 999px;
+}
+
+.resize-handle.nw { left: -6px; top: -6px; cursor: nwse-resize; }
+.resize-handle.ne { right: -6px; top: -6px; cursor: nesw-resize; }
+.resize-handle.sw { left: -6px; bottom: -6px; cursor: nesw-resize; }
+.resize-handle.se { right: -6px; bottom: -6px; cursor: nwse-resize; }
+
+.hidden { display: none; }
+.frame-list, .box-list { display: flex; flex-direction: column; gap: 8px; }
+
+.frame-item, .box-item {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: white;
+  padding: 8px 9px;
+  cursor: pointer;
+}
+
+.frame-item {
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+}
+
+.frame-item.active, .box-item.active {
+  border-color: var(--selected);
+  background: rgba(15, 108, 120, 0.1);
+}
+
+.frame-item.done::after {
+  content: "Reviewed";
+  float: right;
+  color: var(--selected);
+  font-size: 12px;
+}
+
+.field-grid, .bbox-grid { display: grid; gap: 10px; min-width: 0; }
+.bbox-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 12px; }
+
+label { display: grid; gap: 6px; font-size: 13px; color: var(--muted); min-width: 0; }
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: white;
+  color: var(--ink);
+}
+
+.checkbox-field { display: flex; align-items: center; gap: 10px; }
+.inline-actions { margin-top: 12px; }
+.zoom-label { color: var(--muted); }

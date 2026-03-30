@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Label Review Tool</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button id="prevBtn" type="button">Prev</button>
+        <button id="nextBtn" type="button">Next</button>
+        <button id="saveBtn" type="button">Save</button>
+        <button id="saveNextBtn" type="button">Save & Next</button>
+        <button id="deleteImageBtn" type="button">Delete Image</button>
+        <button id="newBoxBtn" type="button">New Box</button>
+        <button id="deleteBoxBtn" type="button">Delete Box</button>
+      </div>
+      <div class="topbar-center">
+        <div id="statusText" class="status-text">Loading...</div>
+      </div>
+      <div class="topbar-right">
+        <label class="zoom-label" for="zoomRange">Zoom</label>
+        <input id="zoomRange" type="range" min="50" max="200" step="10" value="100">
+        <span id="zoomValue">100%</span>
+      </div>
+    </header>
+
+    <main class="main-layout">
+      <aside class="sidebar left-sidebar">
+        <div class="panel">
+          <h2>Frames</h2>
+          <div id="frameList" class="frame-list"></div>
+        </div>
+      </aside>
+
+      <section class="viewer-panel">
+        <div id="canvasScroll" class="canvas-scroll">
+          <div id="canvasStage" class="canvas-stage">
+            <img id="mainImage" alt="annotation target">
+            <div id="boxLayer" class="box-layer"></div>
+            <div id="draftBox" class="draft-box hidden"></div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="sidebar right-sidebar">
+        <div class="panel">
+          <h2>Selection</h2>
+          <div class="field-grid">
+            <label>ID<input id="fieldId" type="text"></label>
+            <label>Name<input id="fieldName" type="text" placeholder="brush_tool"></label>
+            <label>Type
+              <select id="fieldType">
+                <option value="tool_icon">tool_icon</option>
+                <option value="menu_item">menu_item</option>
+                <option value="submenu_item">submenu_item</option>
+                <option value="panel_tab">panel_tab</option>
+                <option value="panel_item">panel_item</option>
+                <option value="icon_button">icon_button</option>
+                <option value="text_button">text_button</option>
+                <option value="dropdown">dropdown</option>
+                <option value="input_field">input_field</option>
+                <option value="slider">slider</option>
+                <option value="toggle">toggle</option>
+                <option value="canvas_target">canvas_target</option>
+              </select>
+            </label>
+            <label class="checkbox-field">
+              <input id="fieldClickable" type="checkbox">
+              <span>Clickable</span>
+            </label>
+          </div>
+          <div class="bbox-grid">
+            <label>X1<input id="fieldX1" type="number"></label>
+            <label>Y1<input id="fieldY1" type="number"></label>
+            <label>X2<input id="fieldX2" type="number"></label>
+            <label>Y2<input id="fieldY2" type="number"></label>
+          </div>
+          <div class="inline-actions">
+            <button id="applyFieldsBtn" type="button">Apply Fields</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Boxes</h2>
+          <div id="boxList" class="box-list"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
