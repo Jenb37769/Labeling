@@ -66,6 +66,7 @@ REGION_WEIGHTS = {
 
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".avi", ".mkv", ".webm"}
 IMPORTANT_REGIONS = {"top_bar", "left_toolbar", "right_panel", "canvas_overlay"}
+KEEP_HISTORY_SIZE = 2
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 VIDEO_UNLABEL_DIR = ROOT_DIR / "video" / "unlabel"
@@ -178,17 +179,14 @@ def finalize_keep(
     image_name: str,
     image_path: Path,
     json_path: Path,
-    diff_path: Path | None = None,
     overlay_path: Path | None = None,
 ) -> dict[str, Path | None]:
     final_image_path = move_if_exists(image_path, get_final_image_path(image_name))
     final_json_path = move_if_exists(json_path, get_final_json_path(image_name))
-    final_diff_path = move_if_exists(diff_path, get_final_diff_path(image_name)) if diff_path is not None else None
     final_total_path = move_if_exists(overlay_path, get_final_total_path(image_name)) if overlay_path is not None else None
     return {
         "image_path": final_image_path,
         "json_path": final_json_path,
-        "diff_path": final_diff_path,
         "overlay_path": final_total_path,
     }
 
@@ -603,10 +601,65 @@ def summarize_diff(previous_state: dict[str, Any], current_state: dict[str, Any]
     }
 
 
-def write_diff(image_name: str, diff_data: dict[str, Any]) -> Path:
-    diff_path = get_frame_diff_path(image_name)
-    diff_path.write_text(json.dumps(diff_data, indent=2, ensure_ascii=False), encoding="utf-8")
-    return diff_path
+def compare_against_recent_kept(
+    recent_kept_states: list[dict[str, Any]],
+    current_state: dict[str, Any],
+) -> tuple[bool, list[dict[str, Any]]]:
+    comparisons: list[dict[str, Any]] = []
+    for history_offset, previous_state in enumerate(reversed(recent_kept_states[-KEEP_HISTORY_SIZE:]), start=1):
+        diff_data = summarize_diff(previous_state, current_state)
+        summary = diff_data["summary"]
+        comparisons.append(
+            {
+                "history_offset": history_offset,
+                "keep": bool(summary["keep"]),
+                "added_count": int(summary["added_count"]),
+                "removed_count": int(summary["removed_count"]),
+                "modified_count": int(summary["modified_count"]),
+                "total_change_score": float(summary["total_change_score"]),
+                "high_conf_change_count": int(summary["high_conf_change_count"]),
+                "keep_reasons": list(summary["keep_reasons"]),
+            }
+        )
+
+    should_keep = all(item["keep"] for item in comparisons) if comparisons else True
+    return should_keep, comparisons
+
+
+def extend_kept_history(
+    recent_kept_states: list[dict[str, Any]],
+    current_state: dict[str, Any],
+) -> list[dict[str, Any]]:
+    return [*recent_kept_states[-(KEEP_HISTORY_SIZE - 1) :], current_state]
+
+
+def format_keep_log(comparisons: list[dict[str, Any]]) -> str:
+    if not comparisons:
+        return "first sampled frame"
+
+    return " | ".join(
+        (
+            f"prev{item['history_offset']}:score={item['total_change_score']:.3f} "
+            f"high_conf={item['high_conf_change_count']} "
+            f"reasons={','.join(item['keep_reasons']) or 'none'}"
+        )
+        for item in comparisons
+    )
+
+
+def format_drop_log(comparisons: list[dict[str, Any]]) -> str:
+    if not comparisons:
+        return "no previous kept frames"
+
+    return " | ".join(
+        (
+            f"prev{item['history_offset']}:keep={str(item['keep']).lower()} "
+            f"score={item['total_change_score']:.3f} "
+            f"added={item['added_count']} removed={item['removed_count']} "
+            f"modified={item['modified_count']}"
+        )
+        for item in comparisons
+    )
 
 
 def process_video(video_path: Path, parser) -> None:
@@ -619,7 +672,7 @@ def process_video(video_path: Path, parser) -> None:
     sampled_count = 0
     kept_count = 0
     dropped_count = 0
-    previous_kept_state: dict[str, Any] | None = None
+    recent_kept_states: list[dict[str, Any]] = []
 
     while True:
         ok, frame = capture.read()
@@ -638,9 +691,9 @@ def process_video(video_path: Path, parser) -> None:
 
         current_state, json_path, overlay_path = parse_frame(image_path, parser, image_name=image_name)
 
-        if previous_kept_state is None:
+        if not recent_kept_states:
             kept_count += 1
-            previous_kept_state = current_state
+            recent_kept_states = extend_kept_history(recent_kept_states, current_state)
             final_paths = finalize_keep(image_name, image_path, json_path, overlay_path=overlay_path)
             print(
                 f"[KEEP] {image_name} first sampled frame "
@@ -651,30 +704,25 @@ def process_video(video_path: Path, parser) -> None:
             if final_paths["overlay_path"] is not None:
                 print(f"         total={final_paths['overlay_path']}")
         else:
-            diff_data = summarize_diff(previous_kept_state, current_state)
-            diff_path = write_diff(image_name, diff_data)
-            summary = diff_data["summary"]
-            if summary["keep"]:
+            should_keep, comparisons = compare_against_recent_kept(recent_kept_states, current_state)
+            if should_keep:
                 kept_count += 1
-                previous_kept_state = current_state
-                final_paths = finalize_keep(image_name, image_path, json_path, diff_path=diff_path, overlay_path=overlay_path)
-                print(
-                    f"[KEEP] {image_name} score={summary['total_change_score']:.3f} "
-                    f"high_conf={summary['high_conf_change_count']} reasons={','.join(summary['keep_reasons'])}"
-                )
+                recent_kept_states = extend_kept_history(recent_kept_states, current_state)
+                final_paths = finalize_keep(image_name, image_path, json_path, overlay_path=overlay_path)
+                print(f"[KEEP] {image_name} {format_keep_log(comparisons)}")
                 print(f"         image={final_paths['image_path']}")
                 print(f"         json={final_paths['json_path']}")
-                print(f"         diff={final_paths['diff_path']}")
                 if final_paths["overlay_path"] is not None:
                     print(f"         total={final_paths['overlay_path']}")
             else:
-                cleanup_outputs(image_path=image_path, json_path=json_path, diff_path=diff_path, overlay_path=overlay_path)
-                dropped_count += 1
-                print(
-                    f"[DROP] {image_name} score={summary['total_change_score']:.3f} "
-                    f"added={summary['added_count']} removed={summary['removed_count']} "
-                    f"modified={summary['modified_count']}"
+                cleanup_outputs(
+                    image_path=image_path,
+                    json_path=json_path,
+                    diff_path=get_frame_diff_path(image_name),
+                    overlay_path=overlay_path,
                 )
+                dropped_count += 1
+                print(f"[DROP] {image_name} {format_drop_log(comparisons)}")
 
         frame_index += 1
 

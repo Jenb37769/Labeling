@@ -170,15 +170,15 @@ def collect_results(result_queue: mp.Queue, expected_count: int) -> dict[int, di
 
 def handle_result_item(
     item: dict[str, Any],
-    previous_kept_state: dict[str, Any] | None,
-) -> tuple[dict[str, Any], bool, dict[str, Any] | None]:
+    recent_kept_states: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], bool]:
     image_name = item["image_name"]
     image_path = Path(item["image_path"])
     json_path = Path(item["json_path"])
     overlay_path = Path(item["overlay_path"]) if item["overlay_path"] else None
     current_state = load_state(json_path)
 
-    if previous_kept_state is None:
+    if not recent_kept_states:
         final_paths = pv.finalize_keep(image_name, image_path, json_path, overlay_path=overlay_path)
         print(
             f"[KEEP] {image_name} first parsed frame "
@@ -188,32 +188,27 @@ def handle_result_item(
         print(f"         json={final_paths['json_path']}")
         if final_paths["overlay_path"] is not None:
             print(f"         total={final_paths['overlay_path']}")
-        return current_state, True, None
+        return pv.extend_kept_history(recent_kept_states, current_state), True
 
-    diff_data = pv.summarize_diff(previous_kept_state, current_state)
-    diff_path = pv.write_diff(image_name, diff_data)
-    summary = diff_data["summary"]
+    should_keep, comparisons = pv.compare_against_recent_kept(recent_kept_states, current_state)
 
-    if summary["keep"]:
-        final_paths = pv.finalize_keep(image_name, image_path, json_path, diff_path=diff_path, overlay_path=overlay_path)
-        print(
-            f"[KEEP] {image_name} score={summary['total_change_score']:.3f} "
-            f"high_conf={summary['high_conf_change_count']} reasons={','.join(summary['keep_reasons'])}"
-        )
+    if should_keep:
+        final_paths = pv.finalize_keep(image_name, image_path, json_path, overlay_path=overlay_path)
+        print(f"[KEEP] {image_name} {pv.format_keep_log(comparisons)}")
         print(f"         image={final_paths['image_path']}")
         print(f"         json={final_paths['json_path']}")
-        print(f"         diff={final_paths['diff_path']}")
         if final_paths["overlay_path"] is not None:
             print(f"         total={final_paths['overlay_path']}")
-        return current_state, True, diff_data
+        return pv.extend_kept_history(recent_kept_states, current_state), True
 
-    pv.cleanup_outputs(image_path=image_path, json_path=json_path, diff_path=diff_path, overlay_path=overlay_path)
-    print(
-        f"[DROP] {image_name} score={summary['total_change_score']:.3f} "
-        f"added={summary['added_count']} removed={summary['removed_count']} "
-        f"modified={summary['modified_count']}"
+    pv.cleanup_outputs(
+        image_path=image_path,
+        json_path=json_path,
+        diff_path=pv.get_frame_diff_path(image_name),
+        overlay_path=overlay_path,
     )
-    return previous_kept_state, False, diff_data
+    print(f"[DROP] {image_name} {pv.format_drop_log(comparisons)}")
+    return recent_kept_states, False
 
 
 def validate_result_item(item: dict[str, Any]) -> None:
@@ -239,22 +234,22 @@ def process_ready_results(
     submitted_indices: list[int],
     pending_results: dict[int, dict[str, Any]],
     next_result_pos: int,
-    previous_kept_state: dict[str, Any] | None,
+    recent_kept_states: list[dict[str, Any]],
     kept_count: int,
     dropped_count: int,
-) -> tuple[int, dict[str, Any] | None, int, int]:
+) -> tuple[int, list[dict[str, Any]], int, int]:
     while next_result_pos < len(submitted_indices):
         frame_index = submitted_indices[next_result_pos]
         item = pending_results.pop(frame_index, None)
         if item is None:
             break
-        previous_kept_state, kept, _ = handle_result_item(item, previous_kept_state)
+        recent_kept_states, kept = handle_result_item(item, recent_kept_states)
         if kept:
             kept_count += 1
         else:
             dropped_count += 1
         next_result_pos += 1
-    return next_result_pos, previous_kept_state, kept_count, dropped_count
+    return next_result_pos, recent_kept_states, kept_count, dropped_count
 
 
 def process_video(video_path: Path) -> None:
@@ -274,7 +269,7 @@ def process_video(video_path: Path) -> None:
     pending_results: dict[int, dict[str, Any]] = {}
     next_result_pos = 0
     previous_prefilter_state: dict[str, np.ndarray] | None = None
-    previous_kept_state: dict[str, Any] | None = None
+    recent_kept_states: list[dict[str, Any]] = []
     kept_count = 0
     dropped_count = 0
     fps = capture.get(cv2.CAP_PROP_FPS) or 0.0
@@ -321,11 +316,11 @@ def process_video(video_path: Path) -> None:
             submitted_indices.append(frame_index)
             submitted_count += 1
             drain_available_results(result_queue, pending_results)
-            next_result_pos, previous_kept_state, kept_count, dropped_count = process_ready_results(
+            next_result_pos, recent_kept_states, kept_count, dropped_count = process_ready_results(
                 submitted_indices,
                 pending_results,
                 next_result_pos,
-                previous_kept_state,
+                recent_kept_states,
                 kept_count,
                 dropped_count,
             )
@@ -338,11 +333,11 @@ def process_video(video_path: Path) -> None:
         item = result_queue.get()
         validate_result_item(item)
         pending_results[item["frame_index"]] = item
-        next_result_pos, previous_kept_state, kept_count, dropped_count = process_ready_results(
+        next_result_pos, recent_kept_states, kept_count, dropped_count = process_ready_results(
             submitted_indices,
             pending_results,
             next_result_pos,
-            previous_kept_state,
+            recent_kept_states,
             kept_count,
             dropped_count,
         )
