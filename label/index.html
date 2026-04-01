@@ -17,9 +17,14 @@
         <button id="deleteImageBtn" type="button">Delete Image</button>
         <button id="newBoxBtn" type="button">New Box</button>
         <button id="deleteBoxBtn" type="button">Delete Box</button>
+        <button id="prevIconBtn" type="button">Prev Icon</button>
+        <button id="nextIconBtn" type="button">Next Icon</button>
       </div>
       <div class="topbar-center">
         <div id="statusText" class="status-text">Loading...</div>
+        <div class="load-count">
+          Loads: <span id="loadCountValue">0</span>
+        </div>
       </div>
       <div class="topbar-right">
         <label class="zoom-label" for="zoomRange">Zoom</label>
@@ -37,11 +42,17 @@
       </aside>
 
       <section class="viewer-panel">
-        <div id="canvasScroll" class="canvas-scroll">
-          <div id="canvasStage" class="canvas-stage">
-            <img id="mainImage" alt="annotation target">
-            <div id="boxLayer" class="box-layer"></div>
-            <div id="draftBox" class="draft-box hidden"></div>
+        <div class="viewer-split">
+          <div id="canvasScroll" class="canvas-scroll">
+            <div id="canvasStage" class="canvas-stage">
+              <img id="mainImage" alt="annotation target">
+              <div id="boxLayer" class="box-layer"></div>
+              <div id="draftBox" class="draft-box hidden"></div>
+            </div>
+          </div>
+          <div class="preview-panel">
+            <div class="preview-header">Current Icon</div>
+            <canvas id="previewCanvas" class="preview-canvas"></canvas>
           </div>
         </div>
       </section>

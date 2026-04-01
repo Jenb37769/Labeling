@@ -1,0 +1,3661 @@
+{
+  "image": "G:\\grounding\\process\\ima\\1080-All 60+ Photoshop Tools Explained in Under 30 Minutes_001620_00027.00s.png",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "raw_element_count": 159,
+  "element_count": 146,
+  "elements": [
+    {
+      "id": "1",
+      "name": "f $ 4",
+      "bbox": [
+        201,
+        27,
+        257,
+        43
+      ],
+      "bbox_ratio": [
+        0.104687,
+        0.025,
+        0.133854,
+        0.039815
+      ],
+      "center": [
+        229,
+        35
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "2",
+      "name": "1 # h",
+      "bbox": [
+        299,
+        27,
+        353,
+        43
+      ],
+      "bbox_ratio": [
+        0.155729,
+        0.025,
+        0.183854,
+        0.039815
+      ],
+      "center": [
+        326,
+        35
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "3",
+      "name": "1. move tool-ipo @ 25% (laytt 0, rgb/8) \"",
+      "bbox": [
+        217,
+        53,
+        381,
+        65
+      ],
+      "bbox_ratio": [
+        0.113021,
+        0.049074,
+        0.198437,
+        0.060185
+      ],
+      "center": [
+        299,
+        59
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "4",
+      "name": "2",
+      "bbox": [
+        5,
+        107,
+        25,
+        145
+      ],
+      "bbox_ratio": [
+        0.002604,
+        0.099074,
+        0.013021,
+        0.134259
+      ],
+      "center": [
+        15,
+        126
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "5",
+      "name": "2",
+      "bbox": [
+        7,
+        149,
+        23,
+        185
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.137963,
+        0.011979,
+        0.171296
+      ],
+      "center": [
+        15,
+        167
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "6",
+      "name": ";",
+      "bbox": [
+        7,
+        285,
+        25,
+        341
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.263889,
+        0.013021,
+        0.315741
+      ],
+      "center": [
+        16,
+        313
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "7",
+      "name": "w #",
+      "bbox": [
+        1793,
+        381,
+        1831,
+        395
+      ],
+      "bbox_ratio": [
+        0.933854,
+        0.352778,
+        0.953646,
+        0.365741
+      ],
+      "center": [
+        1812,
+        388
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "8",
+      "name": "6,",
+      "bbox": [
+        7,
+        403,
+        25,
+        439
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.373148,
+        0.013021,
+        0.406481
+      ],
+      "center": [
+        16,
+        421
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "9",
+      "name": "#r 0",
+      "bbox": [
+        1765,
+        551,
+        1813,
+        565
+      ],
+      "bbox_ratio": [
+        0.919271,
+        0.510185,
+        0.944271,
+        0.523148
+      ],
+      "center": [
+        1789,
+        558
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "10",
+      "name": "earung",
+      "bbox": [
+        1762,
+        596,
+        1804,
+        604
+      ],
+      "bbox_ratio": [
+        0.917708,
+        0.551852,
+        0.939583,
+        0.559259
+      ],
+      "center": [
+        1783,
+        600
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "13",
+      "name": "4",
+      "bbox": [
+        1,
+        242,
+        25,
+        282
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.224074,
+        0.013021,
+        0.261111
+      ],
+      "center": [
+        13,
+        262
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "14",
+      "name": "grcu",
+      "bbox": [
+        143,
+        23,
+        191,
+        45
+      ],
+      "bbox_ratio": [
+        0.074318,
+        0.021362,
+        0.099553,
+        0.041434
+      ],
+      "center": [
+        167,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7383,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "15",
+      "name": "daut sdttt",
+      "bbox": [
+        75,
+        22,
+        142,
+        45
+      ],
+      "bbox_ratio": [
+        0.039157,
+        0.020451,
+        0.073863,
+        0.041529
+      ],
+      "center": [
+        108,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7151,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "16",
+      "name": "jjd",
+      "bbox": [
+        1799,
+        290,
+        1854,
+        307
+      ],
+      "bbox_ratio": [
+        0.937116,
+        0.268081,
+        0.965884,
+        0.284108
+      ],
+      "center": [
+        1826,
+        298
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7111,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "17",
+      "name": "shae",
+      "bbox": [
+        1793,
+        22,
+        1839,
+        45
+      ],
+      "bbox_ratio": [
+        0.933696,
+        0.020104,
+        0.957811,
+        0.042084
+      ],
+      "center": [
+        1816,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6622,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "18",
+      "name": "\"pr",
+      "bbox": [
+        1738,
+        290,
+        1793,
+        307
+      ],
+      "bbox_ratio": [
+        0.905464,
+        0.268066,
+        0.933594,
+        0.284008
+      ],
+      "center": [
+        1766,
+        298
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6331,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "19",
+      "name": "x",
+      "bbox": [
+        2,
+        206,
+        27,
+        225
+      ],
+      "bbox_ratio": [
+        0.000968,
+        0.19053,
+        0.014204,
+        0.207913
+      ],
+      "center": [
+        14,
+        216
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5901,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "20",
+      "name": "cabai",
+      "bbox": [
+        1809,
+        527,
+        1839,
+        544
+      ],
+      "bbox_ratio": [
+        0.942376,
+        0.488076,
+        0.957598,
+        0.503779
+      ],
+      "center": [
+        1824,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5515,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "21",
+      "name": "{etrtata",
+      "bbox": [
+        1784,
+        54,
+        1832,
+        77
+      ],
+      "bbox_ratio": [
+        0.929336,
+        0.050085,
+        0.953969,
+        0.071497
+      ],
+      "center": [
+        1808,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5356,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "22",
+      "name": "unuilted-i 66795 ilayct rg8/88) \"",
+      "bbox": [
+        29,
+        46,
+        207,
+        68
+      ],
+      "bbox_ratio": [
+        0.015054,
+        0.042529,
+        0.107653,
+        0.062643
+      ],
+      "center": [
+        118,
+        57
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.527,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "23",
+      "name": "lavas",
+      "bbox": [
+        1707,
+        479,
+        1742,
+        501
+      ],
+      "bbox_ratio": [
+        0.888983,
+        0.443056,
+        0.907197,
+        0.463852
+      ],
+      "center": [
+        1724,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5101,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "24",
+      "name": "q0t",
+      "bbox": [
+        1736,
+        308,
+        1796,
+        330
+      ],
+      "bbox_ratio": [
+        0.904049,
+        0.285632,
+        0.935264,
+        0.305791
+      ],
+      "center": [
+        1766,
+        319
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5058,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "25",
+      "name": "387ex",
+      "bbox": [
+        1799,
+        271,
+        1856,
+        289
+      ],
+      "bbox_ratio": [
+        0.937202,
+        0.250852,
+        0.966704,
+        0.267612
+      ],
+      "center": [
+        1828,
+        280
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4892,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "26",
+      "name": "mp",
+      "bbox": [
+        1737,
+        271,
+        1792,
+        289
+      ],
+      "bbox_ratio": [
+        0.904759,
+        0.251032,
+        0.93347,
+        0.267751
+      ],
+      "center": [
+        1764,
+        280
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4776,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "27",
+      "name": "align or dittbutr",
+      "bbox": [
+        1709,
+        337,
+        1908,
+        365
+      ],
+      "bbox_ratio": [
+        0.890047,
+        0.311635,
+        0.993912,
+        0.337882
+      ],
+      "center": [
+        1808,
+        351
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4269,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "28",
+      "name": "pad",
+      "bbox": [
+        1707,
+        223,
+        1914,
+        250
+      ],
+      "bbox_ratio": [
+        0.888995,
+        0.206745,
+        0.997086,
+        0.231025
+      ],
+      "center": [
+        1810,
+        236
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4125,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "29",
+      "name": "enree",
+      "bbox": [
+        1705,
+        201,
+        1756,
+        224
+      ],
+      "bbox_ratio": [
+        0.888009,
+        0.186572,
+        0.914326,
+        0.20752
+      ],
+      "center": [
+        1730,
+        212
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3649,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "30",
+      "name": "adiustincnt",
+      "bbox": [
+        1755,
+        202,
+        1814,
+        224
+      ],
+      "bbox_ratio": [
+        0.913916,
+        0.186706,
+        0.944535,
+        0.207847
+      ],
+      "center": [
+        1784,
+        213
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3613,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "31",
+      "name": "wranstonn",
+      "bbox": [
+        1706,
+        249,
+        1908,
+        270
+      ],
+      "bbox_ratio": [
+        0.88834,
+        0.230883,
+        0.993686,
+        0.249932
+      ],
+      "center": [
+        1807,
+        260
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3517,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "32",
+      "name": "laver",
+      "bbox": [
+        104,
+        0,
+        131,
+        19
+      ],
+      "bbox_ratio": [
+        0.053969,
+        0.0,
+        0.068482,
+        0.01801
+      ],
+      "center": [
+        118,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3174,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "33",
+      "name": "oicactioi",
+      "bbox": [
+        1706,
+        417,
+        1908,
+        449
+      ],
+      "bbox_ratio": [
+        0.888481,
+        0.38623,
+        0.993929,
+        0.415824
+      ],
+      "center": [
+        1807,
+        433
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2949,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "34",
+      "name": "sclect",
+      "bbox": [
+        161,
+        0,
+        192,
+        19
+      ],
+      "bbox_ratio": [
+        0.083994,
+        0.0,
+        0.100017,
+        0.01744
+      ],
+      "center": [
+        176,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2663,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "35",
+      "name": "ga",
+      "bbox": [
+        1708,
+        505,
+        1750,
+        525
+      ],
+      "bbox_ratio": [
+        0.889366,
+        0.467175,
+        0.911453,
+        0.486072
+      ],
+      "center": [
+        1729,
+        515
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2663,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "36",
+      "name": "pltgins",
+      "bbox": [
+        253,
+        0,
+        282,
+        20
+      ],
+      "bbox_ratio": [
+        0.13162,
+        0.0,
+        0.146629,
+        0.018409
+      ],
+      "center": [
+        268,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2514,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "37",
+      "name": "nonal",
+      "bbox": [
+        1708,
+        527,
+        1745,
+        544
+      ],
+      "bbox_ratio": [
+        0.889734,
+        0.487939,
+        0.908635,
+        0.503684
+      ],
+      "center": [
+        1726,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1952,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "38",
+      "name": "wadot",
+      "bbox": [
+        286,
+        0,
+        327,
+        18
+      ],
+      "bbox_ratio": [
+        0.149007,
+        0.0,
+        0.170308,
+        0.016705
+      ],
+      "center": [
+        306,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1744,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "39",
+      "name": "umaqe",
+      "bbox": [
+        71,
+        0,
+        100,
+        18
+      ],
+      "bbox_ratio": [
+        0.03685,
+        0.000212,
+        0.052068,
+        0.016867
+      ],
+      "center": [
+        86,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1604,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "40",
+      "name": "a cat or dog.",
+      "bbox": [
+        605,
+        396,
+        1056,
+        656
+      ],
+      "bbox_ratio": [
+        0.315168,
+        0.366519,
+        0.549956,
+        0.607736
+      ],
+      "center": [
+        830,
+        526
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.8308,
+      "region": "canvas_overlay",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "41",
+      "name": "help",
+      "bbox": [
+        1862,
+        21,
+        1885,
+        46
+      ],
+      "bbox_ratio": [
+        0.969928,
+        0.019462,
+        0.981805,
+        0.042737
+      ],
+      "center": [
+        1874,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7739,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "42",
+      "name": "search",
+      "bbox": [
+        1840,
+        21,
+        1862,
+        46
+      ],
+      "bbox_ratio": [
+        0.958143,
+        0.019369,
+        0.969823,
+        0.04286
+      ],
+      "center": [
+        1851,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7608,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "43",
+      "name": "comment",
+      "bbox": [
+        2,
+        106,
+        29,
+        128
+      ],
+      "bbox_ratio": [
+        0.000856,
+        0.098477,
+        0.014936,
+        0.118063
+      ],
+      "center": [
+        16,
+        117
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7598,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "44",
+      "name": "lightning",
+      "bbox": [
+        1,
+        127,
+        29,
+        147
+      ],
+      "bbox_ratio": [
+        0.000652,
+        0.11736,
+        0.015021,
+        0.136441
+      ],
+      "center": [
+        15,
+        137
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7538,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "45",
+      "name": "toggleoggleoggle pane",
+      "bbox": [
+        3,
+        185,
+        27,
+        206
+      ],
+      "bbox_ratio": [
+        0.001821,
+        0.170956,
+        0.014178,
+        0.190472
+      ],
+      "center": [
+        15,
+        196
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.74,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "46",
+      "name": "adding a new item or element.",
+      "bbox": [
+        38,
+        21,
+        73,
+        45
+      ],
+      "bbox_ratio": [
+        0.019928,
+        0.01988,
+        0.038207,
+        0.041614
+      ],
+      "center": [
+        56,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7345,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "47",
+      "name": "navigation or direction indicator.",
+      "bbox": [
+        1,
+        146,
+        28,
+        165
+      ],
+      "bbox_ratio": [
+        0.000302,
+        0.13514,
+        0.014647,
+        0.152945
+      ],
+      "center": [
+        14,
+        156
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7243,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "49",
+      "name": "hide",
+      "bbox": [
+        360,
+        22,
+        380,
+        44
+      ],
+      "bbox_ratio": [
+        0.187262,
+        0.020045,
+        0.197917,
+        0.041156
+      ],
+      "center": [
+        370,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7015,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "50",
+      "name": "adding a new item or element.",
+      "bbox": [
+        1,
+        66,
+        29,
+        89
+      ],
+      "bbox_ratio": [
+        0.000487,
+        0.060794,
+        0.014927,
+        0.082744
+      ],
+      "center": [
+        15,
+        78
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6969,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "51",
+      "name": "showshow",
+      "bbox": [
+        291,
+        22,
+        315,
+        45
+      ],
+      "bbox_ratio": [
+        0.151443,
+        0.020717,
+        0.163933,
+        0.041505
+      ],
+      "center": [
+        303,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.696,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "52",
+      "name": "maximize",
+      "bbox": [
+        3,
+        166,
+        27,
+        185
+      ],
+      "bbox_ratio": [
+        0.001317,
+        0.153474,
+        0.014028,
+        0.171267
+      ],
+      "center": [
+        15,
+        176
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.695,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "53",
+      "name": "start from this list",
+      "bbox": [
+        1712,
+        375,
+        1733,
+        397
+      ],
+      "bbox_ratio": [
+        0.891561,
+        0.347341,
+        0.902395,
+        0.367289
+      ],
+      "center": [
+        1722,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6942,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "54",
+      "name": "rounded rectangle",
+      "bbox": [
+        1,
+        86,
+        28,
+        107
+      ],
+      "bbox_ratio": [
+        0.000565,
+        0.079915,
+        0.014767,
+        0.098984
+      ],
+      "center": [
+        14,
+        96
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6924,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "55",
+      "name": "chart",
+      "bbox": [
+        334,
+        22,
+        355,
+        44
+      ],
+      "bbox_ratio": [
+        0.174128,
+        0.020556,
+        0.184705,
+        0.040756
+      ],
+      "center": [
+        344,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6895,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "56",
+      "name": "increase",
+      "bbox": [
+        262,
+        22,
+        287,
+        45
+      ],
+      "bbox_ratio": [
+        0.136237,
+        0.020121,
+        0.14929,
+        0.041638
+      ],
+      "center": [
+        274,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6843,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "57",
+      "name": "tasks",
+      "bbox": [
+        4,
+        361,
+        27,
+        381
+      ],
+      "bbox_ratio": [
+        0.00198,
+        0.334328,
+        0.014244,
+        0.352776
+      ],
+      "center": [
+        16,
+        371
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6713,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "58",
+      "name": "keyboard",
+      "bbox": [
+        2,
+        342,
+        28,
+        361
+      ],
+      "bbox_ratio": [
+        0.001266,
+        0.316883,
+        0.014445,
+        0.334721
+      ],
+      "center": [
+        15,
+        352
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6504,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "59",
+      "name": "toggle lock",
+      "bbox": [
+        1852,
+        0,
+        1882,
+        20
+      ],
+      "bbox_ratio": [
+        0.964563,
+        0.0,
+        0.980416,
+        0.01814
+      ],
+      "center": [
+        1867,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6461,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "60",
+      "name": "rectangle",
+      "bbox": [
+        1886,
+        21,
+        1910,
+        46
+      ],
+      "bbox_ratio": [
+        0.982344,
+        0.019681,
+        0.994966,
+        0.042973
+      ],
+      "center": [
+        1898,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6442,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "62",
+      "name": "more options",
+      "bbox": [
+        387,
+        21,
+        417,
+        45
+      ],
+      "bbox_ratio": [
+        0.201606,
+        0.01981,
+        0.21716,
+        0.041498
+      ],
+      "center": [
+        402,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6355,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "63",
+      "name": "home",
+      "bbox": [
+        9,
+        21,
+        33,
+        46
+      ],
+      "bbox_ratio": [
+        0.004494,
+        0.019893,
+        0.01716,
+        0.04239
+      ],
+      "center": [
+        21,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6331,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "64",
+      "name": "3, september, 2024",
+      "bbox": [
+        1709,
+        276,
+        1733,
+        302
+      ],
+      "bbox_ratio": [
+        0.890146,
+        0.255393,
+        0.902493,
+        0.279395
+      ],
+      "center": [
+        1721,
+        289
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6291,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "65",
+      "name": "edit",
+      "bbox": [
+        1,
+        225,
+        27,
+        243
+      ],
+      "bbox_ratio": [
+        0.000669,
+        0.207979,
+        0.014101,
+        0.225283
+      ],
+      "center": [
+        14,
+        234
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6171,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "66",
+      "name": "close",
+      "bbox": [
+        1887,
+        0,
+        1913,
+        20
+      ],
+      "bbox_ratio": [
+        0.982652,
+        0.0,
+        0.996424,
+        0.018365
+      ],
+      "center": [
+        1900,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6157,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "67",
+      "name": "11:15",
+      "bbox": [
+        315,
+        22,
+        333,
+        44
+      ],
+      "bbox_ratio": [
+        0.164193,
+        0.020766,
+        0.173684,
+        0.041143
+      ],
+      "center": [
+        324,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6137,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "68",
+      "name": "clone",
+      "bbox": [
+        1736,
+        374,
+        1752,
+        397
+      ],
+      "bbox_ratio": [
+        0.904267,
+        0.346687,
+        0.912675,
+        0.367299
+      ],
+      "center": [
+        1744,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6099,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "69",
+      "name": "copy",
+      "bbox": [
+        1708,
+        80,
+        1740,
+        113
+      ],
+      "bbox_ratio": [
+        0.889596,
+        0.074215,
+        0.906307,
+        0.104902
+      ],
+      "center": [
+        1724,
+        96
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5993,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "70",
+      "name": "text",
+      "bbox": [
+        6,
+        381,
+        28,
+        399
+      ],
+      "bbox_ratio": [
+        0.002879,
+        0.35246,
+        0.014338,
+        0.369895
+      ],
+      "center": [
+        17,
+        390
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5969,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "71",
+      "name": "a battery or battery stack.",
+      "bbox": [
+        1869,
+        501,
+        1884,
+        523
+      ],
+      "bbox_ratio": [
+        0.973384,
+        0.464299,
+        0.981149,
+        0.484506
+      ],
+      "center": [
+        1876,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5936,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "72",
+      "name": "clear",
+      "bbox": [
+        2,
+        284,
+        28,
+        302
+      ],
+      "bbox_ratio": [
+        0.001094,
+        0.263355,
+        0.014561,
+        0.279869
+      ],
+      "center": [
+        15,
+        293
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.593,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "75",
+      "name": "a checkbox.",
+      "bbox": [
+        1729,
+        569,
+        1759,
+        589
+      ],
+      "bbox_ratio": [
+        0.900349,
+        0.526583,
+        0.916217,
+        0.545001
+      ],
+      "center": [
+        1744,
+        579
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5833,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "76",
+      "name": "hide (ctrl+shift+f)",
+      "bbox": [
+        1824,
+        0,
+        1843,
+        19
+      ],
+      "bbox_ratio": [
+        0.9501,
+        0.0,
+        0.960014,
+        0.017607
+      ],
+      "center": [
+        1834,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5808,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "78",
+      "name": "increase",
+      "bbox": [
+        238,
+        22,
+        258,
+        44
+      ],
+      "bbox_ratio": [
+        0.124069,
+        0.020412,
+        0.134133,
+        0.041009
+      ],
+      "center": [
+        248,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5749,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "79",
+      "name": "oval",
+      "bbox": [
+        1710,
+        591,
+        1727,
+        610
+      ],
+      "bbox_ratio": [
+        0.890802,
+        0.547562,
+        0.899643,
+        0.564513
+      ],
+      "center": [
+        1718,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.574,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "80",
+      "name": "eye",
+      "bbox": [
+        1710,
+        569,
+        1726,
+        588
+      ],
+      "bbox_ratio": [
+        0.89063,
+        0.526803,
+        0.899202,
+        0.544704
+      ],
+      "center": [
+        1718,
+        578
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5699,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "81",
+      "name": "hide",
+      "bbox": [
+        1755,
+        374,
+        1776,
+        397
+      ],
+      "bbox_ratio": [
+        0.914321,
+        0.345864,
+        0.925227,
+        0.368021
+      ],
+      "center": [
+        1766,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5671,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "82",
+      "name": "color",
+      "bbox": [
+        1708,
+        55,
+        1737,
+        78
+      ],
+      "bbox_ratio": [
+        0.88946,
+        0.051033,
+        0.904828,
+        0.071808
+      ],
+      "center": [
+        1722,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.567,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "83",
+      "name": "pads",
+      "bbox": [
+        1787,
+        477,
+        1821,
+        501
+      ],
+      "bbox_ratio": [
+        0.93074,
+        0.441706,
+        0.948181,
+        0.463574
+      ],
+      "center": [
+        1804,
+        489
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5625,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "84",
+      "name": "navigator",
+      "bbox": [
+        1799,
+        504,
+        1814,
+        523
+      ],
+      "bbox_ratio": [
+        0.936888,
+        0.4667,
+        0.94465,
+        0.484614
+      ],
+      "center": [
+        1806,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5599,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "85",
+      "name": "chart",
+      "bbox": [
+        1835,
+        376,
+        1853,
+        396
+      ],
+      "bbox_ratio": [
+        0.95572,
+        0.348433,
+        0.965044,
+        0.366528
+      ],
+      "center": [
+        1844,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5592,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "87",
+      "name": "hand",
+      "bbox": [
+        2,
+        440,
+        27,
+        459
+      ],
+      "bbox_ratio": [
+        0.001126,
+        0.4071,
+        0.014195,
+        0.424991
+      ],
+      "center": [
+        14,
+        450
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5587,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "89",
+      "name": "adobe photoshop",
+      "bbox": [
+        0,
+        0,
+        19,
+        19
+      ],
+      "bbox_ratio": [
+        4.5e-05,
+        0.0,
+        0.009986,
+        0.017386
+      ],
+      "center": [
+        10,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5488,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "90",
+      "name": "increase",
+      "bbox": [
+        1836,
+        309,
+        1853,
+        329
+      ],
+      "bbox_ratio": [
+        0.956039,
+        0.286444,
+        0.964951,
+        0.304883
+      ],
+      "center": [
+        1844,
+        319
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.54,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "91",
+      "name": "p&m",
+      "bbox": [
+        2,
+        322,
+        28,
+        342
+      ],
+      "bbox_ratio": [
+        0.001011,
+        0.297745,
+        0.014521,
+        0.316524
+      ],
+      "center": [
+        15,
+        332
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5386,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "92",
+      "name": "increase",
+      "bbox": [
+        195,
+        22,
+        219,
+        45
+      ],
+      "bbox_ratio": [
+        0.101383,
+        0.020506,
+        0.114046,
+        0.041868
+      ],
+      "center": [
+        207,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5382,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "93",
+      "name": "movies",
+      "bbox": [
+        1778,
+        504,
+        1796,
+        524
+      ],
+      "bbox_ratio": [
+        0.925949,
+        0.466483,
+        0.935467,
+        0.484751
+      ],
+      "center": [
+        1787,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5353,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "94",
+      "name": "swatchies",
+      "bbox": [
+        1739,
+        54,
+        1783,
+        77
+      ],
+      "bbox_ratio": [
+        0.905695,
+        0.050169,
+        0.928816,
+        0.070998
+      ],
+      "center": [
+        1761,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5352,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "95",
+      "name": "page 1",
+      "bbox": [
+        1835,
+        504,
+        1849,
+        523
+      ],
+      "bbox_ratio": [
+        0.955615,
+        0.466401,
+        0.963062,
+        0.484271
+      ],
+      "center": [
+        1842,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5346,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "96",
+      "name": "add",
+      "bbox": [
+        1814,
+        376,
+        1831,
+        395
+      ],
+      "bbox_ratio": [
+        0.944573,
+        0.347909,
+        0.95375,
+        0.366037
+      ],
+      "center": [
+        1822,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5308,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "97",
+      "name": "go to previous previous page",
+      "bbox": [
+        3,
+        399,
+        28,
+        421
+      ],
+      "bbox_ratio": [
+        0.001645,
+        0.369026,
+        0.014496,
+        0.389524
+      ],
+      "center": [
+        16,
+        410
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5295,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "98",
+      "name": "text",
+      "bbox": [
+        1815,
+        504,
+        1832,
+        523
+      ],
+      "bbox_ratio": [
+        0.945347,
+        0.466824,
+        0.954213,
+        0.484543
+      ],
+      "center": [
+        1824,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5183,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "99",
+      "name": "share",
+      "bbox": [
+        1852,
+        502,
+        1868,
+        523
+      ],
+      "bbox_ratio": [
+        0.964433,
+        0.465269,
+        0.972962,
+        0.484477
+      ],
+      "center": [
+        1860,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5077,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "100",
+      "name": "find",
+      "bbox": [
+        2,
+        458,
+        25,
+        480
+      ],
+      "bbox_ratio": [
+        0.000854,
+        0.423708,
+        0.012988,
+        0.443993
+      ],
+      "center": [
+        14,
+        469
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5051,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "101",
+      "name": "channels",
+      "bbox": [
+        1741,
+        477,
+        1786,
+        501
+      ],
+      "bbox_ratio": [
+        0.906989,
+        0.442118,
+        0.930296,
+        0.463507
+      ],
+      "center": [
+        1764,
+        489
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5029,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "102",
+      "name": "rectangle",
+      "bbox": [
+        1,
+        302,
+        28,
+        321
+      ],
+      "bbox_ratio": [
+        0.000652,
+        0.279617,
+        0.014389,
+        0.29744
+      ],
+      "center": [
+        14,
+        312
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4962,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "103",
+      "name": "settings",
+      "bbox": [
+        420,
+        21,
+        446,
+        45
+      ],
+      "bbox_ratio": [
+        0.218887,
+        0.019724,
+        0.232214,
+        0.042025
+      ],
+      "center": [
+        433,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4867,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "104",
+      "name": "add (ctrl+f)",
+      "bbox": [
+        220,
+        22,
+        237,
+        44
+      ],
+      "bbox_ratio": [
+        0.114536,
+        0.020639,
+        0.123528,
+        0.040766
+      ],
+      "center": [
+        228,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4828,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "105",
+      "name": "australia",
+      "bbox": [
+        2,
+        420,
+        28,
+        439
+      ],
+      "bbox_ratio": [
+        0.001139,
+        0.388619,
+        0.014536,
+        0.40678
+      ],
+      "center": [
+        15,
+        430
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4787,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "106",
+      "name": "showshow history",
+      "bbox": [
+        1789,
+        375,
+        1810,
+        396
+      ],
+      "bbox_ratio": [
+        0.931582,
+        0.34712,
+        0.942848,
+        0.367001
+      ],
+      "center": [
+        1800,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4688,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "107",
+      "name": "patterns",
+      "bbox": [
+        1833,
+        54,
+        1874,
+        77
+      ],
+      "bbox_ratio": [
+        0.954649,
+        0.050414,
+        0.97592,
+        0.071464
+      ],
+      "center": [
+        1854,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4669,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "108",
+      "name": "file",
+      "bbox": [
+        23,
+        0,
+        41,
+        18
+      ],
+      "bbox_ratio": [
+        0.011929,
+        0.0,
+        0.021347,
+        0.016462
+      ],
+      "center": [
+        32,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4562,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "109",
+      "name": "toggle bar",
+      "bbox": [
+        1782,
+        548,
+        1797,
+        566
+      ],
+      "bbox_ratio": [
+        0.928334,
+        0.507227,
+        0.935855,
+        0.524302
+      ],
+      "center": [
+        1790,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4548,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "110",
+      "name": "warn me",
+      "bbox": [
+        1908,
+        21,
+        1920,
+        46
+      ],
+      "bbox_ratio": [
+        0.993601,
+        0.019811,
+        1.0,
+        0.042474
+      ],
+      "center": [
+        1914,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4492,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "111",
+      "name": "a checkbox.",
+      "bbox": [
+        1728,
+        590,
+        1756,
+        609
+      ],
+      "bbox_ratio": [
+        0.900237,
+        0.546589,
+        0.914465,
+        0.564314
+      ],
+      "center": [
+        1742,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4492,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "112",
+      "name": "navigation bar",
+      "bbox": [
+        1809,
+        310,
+        1833,
+        330
+      ],
+      "bbox_ratio": [
+        0.942185,
+        0.286795,
+        0.954472,
+        0.305325
+      ],
+      "center": [
+        1821,
+        320
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4471,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "113",
+      "name": "mention",
+      "bbox": [
+        1868,
+        526,
+        1881,
+        544
+      ],
+      "bbox_ratio": [
+        0.972901,
+        0.487152,
+        0.979663,
+        0.503936
+      ],
+      "center": [
+        1874,
+        535
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4379,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "114",
+      "name": "dictation",
+      "bbox": [
+        1766,
+        548,
+        1779,
+        566
+      ],
+      "bbox_ratio": [
+        0.919768,
+        0.507322,
+        0.926576,
+        0.523861
+      ],
+      "center": [
+        1772,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4355,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "115",
+      "name": "lock",
+      "bbox": [
+        1799,
+        548,
+        1813,
+        566
+      ],
+      "bbox_ratio": [
+        0.936924,
+        0.507071,
+        0.944514,
+        0.52419
+      ],
+      "center": [
+        1806,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4177,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "116",
+      "name": "remove",
+      "bbox": [
+        1905,
+        203,
+        1919,
+        224
+      ],
+      "bbox_ratio": [
+        0.99214,
+        0.188017,
+        0.999526,
+        0.207173
+      ],
+      "center": [
+        1912,
+        214
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3862,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "117",
+      "name": "edit",
+      "bbox": [
+        1748,
+        548,
+        1762,
+        566
+      ],
+      "bbox_ratio": [
+        0.91059,
+        0.506975,
+        0.917801,
+        0.524197
+      ],
+      "center": [
+        1755,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3855,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "118",
+      "name": "align:",
+      "bbox": [
+        1710,
+        360,
+        1734,
+        375
+      ],
+      "bbox_ratio": [
+        0.890609,
+        0.333073,
+        0.903108,
+        0.34687
+      ],
+      "center": [
+        1722,
+        368
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3763,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "119",
+      "name": "locks",
+      "bbox": [
+        1708,
+        547,
+        1729,
+        565
+      ],
+      "bbox_ratio": [
+        0.889408,
+        0.506869,
+        0.900608,
+        0.522935
+      ],
+      "center": [
+        1718,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3703,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "120",
+      "name": "paste",
+      "bbox": [
+        1884,
+        591,
+        1900,
+        609
+      ],
+      "bbox_ratio": [
+        0.981026,
+        0.547439,
+        0.989369,
+        0.56426
+      ],
+      "center": [
+        1892,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3637,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "121",
+      "name": "help",
+      "bbox": [
+        329,
+        0,
+        355,
+        18
+      ],
+      "bbox_ratio": [
+        0.171387,
+        0.0,
+        0.184967,
+        0.01677
+      ],
+      "center": [
+        342,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3613,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "122",
+      "name": "dictation",
+      "bbox": [
+        1731,
+        547,
+        1747,
+        565
+      ],
+      "bbox_ratio": [
+        0.901712,
+        0.506527,
+        0.910107,
+        0.523365
+      ],
+      "center": [
+        1739,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3595,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "123",
+      "name": "remove",
+      "bbox": [
+        1904,
+        57,
+        1920,
+        77
+      ],
+      "bbox_ratio": [
+        0.991916,
+        0.052434,
+        0.999956,
+        0.071406
+      ],
+      "center": [
+        1912,
+        67
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3585,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "124",
+      "name": "expand to the previous page",
+      "bbox": [
+        1756,
+        504,
+        1776,
+        524
+      ],
+      "bbox_ratio": [
+        0.914756,
+        0.466229,
+        0.924934,
+        0.485293
+      ],
+      "center": [
+        1766,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3576,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "125",
+      "name": "color picker tool.",
+      "bbox": [
+        1886,
+        81,
+        1910,
+        126
+      ],
+      "bbox_ratio": [
+        0.982318,
+        0.075158,
+        0.99502,
+        0.117081
+      ],
+      "center": [
+        1898,
+        104
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3418,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "126",
+      "name": "fill:",
+      "bbox": [
+        1820,
+        547,
+        1839,
+        567
+      ],
+      "bbox_ratio": [
+        0.948108,
+        0.506354,
+        0.957984,
+        0.524619
+      ],
+      "center": [
+        1830,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3218,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "127",
+      "name": "filter",
+      "bbox": [
+        194,
+        0,
+        219,
+        18
+      ],
+      "bbox_ratio": [
+        0.100951,
+        0.0,
+        0.114086,
+        0.017101
+      ],
+      "center": [
+        206,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3211,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "128",
+      "name": "copy",
+      "bbox": [
+        0,
+        506,
+        29,
+        538
+      ],
+      "bbox_ratio": [
+        0.000134,
+        0.468165,
+        0.014989,
+        0.497905
+      ],
+      "center": [
+        14,
+        522
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3121,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "129",
+      "name": "remove",
+      "bbox": [
+        1905,
+        480,
+        1920,
+        500
+      ],
+      "bbox_ratio": [
+        0.992383,
+        0.444872,
+        0.999999,
+        0.462891
+      ],
+      "center": [
+        1912,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2976,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "131",
+      "name": "librarys",
+      "bbox": [
+        1815,
+        201,
+        1857,
+        224
+      ],
+      "bbox_ratio": [
+        0.945417,
+        0.186564,
+        0.967318,
+        0.207382
+      ],
+      "center": [
+        1836,
+        212
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.277,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "132",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1905,
+        501,
+        1920,
+        523
+      ],
+      "bbox_ratio": [
+        0.992185,
+        0.464202,
+        0.999932,
+        0.484622
+      ],
+      "center": [
+        1912,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2756,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "133",
+      "name": "forward",
+      "bbox": [
+        1905,
+        43,
+        1920,
+        58
+      ],
+      "bbox_ratio": [
+        0.992092,
+        0.040182,
+        1.0,
+        0.054128
+      ],
+      "center": [
+        1912,
+        50
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2605,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "134",
+      "name": "type",
+      "bbox": [
+        135,
+        0,
+        159,
+        19
+      ],
+      "bbox_ratio": [
+        0.070102,
+        0.0,
+        0.082707,
+        0.01773
+      ],
+      "center": [
+        147,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2505,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "135",
+      "name": "a video file.",
+      "bbox": [
+        1755,
+        527,
+        1804,
+        545
+      ],
+      "bbox_ratio": [
+        0.914304,
+        0.487947,
+        0.939671,
+        0.504571
+      ],
+      "center": [
+        1780,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.232,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "136",
+      "name": "layer 1",
+      "bbox": [
+        1762,
+        568,
+        1793,
+        588
+      ],
+      "bbox_ratio": [
+        0.917793,
+        0.526173,
+        0.934052,
+        0.544371
+      ],
+      "center": [
+        1778,
+        578
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2308,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "137",
+      "name": "view",
+      "bbox": [
+        221,
+        0,
+        245,
+        19
+      ],
+      "bbox_ratio": [
+        0.115261,
+        0.0,
+        0.127616,
+        0.017301
+      ],
+      "center": [
+        233,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2265,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "138",
+      "name": "a percent percent display.",
+      "bbox": [
+        1841,
+        546,
+        1878,
+        567
+      ],
+      "bbox_ratio": [
+        0.958796,
+        0.505835,
+        0.977893,
+        0.524612
+      ],
+      "center": [
+        1860,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2115,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "139",
+      "name": "edit",
+      "bbox": [
+        47,
+        0,
+        66,
+        17
+      ],
+      "bbox_ratio": [
+        0.024426,
+        0.000199,
+        0.034185,
+        0.016105
+      ],
+      "center": [
+        56,
+        8
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2047,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "140",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1909,
+        81,
+        1920,
+        133
+      ],
+      "bbox_ratio": [
+        0.994481,
+        0.074772,
+        1.0,
+        0.122869
+      ],
+      "center": [
+        1914,
+        107
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2035,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "141",
+      "name": "100%",
+      "bbox": [
+        1845,
+        527,
+        1870,
+        545
+      ],
+      "bbox_ratio": [
+        0.960837,
+        0.487737,
+        0.973875,
+        0.504498
+      ],
+      "center": [
+        1858,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1895,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "142",
+      "name": "page break",
+      "bbox": [
+        0,
+        539,
+        27,
+        560
+      ],
+      "bbox_ratio": [
+        0.000241,
+        0.499347,
+        0.014134,
+        0.518083
+      ],
+      "center": [
+        14,
+        550
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1789,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "143",
+      "name": "a button to close or close a window.",
+      "bbox": [
+        1817,
+        476,
+        1896,
+        501
+      ],
+      "bbox_ratio": [
+        0.946466,
+        0.440423,
+        0.987525,
+        0.463593
+      ],
+      "center": [
+        1856,
+        488
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1677,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "144",
+      "name": "a color picker tool.",
+      "bbox": [
+        1887,
+        122,
+        1910,
+        151
+      ],
+      "bbox_ratio": [
+        0.98305,
+        0.112991,
+        0.99494,
+        0.140068
+      ],
+      "center": [
+        1898,
+        136
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.137,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "145",
+      "name": "a dropdown menu.",
+      "bbox": [
+        1799,
+        527,
+        1811,
+        545
+      ],
+      "bbox_ratio": [
+        0.936947,
+        0.488376,
+        0.943028,
+        0.504373
+      ],
+      "center": [
+        1805,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1325,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "146",
+      "name": "more options",
+      "bbox": [
+        1835,
+        399,
+        1853,
+        418
+      ],
+      "bbox_ratio": [
+        0.955825,
+        0.369694,
+        0.965214,
+        0.38688
+      ],
+      "center": [
+        1844,
+        408
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1296,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "148",
+      "name": "a folder.",
+      "bbox": [
+        1908,
+        250,
+        1920,
+        287
+      ],
+      "bbox_ratio": [
+        0.993871,
+        0.231316,
+        1.0,
+        0.266112
+      ],
+      "center": [
+        1914,
+        268
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1038,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "149",
+      "name": "more options",
+      "bbox": [
+        1,
+        480,
+        28,
+        497
+      ],
+      "bbox_ratio": [
+        0.000562,
+        0.444304,
+        0.014326,
+        0.460574
+      ],
+      "center": [
+        14,
+        488
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0979,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "150",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1908,
+        365,
+        1920,
+        409
+      ],
+      "bbox_ratio": [
+        0.993502,
+        0.337552,
+        1.0,
+        0.378626
+      ],
+      "center": [
+        1914,
+        387
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0767,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "151",
+      "name": "close",
+      "bbox": [
+        385,
+        47,
+        399,
+        68
+      ],
+      "bbox_ratio": [
+        0.200321,
+        0.043588,
+        0.207697,
+        0.062621
+      ],
+      "center": [
+        392,
+        58
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0752,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "152",
+      "name": "copy",
+      "bbox": [
+        1,
+        558,
+        27,
+        580
+      ],
+      "bbox_ratio": [
+        0.000321,
+        0.516739,
+        0.014095,
+        0.537258
+      ],
+      "center": [
+        14,
+        569
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0715,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "153",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1889,
+        525,
+        1915,
+        545
+      ],
+      "bbox_ratio": [
+        0.984089,
+        0.485721,
+        0.997441,
+        0.50462
+      ],
+      "center": [
+        1902,
+        535
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0681,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "155",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1909,
+        290,
+        1920,
+        334
+      ],
+      "bbox_ratio": [
+        0.994387,
+        0.268287,
+        1.0,
+        0.309692
+      ],
+      "center": [
+        1914,
+        312
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0656,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "157",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1869,
+        285,
+        1905,
+        309
+      ],
+      "bbox_ratio": [
+        0.973353,
+        0.263843,
+        0.992087,
+        0.286433
+      ],
+      "center": [
+        1887,
+        297
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0639,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "158",
+      "name": "clear",
+      "bbox": [
+        1731,
+        359,
+        1765,
+        378
+      ],
+      "bbox_ratio": [
+        0.90147,
+        0.332194,
+        0.919044,
+        0.34954
+      ],
+      "center": [
+        1748,
+        368
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0593,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "159",
+      "name": "german flag",
+      "bbox": [
+        1886,
+        167,
+        1911,
+        190
+      ],
+      "bbox_ratio": [
+        0.982279,
+        0.155049,
+        0.995497,
+        0.1755
+      ],
+      "center": [
+        1898,
+        178
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0522,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

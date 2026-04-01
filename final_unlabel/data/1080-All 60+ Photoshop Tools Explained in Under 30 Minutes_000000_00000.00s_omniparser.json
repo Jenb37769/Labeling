@@ -1,0 +1,2011 @@
+{
+  "image": "G:\\grounding\\process\\ima\\1080-All 60+ Photoshop Tools Explained in Under 30 Minutes_000000_00000.00s.png",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "raw_element_count": 104,
+  "element_count": 80,
+  "elements": [
+    {
+      "id": "1",
+      "name": "this is an overview of",
+      "bbox": [
+        717,
+        39,
+        833,
+        53
+      ],
+      "bbox_ratio": [
+        0.373437,
+        0.036111,
+        0.433854,
+        0.049074
+      ],
+      "center": [
+        775,
+        46
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "2",
+      "name": "tool; which means",
+      "bbox": [
+        863,
+        39,
+        961,
+        53
+      ],
+      "bbox_ratio": [
+        0.449479,
+        0.036111,
+        0.500521,
+        0.049074
+      ],
+      "center": [
+        912,
+        46
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "3",
+      "name": "won t explain everything in detail there will be",
+      "bbox": [
+        965,
+        37,
+        1213,
+        55
+      ],
+      "bbox_ratio": [
+        0.502604,
+        0.034259,
+        0.631771,
+        0.050926
+      ],
+      "center": [
+        1089,
+        46
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "5",
+      "name": "and finally;",
+      "bbox": [
+        717,
+        79,
+        779,
+        95
+      ],
+      "bbox_ratio": [
+        0.373437,
+        0.073148,
+        0.405729,
+        0.087963
+      ],
+      "center": [
+        748,
+        87
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "6",
+      "name": "using windows, s0 for me it*s ctrl and alt if youre on",
+      "bbox": [
+        795,
+        79,
+        1081,
+        97
+      ],
+      "bbox_ratio": [
+        0.414062,
+        0.073148,
+        0.563021,
+        0.089815
+      ],
+      "center": [
+        938,
+        88
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "7",
+      "name": "mac, whenever",
+      "bbox": [
+        1087,
+        81,
+        1171,
+        95
+      ],
+      "bbox_ratio": [
+        0.566146,
+        0.075,
+        0.609896,
+        0.087963
+      ],
+      "center": [
+        1129,
+        88
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "8",
+      "name": "use ctrl",
+      "bbox": [
+        1175,
+        79,
+        1221,
+        95
+      ],
+      "bbox_ratio": [
+        0.611979,
+        0.073148,
+        0.635938,
+        0.087963
+      ],
+      "center": [
+        1198,
+        87
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "9",
+      "name": "and alt it'$ gonna",
+      "bbox": [
+        717,
+        99,
+        815,
+        115
+      ],
+      "bbox_ratio": [
+        0.373437,
+        0.091667,
+        0.424479,
+        0.106481
+      ],
+      "center": [
+        766,
+        107
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "10",
+      "name": "cmd and opt",
+      "bbox": [
+        831,
+        99,
+        909,
+        115
+      ],
+      "bbox_ratio": [
+        0.432813,
+        0.091667,
+        0.473437,
+        0.106481
+      ],
+      "center": [
+        870,
+        107
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "11",
+      "name": "now; let $ begin:",
+      "bbox": [
+        695,
+        123,
+        787,
+        139
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.113889,
+        0.409896,
+        0.128704
+      ],
+      "center": [
+        741,
+        131
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "12",
+      "name": "move",
+      "bbox": [
+        711,
+        159,
+        751,
+        175
+      ],
+      "bbox_ratio": [
+        0.370313,
+        0.147222,
+        0.391146,
+        0.162037
+      ],
+      "center": [
+        731,
+        167
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "13",
+      "name": "(v)",
+      "bbox": [
+        783,
+        155,
+        807,
+        175
+      ],
+      "bbox_ratio": [
+        0.407813,
+        0.143519,
+        0.420312,
+        0.162037
+      ],
+      "center": [
+        795,
+        165
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "14",
+      "name": "this",
+      "bbox": [
+        697,
+        183,
+        721,
+        197
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.169444,
+        0.375521,
+        0.182407
+      ],
+      "center": [
+        709,
+        190
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "17",
+      "name": "and for the move tool;",
+      "bbox": [
+        695,
+        219,
+        817,
+        233
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.202778,
+        0.425521,
+        0.215741
+      ],
+      "center": [
+        756,
+        226
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "18",
+      "name": "very important onem",
+      "bbox": [
+        825,
+        221,
+        931,
+        235
+      ],
+      "bbox_ratio": [
+        0.429688,
+        0.20463,
+        0.484896,
+        0.217593
+      ],
+      "center": [
+        878,
+        228
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "19",
+      "name": "togo to the gear icon and select the first",
+      "bbox": [
+        939,
+        219,
+        1159,
+        237
+      ],
+      "bbox_ratio": [
+        0.489062,
+        0.202778,
+        0.603646,
+        0.219444
+      ],
+      "center": [
+        1049,
+        228
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "20",
+      "name": "show transfonm controls",
+      "bbox": [
+        701,
+        237,
+        835,
+        251
+      ],
+      "bbox_ratio": [
+        0.365104,
+        0.219444,
+        0.434896,
+        0.232407
+      ],
+      "center": [
+        768,
+        244
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "21",
+      "name": "this `",
+      "bbox": [
+        841,
+        237,
+        867,
+        251
+      ],
+      "bbox_ratio": [
+        0.438021,
+        0.219444,
+        0.451562,
+        0.232407
+      ],
+      "center": [
+        854,
+        244
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "22",
+      "name": "show",
+      "bbox": [
+        885,
+        237,
+        917,
+        251
+      ],
+      "bbox_ratio": [
+        0.460938,
+        0.219444,
+        0.477604,
+        0.232407
+      ],
+      "center": [
+        901,
+        244
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "23",
+      "name": "box around the selected layer; which we can use t0 scale",
+      "bbox": [
+        925,
+        237,
+        1223,
+        253
+      ],
+      "bbox_ratio": [
+        0.481771,
+        0.219444,
+        0.636979,
+        0.234259
+      ],
+      "center": [
+        1074,
+        245
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "24",
+      "name": "or rotate it",
+      "bbox": [
+        697,
+        255,
+        757,
+        269
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.236111,
+        0.394271,
+        0.249074
+      ],
+      "center": [
+        727,
+        262
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "25",
+      "name": "we use the control",
+      "bbox": [
+        763,
+        255,
+        861,
+        269
+      ],
+      "bbox_ratio": [
+        0.397396,
+        0.236111,
+        0.448438,
+        0.249074
+      ],
+      "center": [
+        812,
+        262
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "28",
+      "name": "this",
+      "bbox": [
+        697,
+        297,
+        721,
+        311
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.275,
+        0.375521,
+        0.287963
+      ],
+      "center": [
+        709,
+        304
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "30",
+      "name": "modify the behavior of tools; so",
+      "bbox": [
+        723,
+        315,
+        893,
+        331
+      ],
+      "bbox_ratio": [
+        0.376563,
+        0.291667,
+        0.465104,
+        0.306481
+      ],
+      "center": [
+        808,
+        323
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "31",
+      "name": "recommend",
+      "bbox": [
+        897,
+        317,
+        965,
+        329
+      ],
+      "bbox_ratio": [
+        0.467187,
+        0.293519,
+        0.502604,
+        0.30463
+      ],
+      "center": [
+        931,
+        323
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "32",
+      "name": "always experimenting",
+      "bbox": [
+        964,
+        314,
+        1081,
+        332
+      ],
+      "bbox_ratio": [
+        0.502083,
+        0.290741,
+        0.563021,
+        0.307407
+      ],
+      "center": [
+        1022,
+        323
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "33",
+      "name": "these",
+      "bbox": [
+        1105,
+        315,
+        1139,
+        329
+      ],
+      "bbox_ratio": [
+        0.575521,
+        0.291667,
+        0.593229,
+        0.30463
+      ],
+      "center": [
+        1122,
+        322
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "34",
+      "name": "you can",
+      "bbox": [
+        1165,
+        317,
+        1213,
+        331
+      ],
+      "bbox_ratio": [
+        0.606771,
+        0.293519,
+        0.631771,
+        0.306481
+      ],
+      "center": [
+        1189,
+        324
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "35",
+      "name": "always discover new ways t0 use the same tool",
+      "bbox": [
+        695,
+        333,
+        949,
+        349
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.308333,
+        0.494271,
+        0.323148
+      ],
+      "center": [
+        822,
+        341
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "36",
+      "name": "2. artboard tool",
+      "bbox": [
+        697,
+        367,
+        809,
+        385
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.339815,
+        0.421354,
+        0.356481
+      ],
+      "center": [
+        753,
+        376
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "39",
+      "name": "design and ux on the options bar",
+      "bbox": [
+        697,
+        429,
+        883,
+        447
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.397222,
+        0.459896,
+        0.413889
+      ],
+      "center": [
+        790,
+        438
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "40",
+      "name": "can sclect",
+      "bbox": [
+        899,
+        431,
+        957,
+        445
+      ],
+      "bbox_ratio": [
+        0.468229,
+        0.399074,
+        0.498437,
+        0.412037
+      ],
+      "center": [
+        928,
+        438
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "41",
+      "name": "size for the artboard from",
+      "bbox": [
+        963,
+        429,
+        1103,
+        445
+      ],
+      "bbox_ratio": [
+        0.501562,
+        0.397222,
+        0.574479,
+        0.412037
+      ],
+      "center": [
+        1033,
+        437
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "42",
+      "name": "multitude of prescts;",
+      "bbox": [
+        1109,
+        431,
+        1223,
+        445
+      ],
+      "bbox_ratio": [
+        0.577604,
+        0.399074,
+        0.636979,
+        0.412037
+      ],
+      "center": [
+        1166,
+        438
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "44",
+      "name": "artboard sclccted with this tool,",
+      "bbox": [
+        710,
+        463,
+        883,
+        481
+      ],
+      "bbox_ratio": [
+        0.369792,
+        0.428704,
+        0.459896,
+        0.44537
+      ],
+      "center": [
+        796,
+        472
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "45",
+      "name": "icons will appcar around thc",
+      "bbox": [
+        889,
+        465,
+        1043,
+        483
+      ],
+      "bbox_ratio": [
+        0.463021,
+        0.430556,
+        0.543229,
+        0.447222
+      ],
+      "center": [
+        966,
+        474
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "46",
+      "name": "artboard; which allow you to add",
+      "bbox": [
+        1040,
+        463,
+        1217,
+        482
+      ],
+      "bbox_ratio": [
+        0.541667,
+        0.428704,
+        0.633854,
+        0.446296
+      ],
+      "center": [
+        1128,
+        472
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "47",
+      "name": "new artboard in that dircction",
+      "bbox": [
+        695,
+        483,
+        861,
+        497
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.447222,
+        0.448438,
+        0.460185
+      ],
+      "center": [
+        778,
+        490
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "48",
+      "name": "3. rectangular marquee tool",
+      "bbox": [
+        697,
+        518,
+        895,
+        539
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.47963,
+        0.466146,
+        0.499074
+      ],
+      "center": [
+        796,
+        528
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "49",
+      "name": "this tool is used to make rectangular selections we use",
+      "bbox": [
+        697,
+        544,
+        991,
+        562
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.503704,
+        0.516146,
+        0.52037
+      ],
+      "center": [
+        844,
+        553
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "50",
+      "name": "by clicking and dragging on the area we",
+      "bbox": [
+        1001,
+        545,
+        1213,
+        561
+      ],
+      "bbox_ratio": [
+        0.521354,
+        0.50463,
+        0.631771,
+        0.519444
+      ],
+      "center": [
+        1107,
+        553
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "53",
+      "name": "there; we can also add",
+      "bbox": [
+        697,
+        599,
+        819,
+        613
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.55463,
+        0.426562,
+        0.567593
+      ],
+      "center": [
+        758,
+        606
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "54",
+      "name": "feather t0 the selection or define",
+      "bbox": [
+        825,
+        599,
+        1003,
+        613
+      ],
+      "bbox_ratio": [
+        0.429688,
+        0.55463,
+        0.522396,
+        0.567593
+      ],
+      "center": [
+        914,
+        606
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "55",
+      "name": "fixed size or ratio for the rectangle:",
+      "bbox": [
+        1009,
+        599,
+        1195,
+        615
+      ],
+      "bbox_ratio": [
+        0.525521,
+        0.55463,
+        0.622396,
+        0.569444
+      ],
+      "center": [
+        1102,
+        607
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "56",
+      "name": "elliptical marquee tool",
+      "bbox": [
+        710,
+        630,
+        870,
+        656
+      ],
+      "bbox_ratio": [
+        0.369792,
+        0.583333,
+        0.453125,
+        0.607407
+      ],
+      "center": [
+        790,
+        643
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "58",
+      "name": "rectangles",
+      "bbox": [
+        695,
+        679,
+        757,
+        693
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.628704,
+        0.394271,
+        0.641667
+      ],
+      "center": [
+        726,
+        686
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "59",
+      "name": "5-6. single row and single column marquee tools",
+      "bbox": [
+        696,
+        709,
+        1040,
+        734
+      ],
+      "bbox_ratio": [
+        0.3625,
+        0.656482,
+        0.541667,
+        0.67963
+      ],
+      "center": [
+        868,
+        722
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "60",
+      "name": "these tools work almost exactly",
+      "bbox": [
+        697,
+        737,
+        867,
+        753
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.682407,
+        0.451562,
+        0.697222
+      ],
+      "center": [
+        782,
+        745
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "61",
+      "name": "the same way as the other marquee tools; but we cannot change",
+      "bbox": [
+        879,
+        739,
+        1221,
+        755
+      ],
+      "bbox_ratio": [
+        0.457812,
+        0.684259,
+        0.635938,
+        0.699074
+      ],
+      "center": [
+        1050,
+        747
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "62",
+      "name": "the size of the selection; it will",
+      "bbox": [
+        695,
+        755,
+        857,
+        771
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.699074,
+        0.446354,
+        0.713889
+      ],
+      "center": [
+        776,
+        763
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "63",
+      "name": "create=",
+      "bbox": [
+        893,
+        757,
+        931,
+        771
+      ],
+      "bbox_ratio": [
+        0.465104,
+        0.700926,
+        0.484896,
+        0.713889
+      ],
+      "center": [
+        912,
+        764
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "64",
+      "name": "single pixel tow or column on the document",
+      "bbox": [
+        937,
+        757,
+        1175,
+        773
+      ],
+      "bbox_ratio": [
+        0.488021,
+        0.700926,
+        0.611979,
+        0.715741
+      ],
+      "center": [
+        1056,
+        765
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "65",
+      "name": "shift or alt still adds or subtracts from the selection:",
+      "bbox": [
+        697,
+        773,
+        973,
+        789
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.715741,
+        0.506771,
+        0.730556
+      ],
+      "center": [
+        835,
+        781
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "66",
+      "name": "7.lasso tool",
+      "bbox": [
+        695,
+        807,
+        787,
+        827
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.747222,
+        0.409896,
+        0.765741
+      ],
+      "center": [
+        741,
+        817
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "67",
+      "name": "this tool allows us t0 make manual frechand sclections",
+      "bbox": [
+        697,
+        835,
+        991,
+        849
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.773148,
+        0.516146,
+        0.786111
+      ],
+      "center": [
+        844,
+        842
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "68",
+      "name": "click and",
+      "bbox": [
+        1019,
+        835,
+        1069,
+        849
+      ],
+      "bbox_ratio": [
+        0.530729,
+        0.773148,
+        0.556771,
+        0.786111
+      ],
+      "center": [
+        1044,
+        842
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "69",
+      "name": "image. wc should",
+      "bbox": [
+        1110,
+        834,
+        1207,
+        852
+      ],
+      "bbox_ratio": [
+        0.578125,
+        0.772222,
+        0.628646,
+        0.788889
+      ],
+      "center": [
+        1158,
+        843
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "71",
+      "name": "straight line",
+      "bbox": [
+        695,
+        871,
+        763,
+        887
+      ],
+      "bbox_ratio": [
+        0.361979,
+        0.806481,
+        0.397396,
+        0.821296
+      ],
+      "center": [
+        729,
+        879
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "74",
+      "name": "samc",
+      "bbox": [
+        698,
+        910,
+        726,
+        918
+      ],
+      "bbox_ratio": [
+        0.363542,
+        0.842593,
+        0.378125,
+        0.85
+      ],
+      "center": [
+        712,
+        914
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "75",
+      "name": "this toolis much morc uscful when we're working",
+      "bbox": [
+        729,
+        907,
+        995,
+        923
+      ],
+      "bbox_ratio": [
+        0.379687,
+        0.839815,
+        0.518229,
+        0.85463
+      ],
+      "center": [
+        862,
+        915
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "76",
+      "name": "graphic tablet or",
+      "bbox": [
+        1027,
+        907,
+        1119,
+        923
+      ],
+      "bbox_ratio": [
+        0.534896,
+        0.839815,
+        0.582812,
+        0.85463
+      ],
+      "center": [
+        1073,
+        915
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "77",
+      "name": "pen display: as it",
+      "bbox": [
+        1127,
+        907,
+        1217,
+        923
+      ],
+      "bbox_ratio": [
+        0.586979,
+        0.839815,
+        0.633854,
+        0.85463
+      ],
+      "center": [
+        1172,
+        915
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "78",
+      "name": "can be difficult to make sclections with",
+      "bbox": [
+        697,
+        923,
+        905,
+        939
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.85463,
+        0.471354,
+        0.869444
+      ],
+      "center": [
+        801,
+        931
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "79",
+      "name": "ouse.",
+      "bbox": [
+        911,
+        927,
+        953,
+        939
+      ],
+      "bbox_ratio": [
+        0.474479,
+        0.858333,
+        0.496354,
+        0.869444
+      ],
+      "center": [
+        932,
+        933
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "80",
+      "name": "polygonal lasso tool",
+      "bbox": [
+        709,
+        955,
+        858,
+        983
+      ],
+      "bbox_ratio": [
+        0.369271,
+        0.884259,
+        0.446875,
+        0.910185
+      ],
+      "center": [
+        784,
+        969
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "82",
+      "name": "instead, we il click",
+      "bbox": [
+        1125,
+        985,
+        1223,
+        999
+      ],
+      "bbox_ratio": [
+        0.585938,
+        0.912037,
+        0.636979,
+        0.925
+      ],
+      "center": [
+        1174,
+        992
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "83",
+      "name": "once to start the selection; and every",
+      "bbox": [
+        697,
+        1003,
+        895,
+        1019
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.928704,
+        0.466146,
+        0.943519
+      ],
+      "center": [
+        796,
+        1011
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "84",
+      "name": "subsequential click will add",
+      "bbox": [
+        892,
+        1002,
+        1041,
+        1020
+      ],
+      "bbox_ratio": [
+        0.464583,
+        0.927778,
+        0.542188,
+        0.944444
+      ],
+      "center": [
+        966,
+        1011
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "85",
+      "name": "straight line to the selection:",
+      "bbox": [
+        1047,
+        1001,
+        1201,
+        1020
+      ],
+      "bbox_ratio": [
+        0.545313,
+        0.926852,
+        0.625521,
+        0.944444
+      ],
+      "center": [
+        1124,
+        1010
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "94",
+      "name": "evcry",
+      "bbox": [
+        831,
+        38,
+        861,
+        54
+      ],
+      "bbox_ratio": [
+        0.432813,
+        0.035185,
+        0.448438,
+        0.05
+      ],
+      "center": [
+        846,
+        46
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "95",
+      "name": "tool",
+      "bbox": [
+        751,
+        155,
+        781,
+        176
+      ],
+      "bbox_ratio": [
+        0.391146,
+        0.143519,
+        0.406771,
+        0.162963
+      ],
+      "center": [
+        766,
+        166
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "96",
+      "name": "option",
+      "bbox": [
+        1155,
+        219,
+        1199,
+        232
+      ],
+      "bbox_ratio": [
+        0.601562,
+        0.202778,
+        0.624479,
+        0.214815
+      ],
+      "center": [
+        1177,
+        226
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "97",
+      "name": "thcy",
+      "bbox": [
+        697,
+        314,
+        723,
+        331
+      ],
+      "bbox_ratio": [
+        0.363021,
+        0.290741,
+        0.376563,
+        0.306481
+      ],
+      "center": [
+        710,
+        322
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "98",
+      "name": "keys",
+      "bbox": [
+        1137,
+        314,
+        1165,
+        331
+      ],
+      "bbox_ratio": [
+        0.592188,
+        0.290741,
+        0.606771,
+        0.306481
+      ],
+      "center": [
+        1151,
+        322
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "99",
+      "name": "holding",
+      "bbox": [
+        1173,
+        751,
+        1217,
+        773
+      ],
+      "bbox_ratio": [
+        0.610937,
+        0.69537,
+        0.633854,
+        0.715741
+      ],
+      "center": [
+        1195,
+        762
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "100",
+      "name": "always",
+      "bbox": [
+        855,
+        755,
+        891,
+        771
+      ],
+      "bbox_ratio": [
+        0.445312,
+        0.699074,
+        0.464063,
+        0.713889
+      ],
+      "center": [
+        873,
+        763
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "101",
+      "name": "just c",
+      "bbox": [
+        993,
+        836,
+        1021,
+        847
+      ],
+      "bbox_ratio": [
+        0.517187,
+        0.774074,
+        0.531771,
+        0.784259
+      ],
+      "center": [
+        1007,
+        842
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "102",
+      "name": "drag",
+      "bbox": [
+        1067,
+        833,
+        1093,
+        850
+      ],
+      "bbox_ratio": [
+        0.555729,
+        0.771296,
+        0.569271,
+        0.787037
+      ],
+      "center": [
+        1080,
+        842
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "103",
+      "name": "always",
+      "bbox": [
+        711,
+        851,
+        747,
+        869
+      ],
+      "bbox_ratio": [
+        0.370313,
+        0.787963,
+        0.389062,
+        0.80463
+      ],
+      "center": [
+        729,
+        860
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "104",
+      "name": "drag",
+      "bbox": [
+        1095,
+        984,
+        1121,
+        1000
+      ],
+      "bbox_ratio": [
+        0.570312,
+        0.911111,
+        0.583854,
+        0.925926
+      ],
+      "center": [
+        1108,
+        992
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "other",
+      "source": "box_ocr_content_ocr"
+    }
+  ]
+}

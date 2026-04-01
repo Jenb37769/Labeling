@@ -1,0 +1,3736 @@
+{
+  "image": "G:\\grounding\\process\\ima\\1080-All 60+ Photoshop Tools Explained in Under 30 Minutes_001740_00029.00s.png",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "raw_element_count": 162,
+  "element_count": 149,
+  "elements": [
+    {
+      "id": "1",
+      "name": "2",
+      "bbox": [
+        7,
+        109,
+        25,
+        145
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.100926,
+        0.013021,
+        0.134259
+      ],
+      "center": [
+        16,
+        127
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "bbox": [
+        7,
+        149,
+        23,
+        185
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.137963,
+        0.011979,
+        0.171296
+      ],
+      "center": [
+        15,
+        167
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "3",
+      "name": "pad",
+      "bbox": [
+        1734,
+        234,
+        1770,
+        242
+      ],
+      "bbox_ratio": [
+        0.903125,
+        0.216667,
+        0.921875,
+        0.224074
+      ],
+      "center": [
+        1752,
+        238
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "4",
+      "name": "wranstonn",
+      "bbox": [
+        1724,
+        258,
+        1762,
+        266
+      ],
+      "bbox_ratio": [
+        0.897917,
+        0.238889,
+        0.917708,
+        0.246296
+      ],
+      "center": [
+        1743,
+        262
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "5",
+      "name": ";",
+      "bbox": [
+        7,
+        285,
+        23,
+        341
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.263889,
+        0.011979,
+        0.315741
+      ],
+      "center": [
+        15,
+        313
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "6",
+      "name": "6,",
+      "bbox": [
+        7,
+        403,
+        25,
+        439
+      ],
+      "bbox_ratio": [
+        0.003646,
+        0.373148,
+        0.013021,
+        0.406481
+      ],
+      "center": [
+        16,
+        421
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "7",
+      "name": "#r0",
+      "bbox": [
+        1765,
+        551,
+        1813,
+        565
+      ],
+      "bbox_ratio": [
+        0.919271,
+        0.510185,
+        0.944271,
+        0.523148
+      ],
+      "center": [
+        1789,
+        558
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "8",
+      "name": "eorung",
+      "bbox": [
+        1762,
+        596,
+        1804,
+        604
+      ],
+      "bbox_ratio": [
+        0.917708,
+        0.551852,
+        0.939583,
+        0.559259
+      ],
+      "center": [
+        1783,
+        600
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "right_panel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "11",
+      "name": "4",
+      "bbox": [
+        1,
+        242,
+        25,
+        282
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.224074,
+        0.013021,
+        0.261111
+      ],
+      "center": [
+        13,
+        262
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "left_toolbar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "12",
+      "name": "62mp",
+      "bbox": [
+        199,
+        23,
+        246,
+        44
+      ],
+      "bbox_ratio": [
+        0.103514,
+        0.021335,
+        0.12829,
+        0.040539
+      ],
+      "center": [
+        222,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7254,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "13",
+      "name": "1086416",
+      "bbox": [
+        246,
+        22,
+        301,
+        44
+      ],
+      "bbox_ratio": [
+        0.128235,
+        0.020729,
+        0.156681,
+        0.040938
+      ],
+      "center": [
+        274,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7112,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "14",
+      "name": "12108 p",
+      "bbox": [
+        118,
+        23,
+        171,
+        44
+      ],
+      "bbox_ratio": [
+        0.061545,
+        0.021208,
+        0.089088,
+        0.040896
+      ],
+      "center": [
+        144,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7062,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "15",
+      "name": "shte",
+      "bbox": [
+        1793,
+        22,
+        1839,
+        45
+      ],
+      "bbox_ratio": [
+        0.93406,
+        0.020289,
+        0.957722,
+        0.042017
+      ],
+      "center": [
+        1816,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6644,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "16",
+      "name": "1 move toolyjpa @ 257 (laycr 0, rgb/b)",
+      "bbox": [
+        214,
+        46,
+        400,
+        69
+      ],
+      "bbox_ratio": [
+        0.111295,
+        0.042712,
+        0.208579,
+        0.06369
+      ],
+      "center": [
+        307,
+        58
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6232,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "17",
+      "name": "etrtata",
+      "bbox": [
+        1784,
+        54,
+        1832,
+        77
+      ],
+      "bbox_ratio": [
+        0.929155,
+        0.050066,
+        0.954246,
+        0.071355
+      ],
+      "center": [
+        1808,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5818,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "18",
+      "name": "cabi",
+      "bbox": [
+        1810,
+        527,
+        1839,
+        544
+      ],
+      "bbox_ratio": [
+        0.942558,
+        0.487764,
+        0.957656,
+        0.50392
+      ],
+      "center": [
+        1824,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5613,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "19",
+      "name": "10861n6",
+      "bbox": [
+        327,
+        23,
+        373,
+        44
+      ],
+      "bbox_ratio": [
+        0.170114,
+        0.021105,
+        0.19448,
+        0.040549
+      ],
+      "center": [
+        350,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5174,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "20",
+      "name": "align or dittbutr",
+      "bbox": [
+        1709,
+        336,
+        1908,
+        365
+      ],
+      "bbox_ratio": [
+        0.89019,
+        0.311565,
+        0.993803,
+        0.338347
+      ],
+      "center": [
+        1808,
+        350
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4713,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "21",
+      "name": "adiuaticnt",
+      "bbox": [
+        1755,
+        202,
+        1813,
+        225
+      ],
+      "bbox_ratio": [
+        0.913949,
+        0.186814,
+        0.944481,
+        0.207886
+      ],
+      "center": [
+        1784,
+        214
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4486,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "22",
+      "name": "lavas",
+      "bbox": [
+        1707,
+        479,
+        1742,
+        501
+      ],
+      "bbox_ratio": [
+        0.88897,
+        0.443258,
+        0.907155,
+        0.463878
+      ],
+      "center": [
+        1724,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4483,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "23",
+      "name": "ennree",
+      "bbox": [
+        1705,
+        202,
+        1756,
+        224
+      ],
+      "bbox_ratio": [
+        0.888031,
+        0.186663,
+        0.914373,
+        0.207591
+      ],
+      "center": [
+        1730,
+        213
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4073,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "24",
+      "name": "eaube",
+      "bbox": [
+        609,
+        21,
+        659,
+        46
+      ],
+      "bbox_ratio": [
+        0.316942,
+        0.019375,
+        0.343291,
+        0.042307
+      ],
+      "center": [
+        634,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3766,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "25",
+      "name": "unuitted-i 66795 ilayct rgb/8u) \"",
+      "bbox": [
+        27,
+        46,
+        209,
+        68
+      ],
+      "bbox_ratio": [
+        0.014182,
+        0.042964,
+        0.108869,
+        0.062918
+      ],
+      "center": [
+        118,
+        57
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3762,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "26",
+      "name": "oic actioin",
+      "bbox": [
+        1706,
+        417,
+        1908,
+        449
+      ],
+      "bbox_ratio": [
+        0.888352,
+        0.386251,
+        0.993647,
+        0.415368
+      ],
+      "center": [
+        1807,
+        433
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3652,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "27",
+      "name": "laver",
+      "bbox": [
+        104,
+        0,
+        130,
+        20
+      ],
+      "bbox_ratio": [
+        0.054205,
+        0.0,
+        0.067543,
+        0.018666
+      ],
+      "center": [
+        117,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3561,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "28",
+      "name": "nonal",
+      "bbox": [
+        1709,
+        527,
+        1745,
+        545
+      ],
+      "bbox_ratio": [
+        0.890078,
+        0.488117,
+        0.908971,
+        0.504171
+      ],
+      "center": [
+        1727,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3536,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "29",
+      "name": "type",
+      "bbox": [
+        134,
+        0,
+        159,
+        19
+      ],
+      "bbox_ratio": [
+        0.069836,
+        0.0,
+        0.083062,
+        0.017918
+      ],
+      "center": [
+        146,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2699,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "30",
+      "name": "q:",
+      "bbox": [
+        1709,
+        505,
+        1747,
+        525
+      ],
+      "bbox_ratio": [
+        0.88989,
+        0.467236,
+        0.909677,
+        0.486
+      ],
+      "center": [
+        1728,
+        515
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2668,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "31",
+      "name": "wedot",
+      "bbox": [
+        295,
+        0,
+        324,
+        20
+      ],
+      "bbox_ratio": [
+        0.153407,
+        0.0,
+        0.168773,
+        0.018797
+      ],
+      "center": [
+        310,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2014,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "32",
+      "name": "pltgins",
+      "bbox": [
+        251,
+        0,
+        286,
+        20
+      ],
+      "bbox_ratio": [
+        0.130705,
+        0.0,
+        0.14891,
+        0.018896
+      ],
+      "center": [
+        268,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1789,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "33",
+      "name": "sclect",
+      "bbox": [
+        162,
+        0,
+        191,
+        19
+      ],
+      "bbox_ratio": [
+        0.084625,
+        0.0,
+        0.099669,
+        0.017883
+      ],
+      "center": [
+        176,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1706,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "34",
+      "name": "umaqe",
+      "bbox": [
+        71,
+        1,
+        100,
+        18
+      ],
+      "bbox_ratio": [
+        0.036845,
+        0.000881,
+        0.051924,
+        0.016427
+      ],
+      "center": [
+        86,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1011,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "35",
+      "name": "intcrpottone",
+      "bbox": [
+        557,
+        22,
+        610,
+        45
+      ],
+      "bbox_ratio": [
+        0.28987,
+        0.020252,
+        0.317709,
+        0.042039
+      ],
+      "center": [
+        584,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0878,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "36",
+      "name": "s5100r",
+      "bbox": [
+        1076,
+        355,
+        1130,
+        384
+      ],
+      "bbox_ratio": [
+        0.560204,
+        0.328522,
+        0.588296,
+        0.355574
+      ],
+      "center": [
+        1103,
+        370
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0519,
+      "region": "other",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "37",
+      "name": "help",
+      "bbox": [
+        1862,
+        21,
+        1885,
+        46
+      ],
+      "bbox_ratio": [
+        0.969921,
+        0.019525,
+        0.981759,
+        0.042503
+      ],
+      "center": [
+        1874,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7752,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "38",
+      "name": "search",
+      "bbox": [
+        1840,
+        21,
+        1862,
+        46
+      ],
+      "bbox_ratio": [
+        0.958157,
+        0.019453,
+        0.969819,
+        0.042758
+      ],
+      "center": [
+        1851,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7654,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "39",
+      "name": "comment",
+      "bbox": [
+        2,
+        107,
+        29,
+        128
+      ],
+      "bbox_ratio": [
+        0.000876,
+        0.098711,
+        0.014909,
+        0.118127
+      ],
+      "center": [
+        16,
+        118
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7565,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "40",
+      "name": "triangle",
+      "bbox": [
+        172,
+        23,
+        190,
+        44
+      ],
+      "bbox_ratio": [
+        0.089528,
+        0.02142,
+        0.099049,
+        0.040529
+      ],
+      "center": [
+        181,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7483,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "41",
+      "name": "lightning",
+      "bbox": [
+        1,
+        127,
+        29,
+        147
+      ],
+      "bbox_ratio": [
+        0.00067,
+        0.11756,
+        0.01495,
+        0.136424
+      ],
+      "center": [
+        15,
+        137
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7333,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "42",
+      "name": "start from this list",
+      "bbox": [
+        1712,
+        376,
+        1733,
+        396
+      ],
+      "bbox_ratio": [
+        0.891613,
+        0.347725,
+        0.902359,
+        0.366759
+      ],
+      "center": [
+        1722,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7124,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "43",
+      "name": "copy",
+      "bbox": [
+        3,
+        185,
+        27,
+        206
+      ],
+      "bbox_ratio": [
+        0.001525,
+        0.171208,
+        0.014125,
+        0.190339
+      ],
+      "center": [
+        15,
+        196
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7095,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "44",
+      "name": "0.0",
+      "bbox": [
+        374,
+        22,
+        415,
+        44
+      ],
+      "bbox_ratio": [
+        0.194819,
+        0.02054,
+        0.215924,
+        0.040476
+      ],
+      "center": [
+        394,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6993,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "45",
+      "name": "navigation",
+      "bbox": [
+        1,
+        146,
+        28,
+        165
+      ],
+      "bbox_ratio": [
+        0.000277,
+        0.135248,
+        0.0146,
+        0.152852
+      ],
+      "center": [
+        14,
+        156
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6957,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "46",
+      "name": "3, september, 2024",
+      "bbox": [
+        1709,
+        275,
+        1733,
+        302
+      ],
+      "bbox_ratio": [
+        0.889937,
+        0.254978,
+        0.902545,
+        0.279683
+      ],
+      "center": [
+        1721,
+        288
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6849,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "47",
+      "name": "rounded rectangle",
+      "bbox": [
+        1,
+        86,
+        28,
+        108
+      ],
+      "bbox_ratio": [
+        0.000422,
+        0.079575,
+        0.014748,
+        0.099652
+      ],
+      "center": [
+        14,
+        97
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6826,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "48",
+      "name": "maximize",
+      "bbox": [
+        2,
+        166,
+        27,
+        185
+      ],
+      "bbox_ratio": [
+        0.00111,
+        0.153601,
+        0.01387,
+        0.171291
+      ],
+      "center": [
+        14,
+        176
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6811,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "49",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        420,
+        23,
+        435,
+        43
+      ],
+      "bbox_ratio": [
+        0.218529,
+        0.02132,
+        0.226767,
+        0.040231
+      ],
+      "center": [
+        428,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6639,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "50",
+      "name": "tasks",
+      "bbox": [
+        3,
+        361,
+        27,
+        381
+      ],
+      "bbox_ratio": [
+        0.001769,
+        0.334382,
+        0.014292,
+        0.352719
+      ],
+      "center": [
+        15,
+        371
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6609,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "51",
+      "name": "xiaohongshu (little red book)",
+      "bbox": [
+        1799,
+        290,
+        1855,
+        306
+      ],
+      "bbox_ratio": [
+        0.937231,
+        0.268225,
+        0.965966,
+        0.283458
+      ],
+      "center": [
+        1827,
+        298
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6606,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "52",
+      "name": "keyboard",
+      "bbox": [
+        2,
+        342,
+        28,
+        361
+      ],
+      "bbox_ratio": [
+        0.001153,
+        0.316925,
+        0.014484,
+        0.334625
+      ],
+      "center": [
+        15,
+        352
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6586,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "53",
+      "name": "rectangle",
+      "bbox": [
+        1886,
+        21,
+        1910,
+        46
+      ],
+      "bbox_ratio": [
+        0.982321,
+        0.019722,
+        0.995028,
+        0.04272
+      ],
+      "center": [
+        1898,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6546,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "55",
+      "name": "add a new item (ctrl+shift+f)",
+      "bbox": [
+        1736,
+        375,
+        1752,
+        396
+      ],
+      "bbox_ratio": [
+        0.904312,
+        0.34724,
+        0.91261,
+        0.366611
+      ],
+      "center": [
+        1744,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6371,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "56",
+      "name": "a volume indicator.",
+      "bbox": [
+        1741,
+        290,
+        1793,
+        306
+      ],
+      "bbox_ratio": [
+        0.906511,
+        0.26815,
+        0.933805,
+        0.283363
+      ],
+      "center": [
+        1767,
+        298
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6244,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "57",
+      "name": "chart",
+      "bbox": [
+        1835,
+        377,
+        1853,
+        396
+      ],
+      "bbox_ratio": [
+        0.955759,
+        0.348669,
+        0.964928,
+        0.36642
+      ],
+      "center": [
+        1844,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6208,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "58",
+      "name": "tibetan",
+      "bbox": [
+        662,
+        21,
+        684,
+        46
+      ],
+      "bbox_ratio": [
+        0.344622,
+        0.019291,
+        0.356129,
+        0.042569
+      ],
+      "center": [
+        673,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6135,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "59",
+      "name": "edit",
+      "bbox": [
+        1,
+        225,
+        27,
+        243
+      ],
+      "bbox_ratio": [
+        0.00063,
+        0.207992,
+        0.014226,
+        0.225244
+      ],
+      "center": [
+        14,
+        234
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6044,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "60",
+      "name": "clear",
+      "bbox": [
+        2,
+        284,
+        28,
+        302
+      ],
+      "bbox_ratio": [
+        0.000922,
+        0.263369,
+        0.014604,
+        0.279897
+      ],
+      "center": [
+        15,
+        293
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5989,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "61",
+      "name": "toggle",
+      "bbox": [
+        1853,
+        0,
+        1882,
+        20
+      ],
+      "bbox_ratio": [
+        0.964923,
+        0.0,
+        0.980341,
+        0.018128
+      ],
+      "center": [
+        1868,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5984,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "62",
+      "name": "link or link functionality.",
+      "bbox": [
+        302,
+        23,
+        323,
+        44
+      ],
+      "bbox_ratio": [
+        0.157097,
+        0.021198,
+        0.168177,
+        0.040625
+      ],
+      "center": [
+        312,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5975,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "63",
+      "name": "movies",
+      "bbox": [
+        1776,
+        503,
+        1796,
+        523
+      ],
+      "bbox_ratio": [
+        0.925123,
+        0.46609,
+        0.935457,
+        0.484674
+      ],
+      "center": [
+        1786,
+        513
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5956,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "64",
+      "name": "oval",
+      "bbox": [
+        1711,
+        592,
+        1727,
+        609
+      ],
+      "bbox_ratio": [
+        0.891059,
+        0.548174,
+        0.899449,
+        0.564091
+      ],
+      "center": [
+        1719,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5942,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "65",
+      "name": "increase",
+      "bbox": [
+        1756,
+        374,
+        1776,
+        397
+      ],
+      "bbox_ratio": [
+        0.914468,
+        0.346535,
+        0.924836,
+        0.367481
+      ],
+      "center": [
+        1766,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5925,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "66",
+      "name": "parallel",
+      "bbox": [
+        1708,
+        81,
+        1740,
+        113
+      ],
+      "bbox_ratio": [
+        0.889644,
+        0.074584,
+        0.906189,
+        0.104515
+      ],
+      "center": [
+        1724,
+        97
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5916,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "67",
+      "name": "hide",
+      "bbox": [
+        1814,
+        376,
+        1831,
+        395
+      ],
+      "bbox_ratio": [
+        0.944629,
+        0.348124,
+        0.953664,
+        0.36592
+      ],
+      "center": [
+        1822,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5907,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "68",
+      "name": "navigator",
+      "bbox": [
+        1799,
+        504,
+        1814,
+        523
+      ],
+      "bbox_ratio": [
+        0.936887,
+        0.466371,
+        0.944628,
+        0.484428
+      ],
+      "center": [
+        1806,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5867,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "69",
+      "name": "eye",
+      "bbox": [
+        1710,
+        569,
+        1726,
+        588
+      ],
+      "bbox_ratio": [
+        0.890807,
+        0.527007,
+        0.899019,
+        0.54454
+      ],
+      "center": [
+        1718,
+        578
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5806,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "70",
+      "name": "a checkbox.",
+      "bbox": [
+        1729,
+        569,
+        1759,
+        589
+      ],
+      "bbox_ratio": [
+        0.900322,
+        0.526542,
+        0.916161,
+        0.544949
+      ],
+      "center": [
+        1744,
+        579
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5797,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "71",
+      "name": "color",
+      "bbox": [
+        1708,
+        55,
+        1737,
+        77
+      ],
+      "bbox_ratio": [
+        0.889414,
+        0.051299,
+        0.90494,
+        0.071683
+      ],
+      "center": [
+        1722,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5743,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "72",
+      "name": "text",
+      "bbox": [
+        5,
+        381,
+        28,
+        399
+      ],
+      "bbox_ratio": [
+        0.002717,
+        0.352584,
+        0.014393,
+        0.369882
+      ],
+      "center": [
+        16,
+        390
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5718,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "73",
+      "name": "close",
+      "bbox": [
+        1887,
+        0,
+        1913,
+        20
+      ],
+      "bbox_ratio": [
+        0.98268,
+        0.0,
+        0.996334,
+        0.018381
+      ],
+      "center": [
+        1900,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5691,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "75",
+      "name": "paths",
+      "bbox": [
+        1787,
+        477,
+        1820,
+        501
+      ],
+      "bbox_ratio": [
+        0.930772,
+        0.441808,
+        0.948074,
+        0.463545
+      ],
+      "center": [
+        1804,
+        489
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5549,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "77",
+      "name": "p&m reader",
+      "bbox": [
+        2,
+        322,
+        28,
+        342
+      ],
+      "bbox_ratio": [
+        0.000948,
+        0.297728,
+        0.014534,
+        0.316548
+      ],
+      "center": [
+        15,
+        332
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5501,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "78",
+      "name": "increase",
+      "bbox": [
+        1836,
+        309,
+        1852,
+        329
+      ],
+      "bbox_ratio": [
+        0.956157,
+        0.286565,
+        0.964788,
+        0.304829
+      ],
+      "center": [
+        1844,
+        319
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5449,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "79",
+      "name": "toggleoggleoggle",
+      "bbox": [
+        707,
+        20,
+        731,
+        46
+      ],
+      "bbox_ratio": [
+        0.367975,
+        0.018478,
+        0.380479,
+        0.042696
+      ],
+      "center": [
+        719,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5446,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "80",
+      "name": "swatchies",
+      "bbox": [
+        1739,
+        54,
+        1784,
+        77
+      ],
+      "bbox_ratio": [
+        0.905669,
+        0.050407,
+        0.928911,
+        0.070947
+      ],
+      "center": [
+        1762,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.543,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "81",
+      "name": "add",
+      "bbox": [
+        1,
+        65,
+        27,
+        89
+      ],
+      "bbox_ratio": [
+        0.000641,
+        0.059785,
+        0.014162,
+        0.082345
+      ],
+      "center": [
+        14,
+        77
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5419,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "82",
+      "name": "shuffle",
+      "bbox": [
+        2,
+        206,
+        27,
+        224
+      ],
+      "bbox_ratio": [
+        0.000805,
+        0.190643,
+        0.01428,
+        0.207801
+      ],
+      "center": [
+        14,
+        215
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5375,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "83",
+      "name": "channels",
+      "bbox": [
+        1741,
+        478,
+        1786,
+        501
+      ],
+      "bbox_ratio": [
+        0.906913,
+        0.442282,
+        0.930387,
+        0.463537
+      ],
+      "center": [
+        1764,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5357,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "84",
+      "name": "hide (ctrl+shift+f)",
+      "bbox": [
+        1825,
+        0,
+        1843,
+        19
+      ],
+      "bbox_ratio": [
+        0.950452,
+        0.0,
+        0.959748,
+        0.017353
+      ],
+      "center": [
+        1834,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5334,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "85",
+      "name": "hand",
+      "bbox": [
+        2,
+        440,
+        27,
+        459
+      ],
+      "bbox_ratio": [
+        0.001124,
+        0.407143,
+        0.014266,
+        0.424955
+      ],
+      "center": [
+        14,
+        450
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5332,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "86",
+      "name": "text",
+      "bbox": [
+        1815,
+        504,
+        1832,
+        523
+      ],
+      "bbox_ratio": [
+        0.94538,
+        0.466594,
+        0.954288,
+        0.484323
+      ],
+      "center": [
+        1824,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5311,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "88",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1868,
+        501,
+        1884,
+        523
+      ],
+      "bbox_ratio": [
+        0.973106,
+        0.464305,
+        0.981158,
+        0.484279
+      ],
+      "center": [
+        1876,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.524,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "89",
+      "name": "share",
+      "bbox": [
+        1850,
+        502,
+        1869,
+        523
+      ],
+      "bbox_ratio": [
+        0.963777,
+        0.464981,
+        0.973546,
+        0.484297
+      ],
+      "center": [
+        1860,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5195,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "90",
+      "name": "locks",
+      "bbox": [
+        1708,
+        546,
+        1729,
+        565
+      ],
+      "bbox_ratio": [
+        0.889651,
+        0.505741,
+        0.900582,
+        0.522825
+      ],
+      "center": [
+        1718,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5126,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "92",
+      "name": "rectangle",
+      "bbox": [
+        1,
+        302,
+        28,
+        321
+      ],
+      "bbox_ratio": [
+        0.000592,
+        0.279752,
+        0.014396,
+        0.29736
+      ],
+      "center": [
+        14,
+        312
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5069,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "93",
+      "name": "more options",
+      "bbox": [
+        1731,
+        547,
+        1747,
+        565
+      ],
+      "bbox_ratio": [
+        0.901654,
+        0.506493,
+        0.909929,
+        0.523153
+      ],
+      "center": [
+        1739,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5068,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "94",
+      "name": "a menu or options list.",
+      "bbox": [
+        37,
+        21,
+        70,
+        44
+      ],
+      "bbox_ratio": [
+        0.019381,
+        0.019772,
+        0.036422,
+        0.040919
+      ],
+      "center": [
+        54,
+        32
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5052,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "95",
+      "name": "home",
+      "bbox": [
+        9,
+        22,
+        33,
+        45
+      ],
+      "bbox_ratio": [
+        0.004537,
+        0.019987,
+        0.017176,
+        0.042128
+      ],
+      "center": [
+        21,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5036,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "96",
+      "name": "page 1",
+      "bbox": [
+        1835,
+        503,
+        1849,
+        523
+      ],
+      "bbox_ratio": [
+        0.955599,
+        0.466185,
+        0.962974,
+        0.484029
+      ],
+      "center": [
+        1842,
+        513
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5027,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "97",
+      "name": "fullscreen mode (⌘l)",
+      "bbox": [
+        1742,
+        272,
+        1793,
+        289
+      ],
+      "bbox_ratio": [
+        0.907441,
+        0.251594,
+        0.933829,
+        0.267832
+      ],
+      "center": [
+        1768,
+        280
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "98",
+      "name": "showshow history",
+      "bbox": [
+        1789,
+        375,
+        1810,
+        396
+      ],
+      "bbox_ratio": [
+        0.931698,
+        0.347487,
+        0.942719,
+        0.366738
+      ],
+      "center": [
+        1800,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4992,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "99",
+      "name": "go to previous previous page",
+      "bbox": [
+        3,
+        399,
+        28,
+        421
+      ],
+      "bbox_ratio": [
+        0.001586,
+        0.369109,
+        0.01454,
+        0.389455
+      ],
+      "center": [
+        16,
+        410
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4992,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "100",
+      "name": "find",
+      "bbox": [
+        2,
+        458,
+        25,
+        479
+      ],
+      "bbox_ratio": [
+        0.000912,
+        0.42383,
+        0.013018,
+        0.443834
+      ],
+      "center": [
+        14,
+        468
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4867,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "101",
+      "name": "high: 0,0l",
+      "bbox": [
+        438,
+        22,
+        480,
+        44
+      ],
+      "bbox_ratio": [
+        0.228274,
+        0.020708,
+        0.25007,
+        0.041031
+      ],
+      "center": [
+        459,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4845,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "102",
+      "name": "toggleoggleoggle",
+      "bbox": [
+        1782,
+        548,
+        1796,
+        566
+      ],
+      "bbox_ratio": [
+        0.928195,
+        0.507172,
+        0.935614,
+        0.524271
+      ],
+      "center": [
+        1789,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4812,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "103",
+      "name": "0.0.5",
+      "bbox": [
+        501,
+        23,
+        535,
+        44
+      ],
+      "bbox_ratio": [
+        0.260752,
+        0.021197,
+        0.278499,
+        0.04062
+      ],
+      "center": [
+        518,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4791,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "104",
+      "name": "navigation bar",
+      "bbox": [
+        1810,
+        310,
+        1833,
+        329
+      ],
+      "bbox_ratio": [
+        0.942536,
+        0.286768,
+        0.954541,
+        0.305058
+      ],
+      "center": [
+        1822,
+        320
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4766,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "105",
+      "name": "a grid or grid view option.",
+      "bbox": [
+        98,
+        22,
+        117,
+        44
+      ],
+      "bbox_ratio": [
+        0.05123,
+        0.020762,
+        0.060879,
+        0.040674
+      ],
+      "center": [
+        108,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4752,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "106",
+      "name": "100%",
+      "bbox": [
+        1845,
+        526,
+        1881,
+        544
+      ],
+      "bbox_ratio": [
+        0.960704,
+        0.486896,
+        0.979707,
+        0.504107
+      ],
+      "center": [
+        1863,
+        535
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4717,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "107",
+      "name": "more options",
+      "bbox": [
+        482,
+        24,
+        494,
+        43
+      ],
+      "bbox_ratio": [
+        0.251049,
+        0.021869,
+        0.257383,
+        0.039806
+      ],
+      "center": [
+        488,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4697,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "108",
+      "name": "patterns",
+      "bbox": [
+        1833,
+        55,
+        1874,
+        77
+      ],
+      "bbox_ratio": [
+        0.954622,
+        0.050691,
+        0.975827,
+        0.07139
+      ],
+      "center": [
+        1854,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4653,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "109",
+      "name": "adobe photoshop",
+      "bbox": [
+        0,
+        0,
+        19,
+        19
+      ],
+      "bbox_ratio": [
+        5.4e-05,
+        0.0,
+        0.009752,
+        0.017182
+      ],
+      "center": [
+        10,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4647,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "110",
+      "name": "dictation",
+      "bbox": [
+        1766,
+        548,
+        1779,
+        565
+      ],
+      "bbox_ratio": [
+        0.919771,
+        0.507243,
+        0.926458,
+        0.523579
+      ],
+      "center": [
+        1772,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4566,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "111",
+      "name": "a checkbox.",
+      "bbox": [
+        1729,
+        591,
+        1756,
+        609
+      ],
+      "bbox_ratio": [
+        0.900274,
+        0.546786,
+        0.914549,
+        0.564162
+      ],
+      "center": [
+        1742,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4457,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "112",
+      "name": "save",
+      "bbox": [
+        1799,
+        547,
+        1814,
+        566
+      ],
+      "bbox_ratio": [
+        0.936761,
+        0.506721,
+        0.944628,
+        0.52416
+      ],
+      "center": [
+        1806,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4423,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "113",
+      "name": "australia",
+      "bbox": [
+        2,
+        420,
+        28,
+        439
+      ],
+      "bbox_ratio": [
+        0.001095,
+        0.388712,
+        0.014601,
+        0.406727
+      ],
+      "center": [
+        15,
+        430
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.44,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "114",
+      "name": "superscript",
+      "bbox": [
+        1799,
+        271,
+        1856,
+        288
+      ],
+      "bbox_ratio": [
+        0.936921,
+        0.251136,
+        0.966752,
+        0.267061
+      ],
+      "center": [
+        1828,
+        280
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4334,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "115",
+      "name": "an editing tool or tool.",
+      "bbox": [
+        1749,
+        547,
+        1762,
+        566
+      ],
+      "bbox_ratio": [
+        0.910882,
+        0.506857,
+        0.917692,
+        0.523919
+      ],
+      "center": [
+        1756,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4331,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "116",
+      "name": "warn to the previous page",
+      "bbox": [
+        1908,
+        21,
+        1920,
+        46
+      ],
+      "bbox_ratio": [
+        0.993726,
+        0.019823,
+        1.0,
+        0.042254
+      ],
+      "center": [
+        1914,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.429,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "119",
+      "name": "0.0v 0.5",
+      "bbox": [
+        1740,
+        310,
+        1795,
+        329
+      ],
+      "bbox_ratio": [
+        0.906302,
+        0.286604,
+        0.935031,
+        0.305085
+      ],
+      "center": [
+        1768,
+        320
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4167,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "120",
+      "name": "paste",
+      "bbox": [
+        1884,
+        592,
+        1899,
+        609
+      ],
+      "bbox_ratio": [
+        0.981084,
+        0.547718,
+        0.989296,
+        0.564043
+      ],
+      "center": [
+        1892,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4104,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "121",
+      "name": "align:",
+      "bbox": [
+        1710,
+        360,
+        1734,
+        374
+      ],
+      "bbox_ratio": [
+        0.890657,
+        0.333176,
+        0.903008,
+        0.346448
+      ],
+      "center": [
+        1722,
+        367
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4027,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "122",
+      "name": "file",
+      "bbox": [
+        23,
+        0,
+        41,
+        18
+      ],
+      "bbox_ratio": [
+        0.012158,
+        0.0,
+        0.021432,
+        0.016371
+      ],
+      "center": [
+        32,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3959,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "123",
+      "name": "librarys",
+      "bbox": [
+        1815,
+        202,
+        1857,
+        224
+      ],
+      "bbox_ratio": [
+        0.94514,
+        0.186688,
+        0.967267,
+        0.207359
+      ],
+      "center": [
+        1836,
+        213
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3932,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "124",
+      "name": "help",
+      "bbox": [
+        329,
+        0,
+        355,
+        19
+      ],
+      "bbox_ratio": [
+        0.171266,
+        8.8e-05,
+        0.184653,
+        0.017157
+      ],
+      "center": [
+        342,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3916,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "125",
+      "name": "remove",
+      "bbox": [
+        1905,
+        203,
+        1919,
+        223
+      ],
+      "bbox_ratio": [
+        0.992172,
+        0.188239,
+        0.99949,
+        0.206933
+      ],
+      "center": [
+        1912,
+        213
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3848,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "126",
+      "name": "fill:",
+      "bbox": [
+        1820,
+        547,
+        1840,
+        566
+      ],
+      "bbox_ratio": [
+        0.948136,
+        0.506537,
+        0.958249,
+        0.524469
+      ],
+      "center": [
+        1830,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3599,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "127",
+      "name": "remove",
+      "bbox": [
+        1905,
+        57,
+        1920,
+        77
+      ],
+      "bbox_ratio": [
+        0.992156,
+        0.052806,
+        0.999966,
+        0.071209
+      ],
+      "center": [
+        1912,
+        67
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3401,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "128",
+      "name": "maximize",
+      "bbox": [
+        76,
+        22,
+        97,
+        44
+      ],
+      "bbox_ratio": [
+        0.039546,
+        0.020673,
+        0.050625,
+        0.041041
+      ],
+      "center": [
+        86,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3362,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "130",
+      "name": "remove",
+      "bbox": [
+        1905,
+        480,
+        1920,
+        500
+      ],
+      "bbox_ratio": [
+        0.992311,
+        0.444871,
+        1.0,
+        0.462862
+      ],
+      "center": [
+        1912,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3199,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "131",
+      "name": "a color picker tool.",
+      "bbox": [
+        1887,
+        82,
+        1910,
+        127
+      ],
+      "bbox_ratio": [
+        0.9829,
+        0.075673,
+        0.994876,
+        0.117267
+      ],
+      "center": [
+        1898,
+        104
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3177,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "132",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1905,
+        501,
+        1920,
+        523
+      ],
+      "bbox_ratio": [
+        0.992168,
+        0.464195,
+        0.999915,
+        0.484496
+      ],
+      "center": [
+        1912,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2985,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "133",
+      "name": "copy",
+      "bbox": [
+        0,
+        510,
+        29,
+        538
+      ],
+      "bbox_ratio": [
+        0.000149,
+        0.471789,
+        0.014847,
+        0.49781
+      ],
+      "center": [
+        14,
+        524
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.295,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "134",
+      "name": "scroll up and down",
+      "bbox": [
+        1905,
+        43,
+        1920,
+        58
+      ],
+      "bbox_ratio": [
+        0.992215,
+        0.040257,
+        1.0,
+        0.053685
+      ],
+      "center": [
+        1912,
+        50
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2829,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "135",
+      "name": "100%",
+      "bbox": [
+        1842,
+        547,
+        1878,
+        566
+      ],
+      "bbox_ratio": [
+        0.959512,
+        0.506252,
+        0.978267,
+        0.524187
+      ],
+      "center": [
+        1860,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2675,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "136",
+      "name": "filter",
+      "bbox": [
+        194,
+        0,
+        219,
+        19
+      ],
+      "bbox_ratio": [
+        0.101072,
+        0.0,
+        0.11397,
+        0.017728
+      ],
+      "center": [
+        206,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2596,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "137",
+      "name": "cat",
+      "bbox": [
+        603,
+        373,
+        1087,
+        660
+      ],
+      "bbox_ratio": [
+        0.313819,
+        0.345695,
+        0.566037,
+        0.611299
+      ],
+      "center": [
+        845,
+        516
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2543,
+      "region": "canvas_overlay",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "138",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        537,
+        24,
+        551,
+        43
+      ],
+      "bbox_ratio": [
+        0.279465,
+        0.022016,
+        0.28698,
+        0.039669
+      ],
+      "center": [
+        544,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2475,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "139",
+      "name": "view",
+      "bbox": [
+        222,
+        1,
+        247,
+        19
+      ],
+      "bbox_ratio": [
+        0.115788,
+        0.000554,
+        0.128483,
+        0.017131
+      ],
+      "center": [
+        234,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2291,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "140",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1747,
+        527,
+        1795,
+        545
+      ],
+      "bbox_ratio": [
+        0.910106,
+        0.487778,
+        0.93478,
+        0.504559
+      ],
+      "center": [
+        1771,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2149,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "141",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1909,
+        82,
+        1920,
+        133
+      ],
+      "bbox_ratio": [
+        0.994388,
+        0.075489,
+        1.0,
+        0.123247
+      ],
+      "center": [
+        1914,
+        108
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2056,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "142",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1748,
+        503,
+        1777,
+        524
+      ],
+      "bbox_ratio": [
+        0.910393,
+        0.465805,
+        0.925688,
+        0.485246
+      ],
+      "center": [
+        1762,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2011,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "143",
+      "name": "more options",
+      "bbox": [
+        1,
+        539,
+        27,
+        559
+      ],
+      "bbox_ratio": [
+        0.000319,
+        0.499487,
+        0.013961,
+        0.517422
+      ],
+      "center": [
+        14,
+        549
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2009,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "144",
+      "name": "edit",
+      "bbox": [
+        47,
+        1,
+        65,
+        17
+      ],
+      "bbox_ratio": [
+        0.024504,
+        0.000571,
+        0.034079,
+        0.016005
+      ],
+      "center": [
+        56,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1848,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "145",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1818,
+        476,
+        1897,
+        501
+      ],
+      "bbox_ratio": [
+        0.946698,
+        0.440742,
+        0.988093,
+        0.463432
+      ],
+      "center": [
+        1858,
+        488
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1808,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "146",
+      "name": "expand to the next item",
+      "bbox": [
+        730,
+        20,
+        754,
+        46
+      ],
+      "bbox_ratio": [
+        0.380091,
+        0.018331,
+        0.392877,
+        0.042431
+      ],
+      "center": [
+        742,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1742,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "147",
+      "name": "layer 1",
+      "bbox": [
+        1762,
+        568,
+        1793,
+        588
+      ],
+      "bbox_ratio": [
+        0.917768,
+        0.526183,
+        0.933956,
+        0.544195
+      ],
+      "center": [
+        1778,
+        578
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1659,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "148",
+      "name": "expand to the next item",
+      "bbox": [
+        1798,
+        527,
+        1810,
+        545
+      ],
+      "bbox_ratio": [
+        0.936209,
+        0.48824,
+        0.942475,
+        0.504444
+      ],
+      "center": [
+        1804,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1527,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "149",
+      "name": "more options",
+      "bbox": [
+        1835,
+        400,
+        1853,
+        418
+      ],
+      "bbox_ratio": [
+        0.955989,
+        0.370231,
+        0.965082,
+        0.386653
+      ],
+      "center": [
+        1844,
+        409
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1378,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "151",
+      "name": "a folder.",
+      "bbox": [
+        1908,
+        250,
+        1920,
+        286
+      ],
+      "bbox_ratio": [
+        0.993919,
+        0.231449,
+        1.0,
+        0.26506
+      ],
+      "center": [
+        1914,
+        268
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0988,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "152",
+      "name": "more options",
+      "bbox": [
+        1,
+        480,
+        27,
+        497
+      ],
+      "bbox_ratio": [
+        0.000617,
+        0.444593,
+        0.014179,
+        0.460248
+      ],
+      "center": [
+        14,
+        488
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0961,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "154",
+      "name": "copy",
+      "bbox": [
+        1,
+        559,
+        27,
+        580
+      ],
+      "bbox_ratio": [
+        0.000391,
+        0.517273,
+        0.013963,
+        0.536714
+      ],
+      "center": [
+        14,
+        570
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0721,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "155",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1908,
+        364,
+        1920,
+        409
+      ],
+      "bbox_ratio": [
+        0.993643,
+        0.337163,
+        1.0,
+        0.378507
+      ],
+      "center": [
+        1914,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0667,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "157",
+      "name": "a battery level indicator.",
+      "bbox": [
+        1889,
+        136,
+        1910,
+        159
+      ],
+      "bbox_ratio": [
+        0.984111,
+        0.126281,
+        0.994859,
+        0.146847
+      ],
+      "center": [
+        1900,
+        148
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0645,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "158",
+      "name": "gallery",
+      "bbox": [
+        1709,
+        228,
+        1733,
+        248
+      ],
+      "bbox_ratio": [
+        0.890075,
+        0.211127,
+        0.902506,
+        0.229318
+      ],
+      "center": [
+        1721,
+        238
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0637,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "159",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        1888,
+        525,
+        1916,
+        545
+      ],
+      "bbox_ratio": [
+        0.983505,
+        0.485679,
+        0.997805,
+        0.504625
+      ],
+      "center": [
+        1902,
+        535
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0622,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "160",
+      "name": "german flag",
+      "bbox": [
+        1887,
+        169,
+        1911,
+        189
+      ],
+      "bbox_ratio": [
+        0.982651,
+        0.156125,
+        0.995376,
+        0.175081
+      ],
+      "center": [
+        1899,
+        179
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0551,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "161",
+      "name": "wifi",
+      "bbox": [
+        1906,
+        437,
+        1920,
+        467
+      ],
+      "bbox_ratio": [
+        0.992793,
+        0.404847,
+        1.0,
+        0.432146
+      ],
+      "center": [
+        1913,
+        452
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0544,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "162",
+      "name": "ribbonbon",
+      "bbox": [
+        1706,
+        253,
+        1724,
+        270
+      ],
+      "bbox_ratio": [
+        0.888556,
+        0.233854,
+        0.898073,
+        0.250093
+      ],
+      "center": [
+        1715,
+        262
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0525,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

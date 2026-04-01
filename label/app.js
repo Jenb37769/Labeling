@@ -7,6 +7,9 @@ const state = {
   selectedId: null,
   zoom: 1,
   createMode: false,
+  readOnly: false,
+  loadCount: 0,
+  histTop: [],
   dragMode: null,
   dragStart: null,
   activeHandle: null,
@@ -20,6 +23,7 @@ const els = {
   mainImage: document.getElementById("mainImage"),
   boxLayer: document.getElementById("boxLayer"),
   canvasStage: document.getElementById("canvasStage"),
+  canvasScroll: document.getElementById("canvasScroll"),
   draftBox: document.getElementById("draftBox"),
   prevBtn: document.getElementById("prevBtn"),
   nextBtn: document.getElementById("nextBtn"),
@@ -28,6 +32,8 @@ const els = {
   deleteImageBtn: document.getElementById("deleteImageBtn"),
   newBoxBtn: document.getElementById("newBoxBtn"),
   deleteBoxBtn: document.getElementById("deleteBoxBtn"),
+  prevIconBtn: document.getElementById("prevIconBtn"),
+  nextIconBtn: document.getElementById("nextIconBtn"),
   zoomRange: document.getElementById("zoomRange"),
   zoomValue: document.getElementById("zoomValue"),
   fieldId: document.getElementById("fieldId"),
@@ -39,6 +45,8 @@ const els = {
   fieldX2: document.getElementById("fieldX2"),
   fieldY2: document.getElementById("fieldY2"),
   applyFieldsBtn: document.getElementById("applyFieldsBtn"),
+  loadCountValue: document.getElementById("loadCountValue"),
+  previewCanvas: document.getElementById("previewCanvas"),
 };
 
 async function requestJson(url, options = {}) {
@@ -99,6 +107,38 @@ function selectedElement() {
   return state.document?.elements.find((element) => element.id === state.selectedId) || null;
 }
 
+function markSelectedTouched() {
+  const element = selectedElement();
+  if (!element || state.readOnly) {
+    return;
+  }
+  element.touched = true;
+}
+
+function selectElementById(id) {
+  if (!state.document) {
+    return;
+  }
+  const exists = state.document.elements.some((element) => element.id === id);
+  if (!exists) {
+    return;
+  }
+  state.selectedId = id;
+  markSelectedTouched();
+  renderAll();
+  focusSelected();
+}
+
+function selectElementByDelta(delta) {
+  if (!state.document || !state.document.elements.length) {
+    return;
+  }
+  const elements = state.document.elements;
+  const currentIndex = elements.findIndex((element) => element.id === state.selectedId);
+  const nextIndex = currentIndex === -1 ? 0 : (currentIndex + delta + elements.length) % elements.length;
+  selectElementById(elements[nextIndex].id);
+}
+
 function renderFrameList() {
   els.frameList.innerHTML = "";
   state.entries.forEach((entry, index) => {
@@ -130,8 +170,7 @@ function renderBoxList() {
     item.className = `box-item${element.id === state.selectedId ? " active" : ""}`;
     item.textContent = `${element.id} | ${element.name || "(unnamed)"} | ${element.type}`;
     item.addEventListener("click", () => {
-      state.selectedId = element.id;
-      renderAll();
+      selectElementById(element.id);
     });
     els.boxList.appendChild(item);
   });
@@ -146,7 +185,13 @@ function renderBoxes() {
     const box = document.createElement("div");
     const [x1, y1, x2, y2] = element.bbox;
     const color = colorForType(element.type);
-    box.className = `anno-box${element.id === state.selectedId ? " selected" : ""}`;
+    const isSelected = element.id === state.selectedId;
+    const isPrefill = Boolean(element.prefill_match);
+    const isTouched = Boolean(element.touched);
+    box.className = `anno-box${isSelected ? " selected" : ""}${isPrefill ? " prefill" : ""}`;
+    if (isTouched) {
+      box.className += " touched";
+    }
     box.style.left = `${x1}px`;
     box.style.top = `${y1}px`;
     box.style.width = `${x2 - x1}px`;
@@ -169,6 +214,7 @@ function renderBoxes() {
 
 function renderFields() {
   const element = selectedElement();
+  const readOnly = state.readOnly;
   els.fieldId.value = element?.id || "";
   els.fieldName.value = element?.name || "";
   els.fieldType.value = element?.type || "icon_button";
@@ -177,6 +223,118 @@ function renderFields() {
   els.fieldY1.value = element?.bbox?.[1] ?? "";
   els.fieldX2.value = element?.bbox?.[2] ?? "";
   els.fieldY2.value = element?.bbox?.[3] ?? "";
+
+  [
+    els.fieldId,
+    els.fieldName,
+    els.fieldType,
+    els.fieldClickable,
+    els.fieldX1,
+    els.fieldY1,
+    els.fieldX2,
+    els.fieldY2,
+    els.applyFieldsBtn,
+  ].forEach((el) => {
+    if (!el) {
+      return;
+    }
+    el.disabled = readOnly;
+  });
+}
+
+async function ensureHistTop() {
+  if (state.histTop.length) {
+    return state.histTop;
+  }
+  const data = await requestJson("/api/hist_top?limit=1000");
+  state.histTop = data.items || [];
+  return state.histTop;
+}
+
+function elementSize(bbox) {
+  const width = Math.max(1, bbox[2] - bbox[0]);
+  const height = Math.max(1, bbox[3] - bbox[1]);
+  return { width, height, area: width * height };
+}
+
+function isCloseRatio(reference, current, tolerance) {
+  if (!reference) {
+    return false;
+  }
+  return Math.abs(current - reference) / reference <= tolerance;
+}
+
+function centerDistanceRatio(centerA, centerB, baseline) {
+  if (!centerA || !centerB || centerA.length !== 2 || centerB.length !== 2) {
+    return 1;
+  }
+  if (!baseline) {
+    return 1;
+  }
+  const dx = centerA[0] - centerB[0];
+  const dy = centerA[1] - centerB[1];
+  return Math.hypot(dx, dy) / baseline;
+}
+
+function pickBestHistMatch(element, histItems) {
+  const tolerance = 0.10;
+  const centerTolerance = 0.08;
+  const { width, height, area } = elementSize(element.bbox);
+  const centerBaseline = Math.min(width, height);
+
+  let best = null;
+  let bestCount = -1;
+  for (const item of histItems) {
+    if (item.type !== element.type) {
+      continue;
+    }
+    if (!isCloseRatio(item.width, width, tolerance)) {
+      continue;
+    }
+    if (!isCloseRatio(item.height, height, tolerance)) {
+      continue;
+    }
+    if (!isCloseRatio(item.area, area, tolerance)) {
+      continue;
+    }
+    if (centerDistanceRatio(item.center, element.center, centerBaseline) > centerTolerance) {
+      continue;
+    }
+    const itemCount = Number(item.count || 0);
+    if (itemCount > bestCount) {
+      best = item;
+      bestCount = itemCount;
+    }
+  }
+
+  return best;
+}
+
+function applyHistPrefill() {
+  if (!state.document || !state.histTop.length) {
+    return;
+  }
+  state.document.elements = state.document.elements.map((element) => {
+    if (!element?.bbox || !element?.center) {
+      return element;
+    }
+    const match = pickBestHistMatch(element, state.histTop);
+    if (!match) {
+      return { ...element, prefill_match: null };
+    }
+    return {
+      ...element,
+      name: match.name || element.name,
+      raw_type: match.raw_type || element.raw_type,
+      region: match.region || element.region,
+      clickable: typeof match.clickable === "boolean" ? match.clickable : element.clickable,
+      prefill_match: {
+        name: match.name,
+        type: match.type,
+        count: match.count,
+      },
+    };
+  });
 }
 
 function renderAll(extraStatus = "") {
@@ -184,7 +342,100 @@ function renderAll(extraStatus = "") {
   renderBoxes();
   renderBoxList();
   renderFields();
+  renderPreview();
+  if (els.loadCountValue) {
+    els.loadCountValue.textContent = String(state.loadCount || 0);
+  }
   updateStatus(extraStatus);
+}
+
+function focusSelected() {
+  const element = selectedElement();
+  if (!element || !els.canvasScroll || !els.mainImage?.naturalWidth) {
+    return;
+  }
+  const [x1, y1, x2, y2] = element.bbox;
+  const boxWidth = Math.max(1, x2 - x1);
+  const boxHeight = Math.max(1, y2 - y1);
+  const viewportWidth = els.canvasScroll.clientWidth;
+  const viewportHeight = els.canvasScroll.clientHeight;
+  if (!viewportWidth || !viewportHeight) {
+    return;
+  }
+
+  const targetScale = Math.min((viewportWidth * 0.5) / boxWidth, (viewportHeight * 0.5) / boxHeight);
+  const clampedScale = Math.max(0.5, Math.min(2.0, targetScale));
+  setZoom(clampedScale);
+
+  const centerX = (x1 + x2) / 2;
+  const centerY = (y1 + y2) / 2;
+  const scrollLeft = Math.max(0, centerX * clampedScale - viewportWidth / 2);
+  const scrollTop = Math.max(0, centerY * clampedScale - viewportHeight / 2);
+  els.canvasScroll.scrollLeft = scrollLeft;
+  els.canvasScroll.scrollTop = scrollTop;
+}
+
+function renderPreview() {
+  const canvas = els.previewCanvas;
+  if (!canvas) {
+    return;
+  }
+  const ctx = canvas.getContext("2d");
+  const rect = canvas.getBoundingClientRect();
+  const width = Math.max(1, Math.floor(rect.width));
+  const height = Math.max(1, Math.floor(rect.height));
+  if (canvas.width !== width) {
+    canvas.width = width;
+  }
+  if (canvas.height !== height) {
+    canvas.height = height;
+  }
+
+  ctx.clearRect(0, 0, width, height);
+  ctx.fillStyle = "rgba(255,255,255,0.85)";
+  ctx.fillRect(0, 0, width, height);
+
+  const element = selectedElement();
+  if (!element || !els.mainImage?.naturalWidth) {
+    return;
+  }
+
+  const [x1, y1, x2, y2] = element.bbox;
+  const cropWidth = Math.max(1, x2 - x1);
+  const cropHeight = Math.max(1, y2 - y1);
+  const padX = Math.round(cropWidth * 0.2);
+  const padY = Math.round(cropHeight * 0.2);
+  const sx = Math.max(0, x1 - padX);
+  const sy = Math.max(0, y1 - padY);
+  const sWidth = Math.min(els.mainImage.naturalWidth - sx, cropWidth + padX * 2);
+  const sHeight = Math.min(els.mainImage.naturalHeight - sy, cropHeight + padY * 2);
+
+  const scale = Math.min(width / sWidth, height / sHeight);
+  const drawWidth = Math.max(1, Math.floor(sWidth * scale));
+  const drawHeight = Math.max(1, Math.floor(sHeight * scale));
+  const dx = Math.floor((width - drawWidth) / 2);
+  const dy = Math.floor((height - drawHeight) / 2);
+
+  ctx.imageSmoothingEnabled = false;
+  ctx.drawImage(els.mainImage, sx, sy, sWidth, sHeight, dx, dy, drawWidth, drawHeight);
+}
+
+function setReadOnly(isReadOnly) {
+  state.readOnly = isReadOnly;
+  els.saveBtn.disabled = isReadOnly;
+  els.saveNextBtn.disabled = isReadOnly;
+  els.newBoxBtn.disabled = isReadOnly;
+  els.deleteBoxBtn.disabled = isReadOnly;
+  els.deleteImageBtn.disabled = isReadOnly;
+  if (els.prevIconBtn) {
+    els.prevIconBtn.disabled = isReadOnly;
+  }
+  if (els.nextIconBtn) {
+    els.nextIconBtn.disabled = isReadOnly;
+  }
+  if (isReadOnly) {
+    state.createMode = false;
+  }
 }
 
 function setZoom(value) {
@@ -228,11 +479,15 @@ function pointerToImage(event) {
 }
 
 function startMove(event, id) {
+  if (state.readOnly) {
+    return;
+  }
   if (event.target.dataset.handle) {
     return;
   }
   event.preventDefault();
   state.selectedId = id;
+  markSelectedTouched();
   const element = selectedElement();
   if (!element) {
     return;
@@ -248,9 +503,13 @@ function startMove(event, id) {
 }
 
 function startResize(event, id, handle) {
+  if (state.readOnly) {
+    return;
+  }
   event.preventDefault();
   event.stopPropagation();
   state.selectedId = id;
+  markSelectedTouched();
   const element = selectedElement();
   if (!element) {
     return;
@@ -306,6 +565,9 @@ function stopDrag() {
 }
 
 function beginDraft(event) {
+  if (state.readOnly) {
+    return;
+  }
   if (!state.createMode) {
     return;
   }
@@ -346,6 +608,9 @@ function updateDraftBox() {
 }
 
 function finishDraft() {
+  if (state.readOnly) {
+    return;
+  }
   if (!state.draftBox || !state.document) {
     return;
   }
@@ -366,6 +631,7 @@ function finishDraft() {
     center: computeCenter(bbox),
     type: "icon_button",
     clickable: true,
+    touched: true,
   };
   state.document.elements.push(element);
   state.selectedId = element.id;
@@ -374,20 +640,36 @@ function finishDraft() {
 }
 
 function deleteSelected() {
+  if (state.readOnly) {
+    return;
+  }
   if (!state.document || !state.selectedId) {
     return;
   }
-  state.document.elements = state.document.elements.filter((element) => element.id !== state.selectedId);
-  state.selectedId = state.document.elements[0]?.id || null;
+  const elements = state.document.elements;
+  const currentIndex = elements.findIndex((element) => element.id === state.selectedId);
+  state.document.elements = elements.filter((element) => element.id !== state.selectedId);
+  if (!state.document.elements.length) {
+    state.selectedId = null;
+    renderAll("Box deleted");
+    return;
+  }
+  const nextIndex = currentIndex === -1 ? 0 : Math.min(currentIndex, state.document.elements.length - 1);
+  state.selectedId = state.document.elements[nextIndex].id;
+  markSelectedTouched();
   renderAll("Box deleted");
 }
 
 function applyFields() {
+  if (state.readOnly) {
+    return;
+  }
   const element = selectedElement();
   if (!element) {
     return;
   }
   updateElement(element.id, (draft) => {
+    draft.touched = true;
     draft.id = els.fieldId.value.trim() || draft.id;
     draft.name = els.fieldName.value.trim();
     draft.type = els.fieldType.value;
@@ -403,6 +685,10 @@ function applyFields() {
 }
 
 async function saveCurrent() {
+  if (state.readOnly) {
+    updateStatus("Read-only: already saved");
+    return;
+  }
   if (!state.document || !state.currentStem) {
     return;
   }
@@ -424,6 +710,10 @@ async function saveCurrent() {
 }
 
 async function deleteCurrentImage() {
+  if (state.readOnly) {
+    updateStatus("Read-only: already saved");
+    return;
+  }
   if (!state.currentStem || state.currentIndex < 0) {
     return;
   }
@@ -469,15 +759,25 @@ async function loadEntry(index) {
   state.currentIndex = index;
   state.currentStem = entry.stem;
   state.currentSource = data.source;
+  state.loadCount = Number(data.load_count || 0);
+  setReadOnly(data.source === "final_label");
   state.document = data.document;
+  if (state.document?.elements) {
+    state.document.elements = state.document.elements.map((element) => ({ ...element, touched: false }));
+  }
   state.selectedId = state.document.elements[0]?.id || null;
   state.createMode = false;
+  if (data.source === "final_unlabel") {
+    await ensureHistTop();
+    applyHistPrefill();
+  }
   const imageUrl = `${data.image_url}?t=${Date.now()}`;
   els.mainImage.onload = () => {
     els.canvasStage.style.width = `${els.mainImage.naturalWidth}px`;
     els.canvasStage.style.height = `${els.mainImage.naturalHeight}px`;
     setZoom(Number(els.zoomRange.value) / 100);
     renderAll();
+    focusSelected();
   };
   els.mainImage.onerror = () => {
     els.canvasStage.style.width = "0px";
@@ -512,10 +812,16 @@ els.saveNextBtn.addEventListener("click", async () => {
 });
 els.deleteImageBtn.addEventListener("click", () => deleteCurrentImage().catch((error) => updateStatus(error.message)));
 els.newBoxBtn.addEventListener("click", () => {
+  if (state.readOnly) {
+    updateStatus("Read-only: already saved");
+    return;
+  }
   state.createMode = !state.createMode;
   updateStatus(state.createMode ? "Draw on the image to create a box" : "");
 });
 els.deleteBoxBtn.addEventListener("click", deleteSelected);
+els.prevIconBtn.addEventListener("click", () => selectElementByDelta(-1));
+els.nextIconBtn.addEventListener("click", () => selectElementByDelta(1));
 els.applyFieldsBtn.addEventListener("click", applyFields);
 els.zoomRange.addEventListener("input", (event) => setZoom(Number(event.target.value) / 100));
 
@@ -545,6 +851,14 @@ window.addEventListener("pointerup", () => {
 window.addEventListener("keydown", async (event) => {
   if (event.key === "Delete") {
     deleteSelected();
+  }
+  if (event.key === "ArrowLeft") {
+    event.preventDefault();
+    selectElementByDelta(-1);
+  }
+  if (event.key === "ArrowRight") {
+    event.preventDefault();
+    selectElementByDelta(1);
   }
   if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") {
     event.preventDefault();

@@ -1,0 +1,1261 @@
+{
+  "image": "G:\\grounding\\process\\ima\\1080-All 60+ Photoshop Tools Explained in Under 30 Minutes_001080_00018.00s.png",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "raw_element_count": 50,
+  "element_count": 50,
+  "elements": [
+    {
+      "id": "1",
+      "name": "edit",
+      "bbox": [
+        49,
+        7,
+        79,
+        23
+      ],
+      "bbox_ratio": [
+        0.025521,
+        0.006481,
+        0.041146,
+        0.021296
+      ],
+      "center": [
+        64,
+        15
+      ],
+      "raw_type": "text",
+      "clickable": false,
+      "confidence": 0.4,
+      "region": "top_bar",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "id": "2",
+      "name": "goup",
+      "bbox": [
+        204,
+        38,
+        277,
+        74
+      ],
+      "bbox_ratio": [
+        0.106186,
+        0.035438,
+        0.144475,
+        0.068231
+      ],
+      "center": [
+        240,
+        56
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.8022,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "3",
+      "name": "aubo seat",
+      "bbox": [
+        95,
+        36,
+        201,
+        73
+      ],
+      "bbox_ratio": [
+        0.049267,
+        0.032962,
+        0.104736,
+        0.067644
+      ],
+      "center": [
+        148,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7697,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "4",
+      "name": "untitled- 66,796 (layct rgbeh)",
+      "bbox": [
+        16,
+        74,
+        312,
+        112
+      ],
+      "bbox_ratio": [
+        0.008179,
+        0.068581,
+        0.16239,
+        0.103504
+      ],
+      "center": [
+        164,
+        93
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6137,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "5",
+      "name": "drons",
+      "bbox": [
+        375,
+        0,
+        436,
+        32
+      ],
+      "bbox_ratio": [
+        0.195467,
+        0.0,
+        0.226971,
+        0.029359
+      ],
+      "center": [
+        406,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5331,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "6",
+      "name": "file",
+      "bbox": [
+        3,
+        0,
+        36,
+        29
+      ],
+      "bbox_ratio": [
+        0.001419,
+        0.0,
+        0.018872,
+        0.027175
+      ],
+      "center": [
+        20,
+        14
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4716,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "7",
+      "name": "layer",
+      "bbox": [
+        137,
+        0,
+        184,
+        31
+      ],
+      "bbox_ratio": [
+        0.071246,
+        0.0,
+        0.095883,
+        0.028914
+      ],
+      "center": [
+        160,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3796,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "8",
+      "name": "sckd",
+      "bbox": [
+        232,
+        0,
+        281,
+        31
+      ],
+      "bbox_ratio": [
+        0.12075,
+        0.0,
+        0.146399,
+        0.028936
+      ],
+      "center": [
+        256,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2442,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "9",
+      "name": "image",
+      "bbox": [
+        83,
+        0,
+        135,
+        31
+      ],
+      "bbox_ratio": [
+        0.043036,
+        0.0,
+        0.070568,
+        0.028506
+      ],
+      "center": [
+        109,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1666,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "10",
+      "name": "in@n",
+      "bbox": [
+        310,
+        74,
+        625,
+        113
+      ],
+      "bbox_ratio": [
+        0.161333,
+        0.068215,
+        0.325561,
+        0.104548
+      ],
+      "center": [
+        468,
+        94
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1423,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "11",
+      "name": "type",
+      "bbox": [
+        187,
+        0,
+        227,
+        31
+      ],
+      "bbox_ratio": [
+        0.097206,
+        0.0,
+        0.11823,
+        0.02875
+      ],
+      "center": [
+        207,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0811,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "id": "12",
+      "name": "increase",
+      "bbox": [
+        33,
+        34,
+        91,
+        73
+      ],
+      "bbox_ratio": [
+        0.01726,
+        0.031644,
+        0.047612,
+        0.068015
+      ],
+      "center": [
+        62,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7619,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "13",
+      "name": "start",
+      "bbox": [
+        293,
+        35,
+        327,
+        73
+      ],
+      "bbox_ratio": [
+        0.152709,
+        0.032135,
+        0.170297,
+        0.067655
+      ],
+      "center": [
+        310,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7104,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "14",
+      "name": "home",
+      "bbox": [
+        0,
+        33,
+        27,
+        74
+      ],
+      "bbox_ratio": [
+        6.2e-05,
+        0.031005,
+        0.01407,
+        0.068383
+      ],
+      "center": [
+        14,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.7064,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "15",
+      "name": "more options",
+      "bbox": [
+        600,
+        38,
+        649,
+        67
+      ],
+      "bbox_ratio": [
+        0.312576,
+        0.034826,
+        0.337861,
+        0.062163
+      ],
+      "center": [
+        624,
+        52
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.678,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "16",
+      "name": "hide",
+      "bbox": [
+        394,
+        34,
+        437,
+        74
+      ],
+      "bbox_ratio": [
+        0.205422,
+        0.031766,
+        0.227378,
+        0.068507
+      ],
+      "center": [
+        416,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6758,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "17",
+      "name": "11:30",
+      "bbox": [
+        555,
+        37,
+        595,
+        67
+      ],
+      "bbox_ratio": [
+        0.289155,
+        0.034223,
+        0.309716,
+        0.061608
+      ],
+      "center": [
+        575,
+        52
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.654,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "18",
+      "name": "hide",
+      "bbox": [
+        358,
+        33,
+        392,
+        73
+      ],
+      "bbox_ratio": [
+        0.186356,
+        0.030238,
+        0.204146,
+        0.067838
+      ],
+      "center": [
+        375,
+        53
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.6494,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "19",
+      "name": "clone",
+      "bbox": [
+        328,
+        34,
+        357,
+        73
+      ],
+      "bbox_ratio": [
+        0.170581,
+        0.03154,
+        0.186129,
+        0.067987
+      ],
+      "center": [
+        342,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.637,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "20",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        656,
+        36,
+        699,
+        70
+      ],
+      "bbox_ratio": [
+        0.341702,
+        0.032998,
+        0.364003,
+        0.064945
+      ],
+      "center": [
+        678,
+        53
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5889,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "21",
+      "name": "formatting pane",
+      "bbox": [
+        449,
+        36,
+        483,
+        72
+      ],
+      "bbox_ratio": [
+        0.233876,
+        0.033119,
+        0.251495,
+        0.066523
+      ],
+      "center": [
+        466,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.574,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "22",
+      "name": "view",
+      "bbox": [
+        330,
+        0,
+        375,
+        31
+      ],
+      "bbox_ratio": [
+        0.171634,
+        0.0,
+        0.19508,
+        0.028861
+      ],
+      "center": [
+        352,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5601,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "23",
+      "name": "italic",
+      "bbox": [
+        516,
+        36,
+        550,
+        69
+      ],
+      "bbox_ratio": [
+        0.268549,
+        0.033556,
+        0.286546,
+        0.06352
+      ],
+      "center": [
+        533,
+        52
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5336,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "24",
+      "name": "toggleoggleoggle pane",
+      "bbox": [
+        485,
+        37,
+        512,
+        71
+      ],
+      "bbox_ratio": [
+        0.252472,
+        0.033847,
+        0.266801,
+        0.065325
+      ],
+      "center": [
+        498,
+        54
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.5137,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "25",
+      "name": "filter",
+      "bbox": [
+        284,
+        0,
+        328,
+        31
+      ],
+      "bbox_ratio": [
+        0.148148,
+        0.0,
+        0.170695,
+        0.028455
+      ],
+      "center": [
+        306,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4962,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "26",
+      "name": "increase",
+      "bbox": [
+        0,
+        143,
+        16,
+        176
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.132818,
+        0.00838,
+        0.162718
+      ],
+      "center": [
+        8,
+        160
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4908,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "27",
+      "name": "increase",
+      "bbox": [
+        0,
+        178,
+        15,
+        206
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.164747,
+        0.008068,
+        0.190864
+      ],
+      "center": [
+        8,
+        192
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4833,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "28",
+      "name": "play",
+      "bbox": [
+        0,
+        110,
+        16,
+        146
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.101517,
+        0.00821,
+        0.134767
+      ],
+      "center": [
+        8,
+        128
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4785,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "29",
+      "name": "a menu or list option.",
+      "bbox": [
+        0,
+        206,
+        15,
+        238
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.190913,
+        0.00807,
+        0.220163
+      ],
+      "center": [
+        8,
+        222
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4308,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "30",
+      "name": "window",
+      "bbox": [
+        436,
+        0,
+        505,
+        32
+      ],
+      "bbox_ratio": [
+        0.227093,
+        0.0,
+        0.263074,
+        0.029302
+      ],
+      "center": [
+        470,
+        16
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.4144,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "31",
+      "name": "decrease",
+      "bbox": [
+        0,
+        335,
+        17,
+        367
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.310267,
+        0.008942,
+        0.339814
+      ],
+      "center": [
+        8,
+        351
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3616,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "32",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        302,
+        16,
+        336
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.279873,
+        0.00848,
+        0.311076
+      ],
+      "center": [
+        8,
+        319
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.336,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "33",
+      "name": "decrease",
+      "bbox": [
+        0,
+        430,
+        18,
+        465
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.397743,
+        0.009239,
+        0.430701
+      ],
+      "center": [
+        9,
+        448
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.3129,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "34",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        526,
+        17,
+        560
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.486919,
+        0.009112,
+        0.51853
+      ],
+      "center": [
+        8,
+        543
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2948,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "35",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        368,
+        16,
+        401
+      ],
+      "bbox_ratio": [
+        8e-06,
+        0.340316,
+        0.008466,
+        0.371603
+      ],
+      "center": [
+        8,
+        384
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2366,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "36",
+      "name": "11, september, 2024",
+      "bbox": [
+        0,
+        268,
+        15,
+        301
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.24822,
+        0.00795,
+        0.278763
+      ],
+      "center": [
+        8,
+        284
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2306,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "37",
+      "name": "a dropdown menu.",
+      "bbox": [
+        0,
+        492,
+        17,
+        527
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.455989,
+        0.008909,
+        0.488344
+      ],
+      "center": [
+        8,
+        510
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2248,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "38",
+      "name": "help",
+      "bbox": [
+        505,
+        0,
+        551,
+        30
+      ],
+      "bbox_ratio": [
+        0.263271,
+        0.0,
+        0.286767,
+        0.028182
+      ],
+      "center": [
+        528,
+        15
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2052,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "39",
+      "name": "m0,0l9,5 4.5,5z",
+      "bbox": [
+        0,
+        587,
+        16,
+        626
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.543767,
+        0.008261,
+        0.579306
+      ],
+      "center": [
+        8,
+        606
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2052,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "40",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        242,
+        15,
+        270
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.224356,
+        0.008032,
+        0.250277
+      ],
+      "center": [
+        8,
+        256
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.2016,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "41",
+      "name": "a button to close or close a window.",
+      "bbox": [
+        0,
+        563,
+        16,
+        591
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.520966,
+        0.008181,
+        0.546881
+      ],
+      "center": [
+        8,
+        577
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1884,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "42",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        408,
+        16,
+        431
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.377534,
+        0.00808,
+        0.399243
+      ],
+      "center": [
+        8,
+        420
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1852,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "43",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        811,
+        17,
+        841
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.75068,
+        0.009077,
+        0.77884
+      ],
+      "center": [
+        8,
+        826
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1813,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "44",
+      "name": "a button to close or close a window.",
+      "bbox": [
+        0,
+        683,
+        19,
+        721
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.63221,
+        0.009726,
+        0.667534
+      ],
+      "center": [
+        10,
+        702
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1693,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "45",
+      "name": "m0,0l9,0 4.5,5z",
+      "bbox": [
+        0,
+        843,
+        16,
+        879
+      ],
+      "bbox_ratio": [
+        7e-06,
+        0.780093,
+        0.008476,
+        0.814135
+      ],
+      "center": [
+        8,
+        861
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1526,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "46",
+      "name": "a pencil.",
+      "bbox": [
+        717,
+        474,
+        1672,
+        801
+      ],
+      "bbox_ratio": [
+        0.373566,
+        0.439203,
+        0.870775,
+        0.741754
+      ],
+      "center": [
+        1194,
+        638
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.1109,
+      "region": "canvas_overlay",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "47",
+      "name": "a stopwatch function.",
+      "bbox": [
+        0,
+        911,
+        17,
+        951
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.843523,
+        0.00878,
+        0.880625
+      ],
+      "center": [
+        8,
+        931
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0855,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "48",
+      "name": "a button to close or close a window.",
+      "bbox": [
+        0,
+        783,
+        16,
+        813
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.725104,
+        0.008257,
+        0.752729
+      ],
+      "center": [
+        8,
+        798
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0846,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "49",
+      "name": "a stopwatch function.",
+      "bbox": [
+        0,
+        470,
+        16,
+        494
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.43523,
+        0.00853,
+        0.457824
+      ],
+      "center": [
+        8,
+        482
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0733,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "id": "50",
+      "name": "view as full screen",
+      "bbox": [
+        368,
+        214,
+        1747,
+        545
+      ],
+      "bbox_ratio": [
+        0.191761,
+        0.19781,
+        0.910073,
+        0.504327
+      ],
+      "center": [
+        1058,
+        380
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "confidence": 0.0516,
+      "region": "canvas_overlay",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}
