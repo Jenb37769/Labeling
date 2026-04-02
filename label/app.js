@@ -692,6 +692,12 @@ async function saveCurrent() {
   if (!state.document || !state.currentStem) {
     return;
   }
+  markSelectedTouched();
+  const hasUnconfirmed = state.document.elements.some((element) => !element.touched);
+  if (hasUnconfirmed) {
+    updateStatus("Save failed: all boxes must be red or green");
+    return;
+  }
   const data = await requestJson("/api/save", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
