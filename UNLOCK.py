@@ -6,8 +6,9 @@ from pathlib import Path
 
 
 ROOT_DIR = Path(__file__).resolve().parent
-FINAL_LABEL_DIR = ROOT_DIR / "final_label"
-FINAL_UNLABEL_DIR = ROOT_DIR / "final_unlabel"
+PROCESSING_ROOT_DIR = ROOT_DIR / "processing"
+FINAL_LABEL_DIR = PROCESSING_ROOT_DIR / "3.final_label"
+FINAL_UNLABEL_DIR = PROCESSING_ROOT_DIR / "1.final_unlabel"
 
 FINAL_LABEL_IMAGE_DIR = FINAL_LABEL_DIR / "ima"
 FINAL_LABEL_DATA_DIR = FINAL_LABEL_DIR / "data"

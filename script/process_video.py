@@ -69,12 +69,13 @@ IMPORTANT_REGIONS = {"top_bar", "left_toolbar", "right_panel", "canvas_overlay"}
 KEEP_HISTORY_SIZE = 2
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
+PROCESSING_ROOT_DIR = ROOT_DIR / "processing"
 VIDEO_UNLABEL_DIR = ROOT_DIR / "video" / "unlabel"
 PROCESS_ROOT_DIR = ROOT_DIR / "process"
 PROCESS_IMAGE_DIR = PROCESS_ROOT_DIR / "ima"
 PROCESS_DATA_DIR = PROCESS_ROOT_DIR / "data"
 PROCESS_TOTAL_DIR = PROCESS_ROOT_DIR / "total"
-FINAL_ROOT_DIR = ROOT_DIR / "final_unlabel"
+FINAL_ROOT_DIR = PROCESSING_ROOT_DIR / "1.final_unlabel"
 FINAL_IMAGE_DIR = FINAL_ROOT_DIR / "ima"
 FINAL_DATA_DIR = FINAL_ROOT_DIR / "data"
 FINAL_TOTAL_DIR = FINAL_ROOT_DIR / "total"

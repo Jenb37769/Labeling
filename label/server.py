@@ -15,12 +15,13 @@ from PIL import Image
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 LABEL_DIR = ROOT_DIR / "label"
-FINAL_UNLABEL_IMAGE_DIR = ROOT_DIR / "final_unlabel" / "ima"
-FINAL_UNLABEL_DATA_DIR = ROOT_DIR / "final_unlabel" / "data"
-FINAL_UNLABEL_TOTAL_DIR = ROOT_DIR / "final_unlabel" / "total"
-FINAL_LABEL_IMAGE_DIR = ROOT_DIR / "final_label" / "ima"
-FINAL_LABEL_DATA_DIR = ROOT_DIR / "final_label" / "data"
-FINAL_LABEL_TOTAL_DIR = ROOT_DIR / "final_label" / "total"
+PROCESSING_ROOT_DIR = ROOT_DIR / "processing"
+PRELABEL_IMAGE_DIR = PROCESSING_ROOT_DIR / "2.prelabel" / "ima"
+PRELABEL_DATA_DIR = PROCESSING_ROOT_DIR / "2.prelabel" / "data"
+PRELABEL_TOTAL_DIR = PROCESSING_ROOT_DIR / "2.prelabel" / "total"
+FINAL_LABEL_IMAGE_DIR = PROCESSING_ROOT_DIR / "3.final_label" / "ima"
+FINAL_LABEL_DATA_DIR = PROCESSING_ROOT_DIR / "3.final_label" / "data"
+FINAL_LABEL_TOTAL_DIR = PROCESSING_ROOT_DIR / "3.final_label" / "total"
 HIST_PATH = ROOT_DIR / "hist.json"
 LOAD_COUNT_PATH = ROOT_DIR / "load_counts.json"
 HOST = "127.0.0.1"
@@ -36,7 +37,7 @@ def ensure_dirs() -> None:
 
 def image_stems() -> list[str]:
     stems = []
-    for image_path in sorted(FINAL_UNLABEL_IMAGE_DIR.glob("*.png")):
+    for image_path in sorted(PRELABEL_IMAGE_DIR.glob("*.png")):
         if image_path.name.startswith("."):
             continue
         stems.append(image_path.stem)
@@ -44,7 +45,7 @@ def image_stems() -> list[str]:
 
 
 def unlabeled_json_path(stem: str) -> Path:
-    return FINAL_UNLABEL_DATA_DIR / f"{stem}_omniparser.json"
+    return PRELABEL_DATA_DIR / f"{stem}_omniparser.json"
 
 
 def labeled_json_path(stem: str) -> Path:
@@ -56,15 +57,15 @@ def labeled_image_path(stem: str) -> Path:
 
 
 def unlabeled_image_path(stem: str) -> Path:
-    return FINAL_UNLABEL_IMAGE_DIR / f"{stem}.png"
+    return PRELABEL_IMAGE_DIR / f"{stem}.png"
 
 
 def unlabeled_diff_path(stem: str) -> Path:
-    return FINAL_UNLABEL_DATA_DIR / f"{stem}_diff.json"
+    return PRELABEL_DATA_DIR / f"{stem}_diff.json"
 
 
 def unlabeled_total_path(stem: str) -> Path:
-    return FINAL_UNLABEL_TOTAL_DIR / f"{stem}_overlay.png"
+    return PRELABEL_TOTAL_DIR / f"{stem}_overlay.png"
 
 
 def labeled_total_path(stem: str) -> Path:
@@ -253,7 +254,7 @@ def load_document(stem: str) -> tuple[dict, str]:
             }
         else:
             document = default_document(stem)
-        source = "final_unlabel"
+        source = "prelabel"
 
     document["image"] = Path(document.get("image", f"{stem}.png")).name
     normalized_elements = [
@@ -375,7 +376,7 @@ class LabelRequestHandler(SimpleHTTPRequestHandler):
         if path.startswith("/images/"):
             image_name = Path(urllib.parse.unquote(path.removeprefix("/images/"))).name
             final_path = FINAL_LABEL_IMAGE_DIR / image_name
-            source_path = FINAL_UNLABEL_IMAGE_DIR / image_name
+            source_path = PRELABEL_IMAGE_DIR / image_name
             file_path = final_path if final_path.exists() else source_path
             if not file_path.exists():
                 self.send_error(HTTPStatus.NOT_FOUND, "Image not found")
@@ -435,8 +436,8 @@ def main() -> None:
     ensure_dirs()
     server = ThreadingHTTPServer((HOST, PORT), LabelRequestHandler)
     print(f"Label server running at http://{HOST}:{PORT}")
-    print(f"Source images: {FINAL_UNLABEL_IMAGE_DIR}")
-    print(f"Source data: {FINAL_UNLABEL_DATA_DIR}")
+    print(f"Source images: {PRELABEL_IMAGE_DIR}")
+    print(f"Source data: {PRELABEL_DATA_DIR}")
     print(f"Save images: {FINAL_LABEL_IMAGE_DIR}")
     print(f"Save data: {FINAL_LABEL_DATA_DIR}")
     try:

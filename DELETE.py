@@ -4,8 +4,9 @@ from pathlib import Path
 
 
 ROOT_DIR = Path(__file__).resolve().parent
+PROCESSING_ROOT_DIR = ROOT_DIR / "processing"
 TARGET_DIRS = [
-    ROOT_DIR / "final_unlabel",
+    PROCESSING_ROOT_DIR / "1.final_unlabel",
     ROOT_DIR / "image",
     ROOT_DIR / "process",
 ]

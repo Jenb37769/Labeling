@@ -1,0 +1,3602 @@
+{
+  "image": "1080-All 60+ Photoshop Tools Explained in Under 30 Minutes_000360_00006.00s.png",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "raw_element_count": 157,
+  "element_count": 133,
+  "elements": [
+    {
+      "id": "13",
+      "name": "auto_select_mode",
+      "bbox": [
+        143,
+        23,
+        192,
+        45
+      ],
+      "bbox_ratio": [
+        0.074479,
+        0.021296,
+        0.1,
+        0.041667
+      ],
+      "center": [
+        168,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_auto_select_mode",
+      "confidence": 0.7719,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "dropdown"
+    },
+    {
+      "id": "14",
+      "name": "y_position",
+      "bbox": [
+        1799,
+        289,
+        1854,
+        307
+      ],
+      "bbox_ratio": [
+        0.936979,
+        0.267593,
+        0.965625,
+        0.284259
+      ],
+      "center": [
+        1826,
+        298
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_y_coordinate",
+      "confidence": 0.7543,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "input_field"
+    },
+    {
+      "id": "15",
+      "name": "auto_select",
+      "bbox": [
+        75,
+        22,
+        142,
+        45
+      ],
+      "bbox_ratio": [
+        0.039062,
+        0.02037,
+        0.073958,
+        0.041667
+      ],
+      "center": [
+        108,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_auto_select",
+      "confidence": 0.7526,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "toggle"
+    },
+    {
+      "id": "16",
+      "name": "share_button",
+      "bbox": [
+        1793,
+        22,
+        1839,
+        45
+      ],
+      "bbox_ratio": [
+        0.933854,
+        0.02037,
+        0.957812,
+        0.041667
+      ],
+      "center": [
+        1816,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "share_document",
+      "confidence": 0.7006,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "text_button"
+    },
+    {
+      "id": "17",
+      "name": "height_input",
+      "bbox": [
+        1738,
+        289,
+        1793,
+        307
+      ],
+      "bbox_ratio": [
+        0.905208,
+        0.267593,
+        0.933854,
+        0.284259
+      ],
+      "center": [
+        1766,
+        298
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_height",
+      "confidence": 0.6934,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "input_field"
+    },
+    {
+      "id": "18",
+      "name": "document_tab",
+      "bbox": [
+        28,
+        46,
+        208,
+        68
+      ],
+      "bbox_ratio": [
+        0.014583,
+        0.042593,
+        0.108333,
+        0.062963
+      ],
+      "center": [
+        118,
+        57
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_document",
+      "confidence": 0.6782,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_tab"
+    },
+    {
+      "id": "19",
+      "name": "artboard_tool",
+      "bbox": [
+        1,
+        206,
+        28,
+        225
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.190741,
+        0.014583,
+        0.208333
+      ],
+      "center": [
+        14,
+        216
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_artboard_tool",
+      "confidence": 0.6245,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_ocr",
+      "type": "tool_icon"
+    },
+    {
+      "id": "20",
+      "name": "width_input",
+      "bbox": [
+        1737,
+        271,
+        1792,
+        289
+      ],
+      "bbox_ratio": [
+        0.904687,
+        0.250926,
+        0.933333,
+        0.267593
+      ],
+      "center": [
+        1764,
+        280
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_the_width_of_the_selected_layer",
+      "confidence": 0.5828,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "input_field"
+    },
+    {
+      "id": "21",
+      "name": "opacity_slider",
+      "bbox": [
+        1809,
+        527,
+        1839,
+        544
+      ],
+      "bbox_ratio": [
+        0.942187,
+        0.487963,
+        0.957812,
+        0.503704
+      ],
+      "center": [
+        1824,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "adjust_layer_opacity",
+      "confidence": 0.5655,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "slider"
+    },
+    {
+      "id": "22",
+      "name": "rotation_dropdown",
+      "bbox": [
+        1735,
+        308,
+        1796,
+        331
+      ],
+      "bbox_ratio": [
+        0.903646,
+        0.285185,
+        0.935417,
+        0.306481
+      ],
+      "center": [
+        1766,
+        320
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_the_rotation_angle_of_the_selected_layer",
+      "confidence": 0.5606,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "dropdown"
+    },
+    {
+      "id": "23",
+      "name": "x_coordinate",
+      "bbox": [
+        1799,
+        270,
+        1855,
+        289
+      ],
+      "bbox_ratio": [
+        0.936979,
+        0.25,
+        0.966146,
+        0.267593
+      ],
+      "center": [
+        1827,
+        280
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_the_x_coordinate_of_the_selected_layer",
+      "confidence": 0.5587,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "input_field"
+    },
+    {
+      "id": "24",
+      "name": "transform_section_toggle",
+      "bbox": [
+        1705,
+        249,
+        1908,
+        270
+      ],
+      "bbox_ratio": [
+        0.888021,
+        0.230556,
+        0.99375,
+        0.25
+      ],
+      "center": [
+        1806,
+        260
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "expand_or_collapse_the_transform_section",
+      "confidence": 0.536,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "toggle"
+    },
+    {
+      "id": "25",
+      "name": "align_and_distribute_section_toggle",
+      "bbox": [
+        1707,
+        336,
+        1910,
+        366
+      ],
+      "bbox_ratio": [
+        0.889062,
+        0.311111,
+        0.994792,
+        0.338889
+      ],
+      "center": [
+        1808,
+        351
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "expand_or_collapse_the_align_and_distribute_section",
+      "confidence": 0.5271,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "toggle"
+    },
+    {
+      "id": "26",
+      "name": "layers_tab",
+      "bbox": [
+        1707,
+        479,
+        1742,
+        501
+      ],
+      "bbox_ratio": [
+        0.889062,
+        0.443519,
+        0.907292,
+        0.463889
+      ],
+      "center": [
+        1724,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_the_layers_panel",
+      "confidence": 0.5134,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_tab"
+    },
+    {
+      "id": "27",
+      "name": "gradients_tab",
+      "bbox": [
+        1785,
+        54,
+        1831,
+        77
+      ],
+      "bbox_ratio": [
+        0.929688,
+        0.05,
+        0.953646,
+        0.071296
+      ],
+      "center": [
+        1808,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_gradients_panel",
+      "confidence": 0.5054,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_tab"
+    },
+    {
+      "id": "28",
+      "name": "pixel_layer_info",
+      "bbox": [
+        1706,
+        223,
+        1912,
+        249
+      ],
+      "bbox_ratio": [
+        0.888542,
+        0.206481,
+        0.995833,
+        0.230556
+      ],
+      "center": [
+        1809,
+        236
+      ],
+      "raw_type": "icon",
+      "clickable": false,
+      "instruction": "",
+      "confidence": 0.4908,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_item"
+    },
+    {
+      "id": "29",
+      "name": "document_tab",
+      "bbox": [
+        212,
+        45,
+        400,
+        69
+      ],
+      "bbox_ratio": [
+        0.110417,
+        0.041667,
+        0.208333,
+        0.063889
+      ],
+      "center": [
+        306,
+        57
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_document_tab",
+      "confidence": 0.458,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_tab"
+    },
+    {
+      "id": "30",
+      "name": "properties_tab",
+      "bbox": [
+        1705,
+        201,
+        1756,
+        224
+      ],
+      "bbox_ratio": [
+        0.888021,
+        0.186111,
+        0.914583,
+        0.207407
+      ],
+      "center": [
+        1730,
+        212
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_properties_panel",
+      "confidence": 0.4538,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_tab"
+    },
+    {
+      "id": "31",
+      "name": "adjustments_tab",
+      "bbox": [
+        1755,
+        202,
+        1813,
+        225
+      ],
+      "bbox_ratio": [
+        0.914062,
+        0.187037,
+        0.944271,
+        0.208333
+      ],
+      "center": [
+        1784,
+        214
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_adjustments_panel",
+      "confidence": 0.4282,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_tab"
+    },
+    {
+      "id": "32",
+      "name": "quick_actions_header",
+      "bbox": [
+        1705,
+        417,
+        1909,
+        449
+      ],
+      "bbox_ratio": [
+        0.888021,
+        0.386111,
+        0.994271,
+        0.415741
+      ],
+      "center": [
+        1807,
+        433
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_quick_actions_section",
+      "confidence": 0.3908,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "icon_button"
+    },
+    {
+      "id": "33",
+      "name": "layer_1_item",
+      "bbox": [
+        1762,
+        568,
+        1793,
+        588
+      ],
+      "bbox_ratio": [
+        0.917708,
+        0.525926,
+        0.933854,
+        0.544444
+      ],
+      "center": [
+        1778,
+        578
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_layer_1",
+      "confidence": 0.3381,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_item"
+    },
+    {
+      "id": "34",
+      "name": "layer_menu",
+      "bbox": [
+        103,
+        0,
+        131,
+        19
+      ],
+      "bbox_ratio": [
+        0.053646,
+        0.0,
+        0.068229,
+        0.017593
+      ],
+      "center": [
+        117,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_layer_menu",
+      "confidence": 0.2943,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "menu_item"
+    },
+    {
+      "id": "35",
+      "name": "plugins_menu",
+      "bbox": [
+        253,
+        0,
+        281,
+        20
+      ],
+      "bbox_ratio": [
+        0.131771,
+        0.0,
+        0.146354,
+        0.018519
+      ],
+      "center": [
+        267,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_plugins_menu",
+      "confidence": 0.254,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "menu_item"
+    },
+    {
+      "id": "36",
+      "name": "select_menu",
+      "bbox": [
+        161,
+        0,
+        192,
+        19
+      ],
+      "bbox_ratio": [
+        0.083854,
+        0.0,
+        0.1,
+        0.017593
+      ],
+      "center": [
+        176,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_select_menu",
+      "confidence": 0.2456,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "menu_item"
+    },
+    {
+      "id": "37",
+      "name": "layer_filter_kind",
+      "bbox": [
+        1707,
+        504,
+        1749,
+        525
+      ],
+      "bbox_ratio": [
+        0.889062,
+        0.466667,
+        0.910937,
+        0.486111
+      ],
+      "center": [
+        1728,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "filter_layers_by_kind",
+      "confidence": 0.2419,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "dropdown"
+    },
+    {
+      "id": "38",
+      "name": "type_menu",
+      "bbox": [
+        135,
+        0,
+        159,
+        19
+      ],
+      "bbox_ratio": [
+        0.070312,
+        0.0,
+        0.082812,
+        0.017593
+      ],
+      "center": [
+        147,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_type_menu",
+      "confidence": 0.2208,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "menu_item"
+    },
+    {
+      "id": "39",
+      "name": "window_menu",
+      "bbox": [
+        286,
+        0,
+        327,
+        18
+      ],
+      "bbox_ratio": [
+        0.148958,
+        0.0,
+        0.170313,
+        0.016667
+      ],
+      "center": [
+        306,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_window_menu",
+      "confidence": 0.2024,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "menu_item"
+    },
+    {
+      "id": "40",
+      "name": "layer_blending_mode",
+      "bbox": [
+        1708,
+        527,
+        1745,
+        544
+      ],
+      "bbox_ratio": [
+        0.889583,
+        0.487963,
+        0.908854,
+        0.503704
+      ],
+      "center": [
+        1726,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "change_layer_blending_mode",
+      "confidence": 0.1912,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "dropdown"
+    },
+    {
+      "id": "41",
+      "name": "image_menu",
+      "bbox": [
+        71,
+        0,
+        100,
+        18
+      ],
+      "bbox_ratio": [
+        0.036979,
+        0.0,
+        0.052083,
+        0.016667
+      ],
+      "center": [
+        86,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_image_menu",
+      "confidence": 0.1711,
+      "region": "top_bar",
+      "source": "box_yolo_content_ocr",
+      "type": "menu_item"
+    },
+    {
+      "id": "42",
+      "name": "background_layer",
+      "bbox": [
+        1751,
+        587,
+        1887,
+        610
+      ],
+      "bbox_ratio": [
+        0.911979,
+        0.543519,
+        0.982812,
+        0.564815
+      ],
+      "center": [
+        1819,
+        598
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_background_layer",
+      "confidence": 0.0939,
+      "region": "right_panel",
+      "source": "box_yolo_content_ocr",
+      "type": "panel_item"
+    },
+    {
+      "id": "43",
+      "name": "search",
+      "bbox": [
+        1840,
+        21,
+        1862,
+        46
+      ],
+      "bbox_ratio": [
+        0.958333,
+        0.019444,
+        0.969792,
+        0.042593
+      ],
+      "center": [
+        1851,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "search_for_tools_and_help",
+      "confidence": 0.781,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "44",
+      "name": "help",
+      "bbox": [
+        1862,
+        21,
+        1885,
+        46
+      ],
+      "bbox_ratio": [
+        0.969792,
+        0.019444,
+        0.981771,
+        0.042593
+      ],
+      "center": [
+        1874,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_help_and_learn_panel",
+      "confidence": 0.7799,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "45",
+      "name": "lasso_tool",
+      "bbox": [
+        1,
+        106,
+        29,
+        127
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.098148,
+        0.015104,
+        0.117593
+      ],
+      "center": [
+        15,
+        116
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_lasso_tool",
+      "confidence": 0.7647,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "46",
+      "name": "object_selection_tool",
+      "bbox": [
+        1,
+        127,
+        29,
+        147
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.117593,
+        0.015104,
+        0.136111
+      ],
+      "center": [
+        15,
+        137
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_object_selection_tool",
+      "confidence": 0.7643,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "47",
+      "name": "move_tool_preset_picker",
+      "bbox": [
+        38,
+        21,
+        74,
+        45
+      ],
+      "bbox_ratio": [
+        0.019792,
+        0.019444,
+        0.038542,
+        0.041667
+      ],
+      "center": [
+        56,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_tool_preset_picker",
+      "confidence": 0.7635,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "48",
+      "name": "artboard_tool",
+      "bbox": [
+        3,
+        184,
+        28,
+        206
+      ],
+      "bbox_ratio": [
+        0.001563,
+        0.17037,
+        0.014583,
+        0.190741
+      ],
+      "center": [
+        16,
+        195
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_artboard_tool",
+      "confidence": 0.7449,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "49",
+      "name": "align_left_edges",
+      "bbox": [
+        1712,
+        375,
+        1733,
+        397
+      ],
+      "bbox_ratio": [
+        0.891667,
+        0.347222,
+        0.902604,
+        0.367593
+      ],
+      "center": [
+        1722,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_left_edges",
+      "confidence": 0.7328,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "50",
+      "name": "lasso_tool",
+      "bbox": [
+        0,
+        146,
+        28,
+        165
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.135185,
+        0.014583,
+        0.152778
+      ],
+      "center": [
+        14,
+        156
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_lasso_tool",
+      "confidence": 0.7241,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "51",
+      "name": "align_right_edges",
+      "bbox": [
+        359,
+        21,
+        380,
+        44
+      ],
+      "bbox_ratio": [
+        0.186979,
+        0.019444,
+        0.197917,
+        0.040741
+      ],
+      "center": [
+        370,
+        32
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_layers_to_the_right_edge",
+      "confidence": 0.7214,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "52",
+      "name": "move_tool",
+      "bbox": [
+        1,
+        66,
+        29,
+        89
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.061111,
+        0.015104,
+        0.082407
+      ],
+      "center": [
+        15,
+        78
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_move_tool",
+      "confidence": 0.7126,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "53",
+      "name": "align_top_edges",
+      "bbox": [
+        291,
+        22,
+        315,
+        45
+      ],
+      "bbox_ratio": [
+        0.151562,
+        0.02037,
+        0.164062,
+        0.041667
+      ],
+      "center": [
+        303,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_layers_to_the_top_edge",
+      "confidence": 0.7118,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "54",
+      "name": "path_selection_tool",
+      "bbox": [
+        3,
+        361,
+        28,
+        381
+      ],
+      "bbox_ratio": [
+        0.001563,
+        0.334259,
+        0.014583,
+        0.352778
+      ],
+      "center": [
+        16,
+        371
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_path_selection_tool",
+      "confidence": 0.7087,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "55",
+      "name": "rectangular_marquee_tool",
+      "bbox": [
+        1,
+        86,
+        29,
+        107
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.07963,
+        0.015104,
+        0.099074
+      ],
+      "center": [
+        15,
+        96
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_rectangular_marquee_tool",
+      "confidence": 0.7085,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "56",
+      "name": "align_vertical_centers",
+      "bbox": [
+        262,
+        21,
+        287,
+        45
+      ],
+      "bbox_ratio": [
+        0.136458,
+        0.019444,
+        0.149479,
+        0.041667
+      ],
+      "center": [
+        274,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_vertical_centers",
+      "confidence": 0.7018,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "57",
+      "name": "align_bottom_edges",
+      "bbox": [
+        334,
+        22,
+        355,
+        44
+      ],
+      "bbox_ratio": [
+        0.173958,
+        0.02037,
+        0.184896,
+        0.040741
+      ],
+      "center": [
+        344,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_bottom_edges",
+      "confidence": 0.7012,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "58",
+      "name": "frame_tool",
+      "bbox": [
+        2,
+        166,
+        27,
+        185
+      ],
+      "bbox_ratio": [
+        0.001042,
+        0.153704,
+        0.014063,
+        0.171296
+      ],
+      "center": [
+        14,
+        176
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_frame_tool",
+      "confidence": 0.6989,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "59",
+      "name": "layer_thumbnail",
+      "bbox": [
+        1729,
+        569,
+        1759,
+        589
+      ],
+      "bbox_ratio": [
+        0.900521,
+        0.526852,
+        0.916146,
+        0.54537
+      ],
+      "center": [
+        1744,
+        579
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_layer",
+      "confidence": 0.6912,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_item"
+    },
+    {
+      "id": "61",
+      "name": "restore_down_button",
+      "bbox": [
+        1852,
+        0,
+        1882,
+        20
+      ],
+      "bbox_ratio": [
+        0.964583,
+        0.0,
+        0.980208,
+        0.018519
+      ],
+      "center": [
+        1867,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "restore_down_the_window",
+      "confidence": 0.6798,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "62",
+      "name": "dodge_tool",
+      "bbox": [
+        2,
+        342,
+        28,
+        362
+      ],
+      "bbox_ratio": [
+        0.001042,
+        0.316667,
+        0.014583,
+        0.335185
+      ],
+      "center": [
+        15,
+        352
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_dodge_tool",
+      "confidence": 0.6738,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "63",
+      "name": "more_options",
+      "bbox": [
+        388,
+        22,
+        416,
+        44
+      ],
+      "bbox_ratio": [
+        0.202083,
+        0.02037,
+        0.216667,
+        0.040741
+      ],
+      "center": [
+        402,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_more_options_menu",
+      "confidence": 0.6688,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "64",
+      "name": "maintain_aspect_ratio",
+      "bbox": [
+        1708,
+        275,
+        1733,
+        302
+      ],
+      "bbox_ratio": [
+        0.889583,
+        0.25463,
+        0.902604,
+        0.27963
+      ],
+      "center": [
+        1720,
+        288
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_maintain_aspect_ratio",
+      "confidence": 0.6681,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "65",
+      "name": "align_vertical_centers",
+      "bbox": [
+        1736,
+        374,
+        1753,
+        397
+      ],
+      "bbox_ratio": [
+        0.904167,
+        0.346296,
+        0.913021,
+        0.367593
+      ],
+      "center": [
+        1744,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_vertical_centers",
+      "confidence": 0.6582,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "66",
+      "name": "home",
+      "bbox": [
+        8,
+        21,
+        33,
+        46
+      ],
+      "bbox_ratio": [
+        0.004167,
+        0.019444,
+        0.017188,
+        0.042593
+      ],
+      "center": [
+        20,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "go_to_home_screen",
+      "confidence": 0.6503,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "67",
+      "name": "maximize",
+      "bbox": [
+        1886,
+        21,
+        1910,
+        46
+      ],
+      "bbox_ratio": [
+        0.982292,
+        0.019444,
+        0.994792,
+        0.042593
+      ],
+      "center": [
+        1898,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "maximize_the_application_window",
+      "confidence": 0.648,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "68",
+      "name": "close_application",
+      "bbox": [
+        1887,
+        0,
+        1913,
+        20
+      ],
+      "bbox_ratio": [
+        0.982812,
+        0.0,
+        0.996354,
+        0.018519
+      ],
+      "center": [
+        1900,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "close_the_application",
+      "confidence": 0.6446,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "69",
+      "name": "toggle_background_visibility",
+      "bbox": [
+        1710,
+        591,
+        1728,
+        610
+      ],
+      "bbox_ratio": [
+        0.890625,
+        0.547222,
+        0.9,
+        0.564815
+      ],
+      "center": [
+        1719,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_the_visibility_of_the_background_layer",
+      "confidence": 0.6419,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "70",
+      "name": "toggle_layer_visibility",
+      "bbox": [
+        1710,
+        569,
+        1727,
+        588
+      ],
+      "bbox_ratio": [
+        0.890625,
+        0.526852,
+        0.899479,
+        0.544444
+      ],
+      "center": [
+        1718,
+        578
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_the_visibility_of_the_layer",
+      "confidence": 0.6356,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "71",
+      "name": "horizontal_type_tool",
+      "bbox": [
+        4,
+        381,
+        28,
+        400
+      ],
+      "bbox_ratio": [
+        0.002083,
+        0.352778,
+        0.014583,
+        0.37037
+      ],
+      "center": [
+        16,
+        390
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_horizontal_type_tool",
+      "confidence": 0.6332,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "73",
+      "name": "hand_tool",
+      "bbox": [
+        1,
+        439,
+        28,
+        459
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.406481,
+        0.014583,
+        0.425
+      ],
+      "center": [
+        14,
+        449
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_hand_tool",
+      "confidence": 0.631,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "74",
+      "name": "eraser_tool",
+      "bbox": [
+        1,
+        284,
+        28,
+        302
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.262963,
+        0.014583,
+        0.27963
+      ],
+      "center": [
+        14,
+        293
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_eraser_tool",
+      "confidence": 0.6241,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "75",
+      "name": "align_horizontal_centers",
+      "bbox": [
+        315,
+        22,
+        333,
+        44
+      ],
+      "bbox_ratio": [
+        0.164062,
+        0.02037,
+        0.173437,
+        0.040741
+      ],
+      "center": [
+        324,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_layers_horizontally",
+      "confidence": 0.624,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "76",
+      "name": "brush_tool",
+      "bbox": [
+        1,
+        225,
+        28,
+        243
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.208333,
+        0.014583,
+        0.225
+      ],
+      "center": [
+        14,
+        234
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_brush_tool",
+      "confidence": 0.6203,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "77",
+      "name": "foreground_background_colors",
+      "bbox": [
+        1708,
+        80,
+        1740,
+        114
+      ],
+      "bbox_ratio": [
+        0.889583,
+        0.074074,
+        0.90625,
+        0.105556
+      ],
+      "center": [
+        1724,
+        97
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_foreground_and_background_colors",
+      "confidence": 0.6133,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "78",
+      "name": "align_right_edges",
+      "bbox": [
+        1755,
+        373,
+        1778,
+        398
+      ],
+      "bbox_ratio": [
+        0.914062,
+        0.34537,
+        0.926042,
+        0.368519
+      ],
+      "center": [
+        1766,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_layers_to_the_right",
+      "confidence": 0.6055,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "80",
+      "name": "minimize_window",
+      "bbox": [
+        1824,
+        0,
+        1843,
+        19
+      ],
+      "bbox_ratio": [
+        0.95,
+        0.0,
+        0.959896,
+        0.017593
+      ],
+      "center": [
+        1834,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "minimize_the_photoshop_window",
+      "confidence": 0.6031,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "81",
+      "name": "align_right_edges",
+      "bbox": [
+        238,
+        22,
+        258,
+        44
+      ],
+      "bbox_ratio": [
+        0.123958,
+        0.02037,
+        0.134375,
+        0.040741
+      ],
+      "center": [
+        248,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_layers_to_the_right",
+      "confidence": 0.5942,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "82",
+      "name": "filter_for_smart_objects",
+      "bbox": [
+        1869,
+        501,
+        1884,
+        523
+      ],
+      "bbox_ratio": [
+        0.973437,
+        0.463889,
+        0.98125,
+        0.484259
+      ],
+      "center": [
+        1876,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "filter_layers_by_smart_objects",
+      "confidence": 0.5924,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "83",
+      "name": "path_selection_tool",
+      "bbox": [
+        2,
+        398,
+        28,
+        421
+      ],
+      "bbox_ratio": [
+        0.001042,
+        0.368519,
+        0.014583,
+        0.389815
+      ],
+      "center": [
+        15,
+        410
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_path_selection_tool",
+      "confidence": 0.591,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "86",
+      "name": "filter_for_adjustment_layers",
+      "bbox": [
+        1799,
+        504,
+        1814,
+        523
+      ],
+      "bbox_ratio": [
+        0.936979,
+        0.466667,
+        0.944792,
+        0.484259
+      ],
+      "center": [
+        1806,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "filter_layers_by_adjustment_layers",
+      "confidence": 0.5799,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "87",
+      "name": "dodge_tool",
+      "bbox": [
+        1,
+        321,
+        28,
+        342
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.297222,
+        0.014583,
+        0.316667
+      ],
+      "center": [
+        14,
+        332
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_dodge_tool",
+      "confidence": 0.5799,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "88",
+      "name": "align_bottom_edges",
+      "bbox": [
+        1835,
+        376,
+        1853,
+        397
+      ],
+      "bbox_ratio": [
+        0.955729,
+        0.348148,
+        0.965104,
+        0.367593
+      ],
+      "center": [
+        1844,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_the_bottom_edges_of_selected_layers",
+      "confidence": 0.5786,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "90",
+      "name": "color_panel_tab",
+      "bbox": [
+        1708,
+        56,
+        1738,
+        77
+      ],
+      "bbox_ratio": [
+        0.889583,
+        0.051852,
+        0.905208,
+        0.071296
+      ],
+      "center": [
+        1723,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_the_color_panel",
+      "confidence": 0.5634,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_tab"
+    },
+    {
+      "id": "91",
+      "name": "filter_for_pixel_layers",
+      "bbox": [
+        1777,
+        504,
+        1796,
+        524
+      ],
+      "bbox_ratio": [
+        0.925521,
+        0.466667,
+        0.935417,
+        0.485185
+      ],
+      "center": [
+        1786,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "filter_the_layers_list_to_show_only_pixel_layers",
+      "confidence": 0.5622,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "93",
+      "name": "flip_vertical",
+      "bbox": [
+        1836,
+        309,
+        1853,
+        329
+      ],
+      "bbox_ratio": [
+        0.95625,
+        0.286111,
+        0.965104,
+        0.30463
+      ],
+      "center": [
+        1844,
+        319
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "flip_the_selected_layer_vertically",
+      "confidence": 0.5561,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "94",
+      "name": "gradient_tool",
+      "bbox": [
+        1,
+        302,
+        28,
+        321
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.27963,
+        0.014583,
+        0.297222
+      ],
+      "center": [
+        14,
+        312
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_gradient_tool",
+      "confidence": 0.5556,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "95",
+      "name": "align_left_edges",
+      "bbox": [
+        195,
+        22,
+        219,
+        45
+      ],
+      "bbox_ratio": [
+        0.101562,
+        0.02037,
+        0.114062,
+        0.041667
+      ],
+      "center": [
+        207,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_left_edges",
+      "confidence": 0.5531,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "96",
+      "name": "lasso_tool",
+      "bbox": [
+        1,
+        420,
+        28,
+        439
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.388889,
+        0.014583,
+        0.406481
+      ],
+      "center": [
+        14,
+        430
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_lasso_tool",
+      "confidence": 0.5525,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "97",
+      "name": "align_vertical_centers",
+      "bbox": [
+        1813,
+        375,
+        1832,
+        396
+      ],
+      "bbox_ratio": [
+        0.944271,
+        0.347222,
+        0.954167,
+        0.366667
+      ],
+      "center": [
+        1822,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_vertical_centers",
+      "confidence": 0.5513,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "98",
+      "name": "photoshop_icon",
+      "bbox": [
+        0,
+        0,
+        19,
+        19
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.0,
+        0.009896,
+        0.017593
+      ],
+      "center": [
+        10,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "go_to_home_screen",
+      "confidence": 0.546,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "99",
+      "name": "align_top_edges",
+      "bbox": [
+        1788,
+        374,
+        1811,
+        397
+      ],
+      "bbox_ratio": [
+        0.93125,
+        0.346296,
+        0.943229,
+        0.367593
+      ],
+      "center": [
+        1800,
+        386
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_top_edges",
+      "confidence": 0.5423,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "100",
+      "name": "zoom_tool",
+      "bbox": [
+        1,
+        457,
+        26,
+        480
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.423148,
+        0.013542,
+        0.444444
+      ],
+      "center": [
+        14,
+        468
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_zoom_tool",
+      "confidence": 0.5413,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "101",
+      "name": "lock_transparent_pixels",
+      "bbox": [
+        1851,
+        502,
+        1868,
+        523
+      ],
+      "bbox_ratio": [
+        0.964063,
+        0.464815,
+        0.972917,
+        0.484259
+      ],
+      "center": [
+        1860,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_lock_transparent_pixels",
+      "confidence": 0.532,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "102",
+      "name": "filter_shape_layers",
+      "bbox": [
+        1835,
+        503,
+        1849,
+        523
+      ],
+      "bbox_ratio": [
+        0.955729,
+        0.465741,
+        0.963021,
+        0.484259
+      ],
+      "center": [
+        1842,
+        513
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "filter_by_shape_layers",
+      "confidence": 0.5269,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "103",
+      "name": "layer_thumbnail",
+      "bbox": [
+        1729,
+        590,
+        1756,
+        610
+      ],
+      "bbox_ratio": [
+        0.900521,
+        0.546296,
+        0.914583,
+        0.564815
+      ],
+      "center": [
+        1742,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_layer",
+      "confidence": 0.5222,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_item"
+    },
+    {
+      "id": "104",
+      "name": "filter_type_layers",
+      "bbox": [
+        1815,
+        504,
+        1832,
+        523
+      ],
+      "bbox_ratio": [
+        0.945312,
+        0.466667,
+        0.954167,
+        0.484259
+      ],
+      "center": [
+        1824,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "filter_by_type_layers",
+      "confidence": 0.5183,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "105",
+      "name": "align_vertical_centers",
+      "bbox": [
+        220,
+        22,
+        237,
+        44
+      ],
+      "bbox_ratio": [
+        0.114583,
+        0.02037,
+        0.123438,
+        0.040741
+      ],
+      "center": [
+        228,
+        33
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "align_vertical_centers",
+      "confidence": 0.5122,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "106",
+      "name": "lock_position_icon",
+      "bbox": [
+        1766,
+        547,
+        1779,
+        566
+      ],
+      "bbox_ratio": [
+        0.919792,
+        0.506481,
+        0.926562,
+        0.524074
+      ],
+      "center": [
+        1772,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_layer_position_lock",
+      "confidence": 0.5018,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "107",
+      "name": "lock_all_icon",
+      "bbox": [
+        1799,
+        547,
+        1814,
+        566
+      ],
+      "bbox_ratio": [
+        0.936979,
+        0.506481,
+        0.944792,
+        0.524074
+      ],
+      "center": [
+        1806,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_layer_lock_all",
+      "confidence": 0.4769,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "108",
+      "name": "swatches_tab",
+      "bbox": [
+        1739,
+        54,
+        1783,
+        76
+      ],
+      "bbox_ratio": [
+        0.905729,
+        0.05,
+        0.928646,
+        0.07037
+      ],
+      "center": [
+        1761,
+        65
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_swatches_panel",
+      "confidence": 0.4749,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_tab"
+    },
+    {
+      "id": "109",
+      "name": "paths_tab",
+      "bbox": [
+        1788,
+        477,
+        1820,
+        500
+      ],
+      "bbox_ratio": [
+        0.93125,
+        0.441667,
+        0.947917,
+        0.462963
+      ],
+      "center": [
+        1804,
+        488
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_paths_panel",
+      "confidence": 0.4682,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_tab"
+    },
+    {
+      "id": "110",
+      "name": "close_photoshop",
+      "bbox": [
+        1908,
+        21,
+        1920,
+        46
+      ],
+      "bbox_ratio": [
+        0.99375,
+        0.019444,
+        1.0,
+        0.042593
+      ],
+      "center": [
+        1914,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "close_the_application",
+      "confidence": 0.4667,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "111",
+      "name": "lock_transparent_pixels",
+      "bbox": [
+        1782,
+        547,
+        1797,
+        567
+      ],
+      "bbox_ratio": [
+        0.928125,
+        0.506481,
+        0.935937,
+        0.525
+      ],
+      "center": [
+        1790,
+        557
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_lock_transparent_pixels",
+      "confidence": 0.4653,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "112",
+      "name": "flip_horizontal",
+      "bbox": [
+        1809,
+        310,
+        1832,
+        330
+      ],
+      "bbox_ratio": [
+        0.942187,
+        0.287037,
+        0.954167,
+        0.305556
+      ],
+      "center": [
+        1820,
+        320
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "flip_the_layer_horizontally",
+      "confidence": 0.4651,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "113",
+      "name": "channels_tab",
+      "bbox": [
+        1742,
+        478,
+        1786,
+        500
+      ],
+      "bbox_ratio": [
+        0.907292,
+        0.442593,
+        0.930208,
+        0.462963
+      ],
+      "center": [
+        1764,
+        489
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_the_channels_panel",
+      "confidence": 0.4636,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_tab"
+    },
+    {
+      "id": "114",
+      "name": "patterns_tab",
+      "bbox": [
+        1833,
+        54,
+        1874,
+        77
+      ],
+      "bbox_ratio": [
+        0.954688,
+        0.05,
+        0.976042,
+        0.071296
+      ],
+      "center": [
+        1854,
+        66
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "switch_to_patterns_panel",
+      "confidence": 0.4622,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_tab"
+    },
+    {
+      "id": "115",
+      "name": "file_menu",
+      "bbox": [
+        23,
+        0,
+        41,
+        18
+      ],
+      "bbox_ratio": [
+        0.011979,
+        0.0,
+        0.021354,
+        0.016667
+      ],
+      "center": [
+        32,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_file_menu",
+      "confidence": 0.4508,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "menu_item"
+    },
+    {
+      "id": "116",
+      "name": "layer_opacity_dropdown",
+      "bbox": [
+        1851,
+        526,
+        1881,
+        545
+      ],
+      "bbox_ratio": [
+        0.964063,
+        0.487037,
+        0.979688,
+        0.50463
+      ],
+      "center": [
+        1866,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "adjust_layer_opacity",
+      "confidence": 0.4479,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "117",
+      "name": "panel_menu_button",
+      "bbox": [
+        1904,
+        202,
+        1919,
+        224
+      ],
+      "bbox_ratio": [
+        0.991667,
+        0.187037,
+        0.999479,
+        0.207407
+      ],
+      "center": [
+        1912,
+        213
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_panel_menu",
+      "confidence": 0.4384,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "118",
+      "name": "lock_image_pixels",
+      "bbox": [
+        1748,
+        547,
+        1762,
+        566
+      ],
+      "bbox_ratio": [
+        0.910417,
+        0.506481,
+        0.917708,
+        0.524074
+      ],
+      "center": [
+        1755,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_lock_image_pixels",
+      "confidence": 0.4355,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "119",
+      "name": "layer_filter_mode",
+      "bbox": [
+        1758,
+        504,
+        1776,
+        524
+      ],
+      "bbox_ratio": [
+        0.915625,
+        0.466667,
+        0.925,
+        0.485185
+      ],
+      "center": [
+        1767,
+        514
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_layer_filter_mode",
+      "confidence": 0.4278,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "120",
+      "name": "layer_lock_status",
+      "bbox": [
+        1883,
+        591,
+        1900,
+        610
+      ],
+      "bbox_ratio": [
+        0.980729,
+        0.547222,
+        0.989583,
+        0.564815
+      ],
+      "center": [
+        1892,
+        600
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "unlock_layer",
+      "confidence": 0.4241,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "121",
+      "name": "align_label",
+      "bbox": [
+        1710,
+        360,
+        1734,
+        375
+      ],
+      "bbox_ratio": [
+        0.890625,
+        0.333333,
+        0.903125,
+        0.347222
+      ],
+      "center": [
+        1722,
+        368
+      ],
+      "raw_type": "icon",
+      "clickable": false,
+      "instruction": "",
+      "confidence": 0.405,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_item"
+    },
+    {
+      "id": "122",
+      "name": "tool_settings",
+      "bbox": [
+        422,
+        22,
+        443,
+        45
+      ],
+      "bbox_ratio": [
+        0.219792,
+        0.02037,
+        0.230729,
+        0.041667
+      ],
+      "center": [
+        432,
+        34
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_tool_settings",
+      "confidence": 0.4048,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "123",
+      "name": "fill_label",
+      "bbox": [
+        1820,
+        546,
+        1840,
+        567
+      ],
+      "bbox_ratio": [
+        0.947917,
+        0.505556,
+        0.958333,
+        0.525
+      ],
+      "center": [
+        1830,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "adjust_fill_opacity",
+      "confidence": 0.3998,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_item"
+    },
+    {
+      "id": "124",
+      "name": "lock_transparent_pixels",
+      "bbox": [
+        1731,
+        547,
+        1748,
+        565
+      ],
+      "bbox_ratio": [
+        0.901563,
+        0.506481,
+        0.910417,
+        0.523148
+      ],
+      "center": [
+        1740,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_lock_transparent_pixels",
+      "confidence": 0.3928,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "toggle"
+    },
+    {
+      "id": "125",
+      "name": "help_menu",
+      "bbox": [
+        329,
+        0,
+        355,
+        18
+      ],
+      "bbox_ratio": [
+        0.171354,
+        0.0,
+        0.184896,
+        0.016667
+      ],
+      "center": [
+        342,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_help_menu",
+      "confidence": 0.3765,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "menu_item"
+    },
+    {
+      "id": "126",
+      "name": "lock_label",
+      "bbox": [
+        1707,
+        547,
+        1729,
+        565
+      ],
+      "bbox_ratio": [
+        0.889062,
+        0.506481,
+        0.900521,
+        0.523148
+      ],
+      "center": [
+        1718,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": false,
+      "instruction": "",
+      "confidence": 0.3764,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_item"
+    },
+    {
+      "id": "127",
+      "name": "hue_slider",
+      "bbox": [
+        1887,
+        81,
+        1910,
+        126
+      ],
+      "bbox_ratio": [
+        0.982812,
+        0.075,
+        0.994792,
+        0.116667
+      ],
+      "center": [
+        1898,
+        104
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_a_hue",
+      "confidence": 0.372,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "slider"
+    },
+    {
+      "id": "128",
+      "name": "close_button",
+      "bbox": [
+        1904,
+        57,
+        1920,
+        77
+      ],
+      "bbox_ratio": [
+        0.991667,
+        0.052778,
+        1.0,
+        0.071296
+      ],
+      "center": [
+        1912,
+        67
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "close_photoshop",
+      "confidence": 0.3361,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "129",
+      "name": "filter_menu",
+      "bbox": [
+        194,
+        0,
+        219,
+        18
+      ],
+      "bbox_ratio": [
+        0.101042,
+        0.0,
+        0.114062,
+        0.016667
+      ],
+      "center": [
+        206,
+        9
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_filter_menu",
+      "confidence": 0.3341,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "menu_item"
+    },
+    {
+      "id": "130",
+      "name": "fill_opacity",
+      "bbox": [
+        1837,
+        546,
+        1879,
+        567
+      ],
+      "bbox_ratio": [
+        0.956771,
+        0.505556,
+        0.978646,
+        0.525
+      ],
+      "center": [
+        1858,
+        556
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "adjust_layer_fill_opacity",
+      "confidence": 0.3332,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "132",
+      "name": "foreground_background_colors",
+      "bbox": [
+        0,
+        506,
+        29,
+        538
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.468519,
+        0.015104,
+        0.498148
+      ],
+      "center": [
+        14,
+        522
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "set_foreground_and_background_colors",
+      "confidence": 0.326,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "133",
+      "name": "libraries_tab",
+      "bbox": [
+        1814,
+        202,
+        1856,
+        224
+      ],
+      "bbox_ratio": [
+        0.944792,
+        0.187037,
+        0.966667,
+        0.207407
+      ],
+      "center": [
+        1835,
+        213
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_libraries_panel",
+      "confidence": 0.3179,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "panel_tab"
+    },
+    {
+      "id": "134",
+      "name": "panel_menu",
+      "bbox": [
+        1905,
+        480,
+        1920,
+        500
+      ],
+      "bbox_ratio": [
+        0.992188,
+        0.444444,
+        1.0,
+        0.462963
+      ],
+      "center": [
+        1912,
+        490
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_panel_menu",
+      "confidence": 0.3124,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "136",
+      "name": "expand_collapse_icon",
+      "bbox": [
+        1905,
+        501,
+        1920,
+        524
+      ],
+      "bbox_ratio": [
+        0.992188,
+        0.463889,
+        1.0,
+        0.485185
+      ],
+      "center": [
+        1912,
+        512
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_panel_expansion",
+      "confidence": 0.2755,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "137",
+      "name": "expand_panels",
+      "bbox": [
+        1904,
+        43,
+        1920,
+        59
+      ],
+      "bbox_ratio": [
+        0.991667,
+        0.039815,
+        1.0,
+        0.05463
+      ],
+      "center": [
+        1912,
+        51
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "expand_docked_panels",
+      "confidence": 0.2678,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "138",
+      "name": "view_menu",
+      "bbox": [
+        221,
+        0,
+        245,
+        19
+      ],
+      "bbox_ratio": [
+        0.115104,
+        0.0,
+        0.127604,
+        0.017593
+      ],
+      "center": [
+        233,
+        10
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_view_menu",
+      "confidence": 0.2371,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "menu_item"
+    },
+    {
+      "id": "140",
+      "name": "layer_blending_mode",
+      "bbox": [
+        1757,
+        527,
+        1804,
+        545
+      ],
+      "bbox_ratio": [
+        0.915104,
+        0.487963,
+        0.939583,
+        0.50463
+      ],
+      "center": [
+        1780,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "change_layer_blending_mode",
+      "confidence": 0.215,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "141",
+      "name": "edit_menu",
+      "bbox": [
+        47,
+        0,
+        66,
+        17
+      ],
+      "bbox_ratio": [
+        0.024479,
+        0.0,
+        0.034375,
+        0.015741
+      ],
+      "center": [
+        56,
+        8
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_edit_menu",
+      "confidence": 0.214,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "menu_item"
+    },
+    {
+      "id": "143",
+      "name": "hue_slider",
+      "bbox": [
+        1888,
+        122,
+        1910,
+        151
+      ],
+      "bbox_ratio": [
+        0.983333,
+        0.112963,
+        0.994792,
+        0.139815
+      ],
+      "center": [
+        1899,
+        136
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "adjust_the_hue",
+      "confidence": 0.1436,
+      "region": "top_bar",
+      "source": "box_yolo_content_yolo",
+      "type": "slider"
+    },
+    {
+      "id": "144",
+      "name": "quick_mask_mode",
+      "bbox": [
+        0,
+        539,
+        27,
+        562
+      ],
+      "bbox_ratio": [
+        0.0,
+        0.499074,
+        0.014063,
+        0.52037
+      ],
+      "center": [
+        14,
+        550
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_quick_mask_mode",
+      "confidence": 0.1395,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "145",
+      "name": "layer_opacity_dropdown",
+      "bbox": [
+        1799,
+        527,
+        1813,
+        545
+      ],
+      "bbox_ratio": [
+        0.936979,
+        0.487963,
+        0.944271,
+        0.50463
+      ],
+      "center": [
+        1806,
+        536
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_opacity_slider",
+      "confidence": 0.1373,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "146",
+      "name": "align_more_options",
+      "bbox": [
+        1835,
+        399,
+        1853,
+        418
+      ],
+      "bbox_ratio": [
+        0.955729,
+        0.369444,
+        0.965104,
+        0.387037
+      ],
+      "center": [
+        1844,
+        408
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_more_alignment_options",
+      "confidence": 0.1312,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "147",
+      "name": "edit_toolbar",
+      "bbox": [
+        1,
+        480,
+        28,
+        498
+      ],
+      "bbox_ratio": [
+        0.000521,
+        0.444444,
+        0.014583,
+        0.461111
+      ],
+      "center": [
+        14,
+        489
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "edit_the_toolbar",
+      "confidence": 0.1176,
+      "region": "left_toolbar",
+      "source": "box_yolo_content_yolo",
+      "type": "tool_icon"
+    },
+    {
+      "id": "148",
+      "name": "scroll_up",
+      "bbox": [
+        1908,
+        250,
+        1920,
+        287
+      ],
+      "bbox_ratio": [
+        0.99375,
+        0.231481,
+        1.0,
+        0.265741
+      ],
+      "center": [
+        1914,
+        268
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "scroll_up_the_panel",
+      "confidence": 0.1044,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "149",
+      "name": "toggle_transform_section",
+      "bbox": [
+        1869,
+        285,
+        1906,
+        309
+      ],
+      "bbox_ratio": [
+        0.973437,
+        0.263889,
+        0.992708,
+        0.286111
+      ],
+      "center": [
+        1888,
+        297
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "toggle_transform_section_visibility",
+      "confidence": 0.0883,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "150",
+      "name": "scroll_down",
+      "bbox": [
+        1908,
+        366,
+        1920,
+        409
+      ],
+      "bbox_ratio": [
+        0.99375,
+        0.338889,
+        1.0,
+        0.378704
+      ],
+      "center": [
+        1914,
+        388
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "scroll_down_the_panel",
+      "confidence": 0.0748,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "151",
+      "name": "align_to_dropdown",
+      "bbox": [
+        1731,
+        359,
+        1761,
+        377
+      ],
+      "bbox_ratio": [
+        0.901563,
+        0.332407,
+        0.917188,
+        0.349074
+      ],
+      "center": [
+        1746,
+        368
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_alignment_target",
+      "confidence": 0.0657,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "152",
+      "name": "hand_image_layer",
+      "bbox": [
+        226,
+        418,
+        1159,
+        931
+      ],
+      "bbox_ratio": [
+        0.117708,
+        0.387037,
+        0.603646,
+        0.862037
+      ],
+      "center": [
+        692,
+        674
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_hand_image",
+      "confidence": 0.0639,
+      "region": "canvas_overlay",
+      "source": "box_yolo_content_yolo",
+      "type": "canvas_target"
+    },
+    {
+      "id": "154",
+      "name": "hue_slider",
+      "bbox": [
+        1886,
+        167,
+        1911,
+        189
+      ],
+      "bbox_ratio": [
+        0.982292,
+        0.15463,
+        0.995313,
+        0.175
+      ],
+      "center": [
+        1898,
+        178
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "adjust_the_hue",
+      "confidence": 0.0602,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "slider"
+    },
+    {
+      "id": "155",
+      "name": "expand_quick_actions",
+      "bbox": [
+        1906,
+        438,
+        1920,
+        469
+      ],
+      "bbox_ratio": [
+        0.992708,
+        0.405556,
+        1.0,
+        0.434259
+      ],
+      "center": [
+        1913,
+        454
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "expand_the_quick_actions_section",
+      "confidence": 0.0566,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    },
+    {
+      "id": "156",
+      "name": "layer_filter_type_dropdown",
+      "bbox": [
+        1890,
+        525,
+        1915,
+        545
+      ],
+      "bbox_ratio": [
+        0.984375,
+        0.486111,
+        0.997396,
+        0.50463
+      ],
+      "center": [
+        1902,
+        535
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "select_the_layer_filtering_method",
+      "confidence": 0.0557,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "dropdown"
+    },
+    {
+      "id": "157",
+      "name": "color_panel_menu",
+      "bbox": [
+        1909,
+        132,
+        1920,
+        159
+      ],
+      "bbox_ratio": [
+        0.994271,
+        0.122222,
+        1.0,
+        0.147222
+      ],
+      "center": [
+        1914,
+        146
+      ],
+      "raw_type": "icon",
+      "clickable": true,
+      "instruction": "open_the_color_panel_menu",
+      "confidence": 0.0544,
+      "region": "right_panel",
+      "source": "box_yolo_content_yolo",
+      "type": "icon_button"
+    }
+  ]
+}
