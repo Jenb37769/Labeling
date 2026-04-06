@@ -397,6 +397,43 @@ def describe_position_metadata(element: dict[str, Any], image_size: list[Any] | 
     }
 
 
+def shared_rule_lines(*, include_clickable_instruction: bool) -> list[str]:
+    lines = [
+        " - A target can be valid only if it corresponds to exactly one complete, atomic Photoshop UI element.",
+        " - Atomic means a single, independently meaningful UI target, such as one icon, one button, one menu item, one tab, one slider, one dropdown, one input field, or one labeled standalone control.",
+       "  - If the highlighted crop shows two or more recognizable icons/controls, validity=invalid, even if one icon is centered, larger, or more visually salient.",
+       "  - Do not guess the intended target based on crop center, position, or the label Current Icon. Judge only whether the highlighted content itself is exactly one complete target.",
+       "  - Invalid conditions have priority over valid interpretation. If any invalid rule applies, output invalid.",
+       "  - First decide the target count: zero, one, or multiple complete UI elements. Only a count of exactly one may be valid.",
+       "  - If the crop contains only a fragment of an icon/control, validity=invalid, even if the missing parts are easy to infer.",
+       "  - If the crop contains separator lines, neighboring controls, or toolbar groups together rather than one isolated target, validity=invalid.",
+        "- type must be empty when validity is invalid or uncertain.",
+        "- name must be empty when validity is invalid or uncertain.",
+    ]
+    if include_clickable_instruction:
+        lines.extend(
+            [
+                "- clickable must be false when validity is invalid or uncertain.",
+                "- instruction must be empty when validity is invalid or uncertain.",
+            ]
+        )
+    lines.extend(
+        [
+            "- name must be concise English snake_case.",
+            "- Prefer stable Photoshop UI names such as brush_tool, layers_tab, file_menu, opacity_slider.",
+            "- Use both visual evidence and position metadata as an early screening signal.",
+            "- Core Photoshop UI zones are more likely to contain valid controls. Non-core positions should be treated conservatively.",
+            "- Text can still be valid if it clearly explains nearby icons or controls.",
+        ]
+    )
+    if include_clickable_instruction:
+        lines.append(
+            "- instruction must be a short English action or function description such as select_the_brush_tool, toggle_layer_visibility, or open_alignment_options."
+        )
+    lines.append("- Do not output any extra markdown, code fences, or explanation outside the JSON.")
+    return lines
+
+
 def extract_json_object(text: str) -> dict[str, Any]:
     stripped = strip_code_fences(text)
     if stripped.startswith("{") and stripped.endswith("}"):
@@ -580,21 +617,8 @@ def build_prompt_text(element: dict[str, Any], stem: str, image_size: list[Any] 
         '  "confidence": 0.0\n'
         "}\n\n"
         "Rules:\n"
-        "- validity can be valid only if the highlighted target is a meaningful Photoshop UI annotation target.\n"
-        "- A valid target can be a clickable or controllable icon, control, menu item, panel item, tab, toggle, slider, dropdown, input field, or text that directly explains nearby icons or controls.\n"
-        "- If the target is background, subtitle text, decorative content, unrelated narration text, or not a useful UI target, then validity=invalid.\n"
-        "- If the highlighted target clearly contains more than one icon, then validity=invalid.\n"
-        "- If you are certain that the highlighted target is not a complete icon, but only part of an icon, then validity=invalid.\n"
-        "- If the highlighted target is content on the canvas, then validity=invalid, regardless of whether it looks like an icon.\n"
-        "- If the target is too blurry, cropped, or ambiguous, then validity=uncertain.\n"
-        "- type must be empty when validity is invalid or uncertain.\n"
-        "- name must be empty when validity is invalid or uncertain.\n"
-        "- name must be concise English snake_case.\n"
-        "- Prefer stable Photoshop UI names such as brush_tool, layers_tab, file_menu, opacity_slider.\n"
-        "- Use both visual evidence and position metadata as an early screening signal.\n"
-        "- Core Photoshop UI zones are more likely to contain valid controls. Non-core positions should be treated conservatively.\n"
-        "- Text can still be valid if it clearly explains nearby icons or controls.\n"
-        "- Do not output any extra markdown, code fences, or explanation outside the JSON.\n\n"
+        + "\n".join(shared_rule_lines(include_clickable_instruction=False))
+        + "\n\n"
         "Candidate metadata:\n"
         f"- frame_stem: {stem}\n"
         f"- element_id: {element.get('id', '')}\n"

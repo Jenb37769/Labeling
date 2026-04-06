@@ -14,6 +14,8 @@ from typing import Any
 import requests
 from PIL import Image, ImageDraw, ImageFont
 
+import prelabel as shared_prelabel
+
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 PROCESSING_ROOT_DIR = ROOT_DIR / "processing"
@@ -23,6 +25,10 @@ OUTPUT_ROOT_DIR = PROCESSING_ROOT_DIR / "2.prelabel"
 OUTPUT_IMAGE_DIR = OUTPUT_ROOT_DIR / "ima"
 OUTPUT_DATA_DIR = OUTPUT_ROOT_DIR / "data"
 OUTPUT_TOTAL_DIR = OUTPUT_ROOT_DIR / "total"
+
+# Batch config
+DEFAULT_ICON_PER_BATCH = 6
+DEFAULT_ENABLE_REASONING = True
 
 REQUEST_RETRY_COUNT = 3
 REQUEST_RETRY_SLEEP_SECONDS = 2.0
@@ -74,7 +80,13 @@ def parse_args() -> argparse.Namespace:
         help="Optional frame stem. If omitted, the first complete sample with both JSON and image is used.",
     )
     parser.add_argument("--batch-index", type=int, default=0, help="Zero-based batch index.")
-    parser.add_argument("--icon-per-batch", "--icon-per-bench", dest="icon_per_batch", type=int, default=4)
+    parser.add_argument(
+        "--icon-per-batch",
+        "--icon-per-bench",
+        dest="icon_per_batch",
+        type=int,
+        default=DEFAULT_ICON_PER_BATCH,
+    )
     parser.add_argument("--limit-batches", type=int, default=1000, help="How many consecutive batches to run.")
     parser.add_argument("--model", type=str, default=os.environ.get("PRELABEL_MODEL", "gpt-4o-mini"))
     parser.add_argument("--base-url", type=str, default=os.environ.get("PRELABEL_BASE_URL", "https://api.openai.com/v1"))
@@ -85,6 +97,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--sleep-seconds", type=float, default=0.0)
     parser.add_argument("--http-referer", type=str, default=os.environ.get("PRELABEL_HTTP_REFERER", ""))
     parser.add_argument("--app-title", type=str, default=os.environ.get("PRELABEL_APP_TITLE", "grounding-batch-prelabel"))
+    parser.add_argument(
+        "--enable-reasoning",
+        action="store_true",
+        default=DEFAULT_ENABLE_REASONING,
+        help="Enable provider reasoning if supported.",
+    )
+    parser.add_argument(
+        "--disable-reasoning",
+        action="store_false",
+        dest="enable_reasoning",
+        help="Disable provider reasoning even if the file default enables it.",
+    )
     args = parser.parse_args()
     args.model = str(args.model or "").strip()
     args.base_url = str(args.base_url or "").strip()
@@ -264,6 +288,7 @@ def call_openai_compatible_api(
     timeout_seconds: int,
     http_referer: str,
     app_title: str,
+    enable_reasoning: bool,
 ) -> tuple[dict[str, Any], dict[str, Any], str]:
     if not api_key:
         raise ValueError("Missing PRELABEL_API_KEY or --api-key.")
@@ -281,6 +306,8 @@ def call_openai_compatible_api(
             {"role": "user", "content": user_content},
         ],
     }
+    if enable_reasoning:
+        payload["reasoning"] = {"enabled": True}
 
     headers = {
         "Content-Type": "application/json",
@@ -330,6 +357,7 @@ def request_and_parse_batch(
     timeout_seconds: int,
     http_referer: str,
     app_title: str,
+    enable_reasoning: bool,
 ) -> tuple[dict[str, Any], dict[str, Any], str, dict[str, Any], int]:
     current_max_tokens = max_tokens
     last_error: Exception | None = None
@@ -346,6 +374,7 @@ def request_and_parse_batch(
             timeout_seconds=timeout_seconds,
             http_referer=http_referer,
             app_title=app_title,
+            enable_reasoning=enable_reasoning,
         )
 
         finish_reason = str(response_json.get("choices", [{}])[0].get("finish_reason", "")).strip().lower()
@@ -417,6 +446,8 @@ def collect_candidates(document: dict[str, Any], image_size: tuple[int, int]) ->
 
 def build_prompt_text(stem: str, image_size: tuple[int, int], batch_items: list[dict[str, Any]]) -> str:
     lines = [
+        "You are a professional labeling assistant. Output exactly one complete JSON object that must strictly follow the schema below.",
+        "Do not output anything extra, and do not omit any part of the structured output.",
         "Output exactly one JSON object with this schema:",
         "{",
         '  "items": [',
@@ -438,17 +469,7 @@ def build_prompt_text(stem: str, image_size: tuple[int, int], batch_items: list[
         "- Keep the same id order as provided below.",
         "- The first image is the full screenshot with all candidate boxes and ids drawn very thinly.",
         "- The following images are zoomed crops, one crop per id, in the same order as the id list.",
-        "- validity can be valid only if the target is a meaningful Photoshop UI annotation target.",
-        "- A valid target can be an icon, control, menu item, panel item, tab, toggle, slider, dropdown, input field, or explanatory text directly tied to nearby controls.",
-        "- If the target is background, blank area, decoration, unrelated text, subtitle, or not a useful UI target, set invalid.",
-        "- If the target is blurry, cropped, ambiguous, or clearly contains multiple distinct targets, set uncertain.",
-        "- type must be empty when validity is invalid or uncertain.",
-        "- name must be empty when validity is invalid or uncertain.",
-        "- clickable must be false when validity is invalid or uncertain.",
-        "- instruction must be empty when validity is invalid or uncertain.",
-        "- name must be concise English snake_case.",
-        "- instruction must be a short English action or function description such as select_the_brush_tool, toggle_layer_visibility, or open_alignment_options.",
-        "- Do not output markdown, code fences, or any extra text outside the JSON.",
+        *shared_prelabel.shared_rule_lines(include_clickable_instruction=True),
         "",
         f"frame_stem: {stem}",
         f"image_size: {[image_size[0], image_size[1]]}",
@@ -456,9 +477,14 @@ def build_prompt_text(stem: str, image_size: tuple[int, int], batch_items: list[
         "candidate_ids_and_metadata:",
     ]
     for item in batch_items:
+        position_info = shared_prelabel.describe_position_metadata(item, image_size)
         lines.append(
-            f"- id={item['id']}, bbox={item['bbox']}, raw_type={item['raw_type'] or '(empty)'}, "
-            f"region={item['region'] or '(empty)'}, clickable={str(item['clickable']).lower()}, "
+            f"- id={item['id']}, bbox={item['bbox']}, center={position_info['center']}, "
+            f"bbox_ratio_xywh={position_info['bbox_ratio']}, center_ratio_xy={position_info['center_ratio']}, "
+            f"position_bucket={position_info['position_bucket']}, region={item['region'] or '(empty)'}, "
+            f"region_meaning={position_info['region_meaning']}, "
+            f"position_screening_hint={position_info['screening_hint']}, "
+            f"raw_type={item['raw_type'] or '(empty)'}, clickable={str(item['clickable']).lower()}, "
             f"existing_name={item['existing_name'] or '(empty)'}, "
             f"existing_instruction={item['existing_instruction'] or '(empty)'}"
         )
@@ -745,11 +771,12 @@ def main() -> None:
                     prompt_text=prompt_text,
                     image_data_urls=image_data_urls,
                     max_tokens=args.max_tokens,
-                    temperature=args.temperature,
-                    timeout_seconds=args.timeout_seconds,
-                    http_referer=args.http_referer,
-                    app_title=args.app_title,
-                )
+                temperature=args.temperature,
+                timeout_seconds=args.timeout_seconds,
+                http_referer=args.http_referer,
+                app_title=args.app_title,
+                enable_reasoning=args.enable_reasoning,
+            )
 
                 normalized = normalize_response(parsed, batch_items)
                 finish_reason = str(response_json.get("choices", [{}])[0].get("finish_reason", ""))
@@ -775,11 +802,12 @@ def main() -> None:
                     f"[BATCH PRELABEL] stem={stem} batch_start={batch_start} "
                     f"candidates={[item['id'] for item in batch_items]} "
                     f"finish_reason={finish_reason or '-'} "
-                    f"tokens={usage.get('total_tokens', '-') if isinstance(usage, dict) else '-'} "
-                    f"max_tokens={used_max_tokens} "
-                    f"applied={applied_count} "
-                    f"kept_elements={label_ready_document['element_count']}"
-                )
+                f"tokens={usage.get('total_tokens', '-') if isinstance(usage, dict) else '-'} "
+                f"max_tokens={used_max_tokens} "
+                f"reasoning={'on' if args.enable_reasoning else 'off'} "
+                f"applied={applied_count} "
+                f"kept_elements={label_ready_document['element_count']}"
+            )
 
                 if args.sleep_seconds > 0 and local_batch_index + 1 < max_batches:
                     time.sleep(args.sleep_seconds)
